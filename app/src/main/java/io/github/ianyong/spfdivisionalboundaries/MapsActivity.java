@@ -9,7 +9,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
-import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.data.kml.KmlLayer;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -45,5 +45,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(singapore, 10));
         mMap.setLatLngBoundsForCameraTarget(viewportBounds);
         mMap.setMinZoomPreference(10.0f);
+
+        try {
+            KmlLayer NPCs = new KmlLayer(mMap, R.raw.npc_boundary_coloured, getApplicationContext());
+            NPCs.addLayerToMap();
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 }
