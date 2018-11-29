@@ -47,7 +47,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMinZoomPreference(10.0f);
 
         try {
-            KmlLayer NPCs = new KmlLayer(mMap, R.raw.npc_boundary_coloured, getApplicationContext());
+            KmlLayer NPCs = new KmlLayer(mMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
             NPCs.addLayerToMap();
         }catch(Exception e) {
             e.printStackTrace();
