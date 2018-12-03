@@ -1,10 +1,11 @@
 package io.github.ianyong.spfdivisionalboundaries;
 
-import androidx.fragment.app.FragmentActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.arlib.floatingsearchview.FloatingSearchView;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -13,22 +14,27 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlLayer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap googleMap;
     private FloatingSearchView searchView;
+    private BottomSheetBehavior bottomSheetBehaviour;
     private List<LocationSuggestion> suggestionList;
+    private TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+        text = findViewById(R.id.kml_clicked);
         suggestionList = new ArrayList<>();
         searchView = findViewById(R.id.floating_search_view);
         searchView.setOnQueryChangeListener(new FloatingSearchView.OnQueryChangeListener() {
@@ -56,10 +62,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         RelativeLayout.LayoutParams rlp = (RelativeLayout.LayoutParams) compassButton.getLayoutParams();
         rlp.topMargin = (int) (getResources().getDimension(R.dimen.sliding_search_view_header_height)/getResources().getDisplayMetrics().density) + rlp.leftMargin;
 
+        // Set up the bottom sheet
+        View bottomSheet = findViewById(R.id.bottom_sheet);
+        bottomSheetBehaviour = BottomSheetBehavior.from(bottomSheet);
+
         // Get notified when the map is ready to be used.
-        if (mapFragment != null) {
-            mapFragment.getMapAsync(this);
-        }
+        mapFragment.getMapAsync(this);
     }
 
 
@@ -86,6 +94,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         try {
             KmlLayer NPCs = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
             NPCs.addLayerToMap();
+            // Set a listener for geometry clicked events.
+            NPCs.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
+                @Override
+                public void onFeatureClick(Feature feature) {
+                    if(feature != null) {
+                        text.setText(feature.getProperty("description"));
+                    }
+                }
+            });
         } catch(Exception e) {
             e.printStackTrace();
         }
