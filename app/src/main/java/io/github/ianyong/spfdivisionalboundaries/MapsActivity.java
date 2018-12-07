@@ -18,16 +18,22 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlLayer;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+    private final static String DIV_CODE = "DIV";
+    private final static String NPC_NAME = "NPC_NAME";
+    private final static String DIV_NAME = "DIVISION";
 
     private GoogleMap googleMap;
     private FloatingSearchView searchView;
     private BottomSheetBehavior bottomSheetBehaviour;
     private List<LocationSuggestion> suggestionList;
     private TextView text;
+    private KmlParser parser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +58,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
             }
         });
+
+        InputStream inputStream = getResources().openRawResource(R.raw.singapore_police_force_npc_boundary_kml);
+        try {
+            parser = new KmlParser(inputStream);
+            parser.parseKml();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
 
         // Obtain the SupportMapFragment
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -92,14 +106,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         this.googleMap.setMinZoomPreference(10.0f);
 
         try {
-            KmlLayer NPCs = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
-            NPCs.addLayerToMap();
+            KmlLayer npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
+            npcLayer.addLayerToMap();
             // Set a listener for geometry clicked events.
-            NPCs.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
+            npcLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
                 @Override
                 public void onFeatureClick(Feature feature) {
                     if(feature != null) {
-                        text.setText(feature.getProperty("description"));
+                        text.setText(parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME));
                     }
                 }
             });
