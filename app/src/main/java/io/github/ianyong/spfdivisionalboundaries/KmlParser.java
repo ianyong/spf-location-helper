@@ -31,11 +31,11 @@ public class KmlParser {
         int eventType = xpp.getEventType();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             if (eventType == XmlPullParser.START_TAG) {
-                // Process placemark data
+                // Process placemark data.
                 if (xpp.getName().equals(PLACEMARK)) {
                     String placemarkName = xpp.getAttributeValue(null, "id");
                     KmlPlacemark placemark = new KmlPlacemark(placemarkName);
-                    eventType = xpp.next(); // Advance to next parsing event for skip() function to work properly
+                    eventType = xpp.next(); // Advance to next parsing event for skip() function to work properly.
                     while (!(eventType == XmlPullParser.END_TAG && xpp.getName().equals(PLACEMARK))) {
                         if (eventType == XmlPullParser.START_TAG) {
                             if (xpp.getName().equals(EXTENDED_DATA)) {

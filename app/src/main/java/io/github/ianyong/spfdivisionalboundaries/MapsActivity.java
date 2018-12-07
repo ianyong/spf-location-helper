@@ -67,16 +67,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             e.printStackTrace();
         }
 
-        // Obtain the SupportMapFragment
+        // Obtain the SupportMapFragment.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
 
-        // Move compass location
+        // Move compass location.
         View compassButton = mapFragment.getView().findViewWithTag("GoogleMapCompass");
         RelativeLayout.LayoutParams rlp = (RelativeLayout.LayoutParams) compassButton.getLayoutParams();
         rlp.topMargin = (int) (getResources().getDimension(R.dimen.sliding_search_view_header_height)/getResources().getDisplayMetrics().density) + rlp.leftMargin;
 
-        // Set up the bottom sheet
+        // Set up the bottom sheet.
         View bottomSheet = findViewById(R.id.bottom_sheet);
         bottomSheetBehaviour = BottomSheetBehavior.from(bottomSheet);
 
