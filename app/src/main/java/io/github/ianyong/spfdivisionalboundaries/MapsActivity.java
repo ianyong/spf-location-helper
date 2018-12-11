@@ -3,11 +3,15 @@ package io.github.ianyong.spfdivisionalboundaries;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
+import android.widget.AutoCompleteTextView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.arlib.floatingsearchview.FloatingSearchView;
+import com.google.android.gms.location.places.AutocompleteFilter;
+import com.google.android.gms.location.places.Places;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -19,19 +23,22 @@ import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlLayer;
 
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private final static String DIV_CODE = "DIV";
     private final static String NPC_NAME = "NPC_NAME";
     private final static String DIV_NAME = "DIVISION";
+    private final static LatLng SINGAPORE_CENTER = new LatLng(1.352083, 103.819836); // Center of Singapore
+    private final static LatLngBounds SINGAPORE_BOUNDS = new LatLngBounds(
+            new LatLng(1.1496, 103.594), new LatLng(1.4784001, 104.0945001)
+    );
 
     private GoogleMap googleMap;
-    private FloatingSearchView searchView;
     private BottomSheetBehavior bottomSheetBehaviour;
-    private List<LocationSuggestion> suggestionList;
+    private AutocompleteFilter typeFilter;
+    private PlaceAutocompleteAdapter placeAutocompleteAdapter;
+    private AutoCompleteTextView search;
     private TextView text;
     private KmlParser parser;
 
@@ -41,24 +48,28 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps);
 
         text = findViewById(R.id.kml_clicked);
-        suggestionList = new ArrayList<>();
-        searchView = findViewById(R.id.floating_search_view);
-        searchView.setOnQueryChangeListener(new FloatingSearchView.OnQueryChangeListener() {
+
+        // Set up search bar.
+        typeFilter = new AutocompleteFilter.Builder()
+                .setCountry("SG")
+                .build();
+        placeAutocompleteAdapter = new PlaceAutocompleteAdapter(this, Places.getGeoDataClient(this), SINGAPORE_BOUNDS, typeFilter);
+        search = findViewById(R.id.search);
+        search.setAdapter(placeAutocompleteAdapter);
+        search.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
-            public void onSearchTextChanged(String oldQuery, String newQuery) {
-                if (!oldQuery.equals("") && newQuery.equals("")) {
-                    searchView.clearSuggestions();
-                } else {
-                    suggestionList.clear();
-                    suggestionList.add(new LocationSuggestion("a"));
-                    suggestionList.add(new LocationSuggestion("b"));
-                    suggestionList.add(new LocationSuggestion("c"));
-                    suggestionList.add(new LocationSuggestion("d"));
-                    searchView.swapSuggestions(suggestionList);
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(actionId == EditorInfo.IME_ACTION_SEARCH
+                        || actionId == EditorInfo.IME_ACTION_DONE
+                        || event.getAction() == KeyEvent.ACTION_DOWN
+                        || event.getAction() == KeyEvent.KEYCODE_ENTER) {
+                    //TODO
                 }
+                return false;
             }
         });
 
+        // Parse KML file for placemark properties.
         InputStream inputStream = getResources().openRawResource(R.raw.singapore_police_force_npc_boundary_kml);
         try {
             parser = new KmlParser(inputStream);
@@ -98,11 +109,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         this.googleMap = googleMap;
 
-        LatLng singapore = new LatLng(1.352083, 103.819836); // Center of Singapore
-        LatLngBounds viewportBounds = new LatLngBounds(new LatLng(1.1496, 103.594), new LatLng(1.4784001, 104.0945001));
-
-        this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(singapore, 10));
-        this.googleMap.setLatLngBoundsForCameraTarget(viewportBounds);
+        this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SINGAPORE_CENTER, 10));
+        this.googleMap.setLatLngBoundsForCameraTarget(SINGAPORE_BOUNDS);
         this.googleMap.setMinZoomPreference(10.0f);
 
         try {
@@ -121,4 +129,5 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             e.printStackTrace();
         }
     }
+
 }

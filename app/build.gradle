@@ -26,6 +26,5 @@ dependencies {
     implementation 'com.google.android.gms:play-services-places:16.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.google.maps.android:android-maps-utils:0.5'
-    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
     testImplementation 'junit:junit:4.12'
 }
