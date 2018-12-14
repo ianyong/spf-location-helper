@@ -17,6 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
+        <View
+            android:id="@+id/barrier"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusableInTouchMode="true"/>
+
         <AutoCompleteTextView
             android:id="@+id/search"
             android:layout_width="match_parent"
@@ -25,7 +32,9 @@
             android:background="@color/white"
             android:elevation="@dimen/elevation"
             android:padding="10dp"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"/>
 
     </RelativeLayout>
 

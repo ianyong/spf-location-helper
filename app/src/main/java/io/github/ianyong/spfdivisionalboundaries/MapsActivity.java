@@ -2,15 +2,19 @@ package io.github.ianyong.spfdivisionalboundaries;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.location.places.AutocompleteFilter;
+import com.google.android.gms.location.places.AutocompletePrediction;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -39,6 +43,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutocompleteFilter typeFilter;
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
+    private View barrier;
     private TextView text;
     private KmlParser parser;
 
@@ -56,14 +61,37 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         placeAutocompleteAdapter = new PlaceAutocompleteAdapter(this, Places.getGeoDataClient(this), SINGAPORE_BOUNDS, typeFilter);
         search = findViewById(R.id.search);
         search.setAdapter(placeAutocompleteAdapter);
+
+        // Disables map while searching, hides keyboard if user clicks anywhere else.
+        barrier = findViewById(R.id.barrier);
+        barrier.setClickable(false);
+        search.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus) {
+                    barrier.setClickable(true);
+                } else {
+                    barrier.setClickable(false);
+                    hideKeyboard(v);
+                }
+            }
+        });
+
+        search.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object item = parent.getItemAtPosition(position);
+                if (item instanceof AutocompletePrediction) {
+                    text.setText("test");
+                }
+            }
+        });
+
         search.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if(actionId == EditorInfo.IME_ACTION_SEARCH
-                        || actionId == EditorInfo.IME_ACTION_DONE
-                        || event.getAction() == KeyEvent.ACTION_DOWN
-                        || event.getAction() == KeyEvent.KEYCODE_ENTER) {
-                    //TODO
+                if(actionId == EditorInfo.IME_ACTION_SEARCH) {
+                    v.clearFocus();
                 }
                 return false;
             }
@@ -128,6 +156,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         } catch(Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void hideKeyboard(View view) {
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
 }
