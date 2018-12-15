@@ -43,6 +43,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutocompleteFilter typeFilter;
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
+    private MapsHelper mapsHelper;
     private View barrier;
     private TextView text;
     private KmlParser parser;
@@ -53,6 +54,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps);
 
         text = findViewById(R.id.kml_clicked);
+        mapsHelper = new MapsHelper(this);
 
         // Set up search bar.
         typeFilter = new AutocompleteFilter.Builder()
@@ -82,7 +84,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object item = parent.getItemAtPosition(position);
                 if (item instanceof AutocompletePrediction) {
-                    text.setText("test");
+                    mapsHelper.processLocation((AutocompletePrediction) item);
+                    search.clearFocus();
                 }
             }
         });
@@ -156,6 +159,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         } catch(Exception e) {
             e.printStackTrace();
         }
+
+        // Pass the loaded google map to MapsHelper.
+        mapsHelper.setGoogleMap(googleMap);
     }
 
     public void hideKeyboard(View view) {
