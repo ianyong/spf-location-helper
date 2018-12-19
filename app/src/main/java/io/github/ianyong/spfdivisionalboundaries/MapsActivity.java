@@ -161,7 +161,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         // Pass the loaded google map to MapsHelper.
-        mapsHelper.setGoogleMap(googleMap);
+        mapsHelper.initialiseGoogleMap(googleMap);
     }
 
     public void hideKeyboard(View view) {

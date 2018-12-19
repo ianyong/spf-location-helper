@@ -8,7 +8,9 @@ import com.google.android.gms.location.places.PlaceBufferResponse;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
@@ -19,6 +21,7 @@ public class MapsHelper {
     private Context context;
     private GoogleMap googleMap;
     private int screenWidth, screenHeight;
+    private Marker marker;
 
     public MapsHelper(Context context) {
         this.context = context;
@@ -34,21 +37,37 @@ public class MapsHelper {
                 if (task.isSuccessful()) {
                     PlaceBufferResponse places = task.getResult();
                     Place myPlace = places.get(0);
-                    moveCamera(myPlace.getViewport());
+                    moveCamera(myPlace);
                     places.release();
                 }
             }
         });
     }
 
-    private void moveCamera(LatLngBounds bounds) {
+    private void moveCamera(Place myPlace) {
         if (googleMap != null) {
-            googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds, screenWidth, screenHeight, 0));
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(myPlace.getViewport(), screenWidth, screenHeight, 0));
+            addMarker(myPlace.getLatLng(), myPlace.getName().toString());
         }
     }
 
-    public void setGoogleMap(GoogleMap googleMap) {
+    public void addMarker(LatLng pos, String name) {
+        if (marker != null) {
+            marker.remove();
+        }
+        marker = googleMap.addMarker(new MarkerOptions().position(pos)
+                .title(name));
+        marker.showInfoWindow();
+    }
+
+    public void initialiseGoogleMap(GoogleMap googleMap) {
         this.googleMap = googleMap;
+        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                addMarker(latLng, "");
+            }
+        });
     }
 
 }
