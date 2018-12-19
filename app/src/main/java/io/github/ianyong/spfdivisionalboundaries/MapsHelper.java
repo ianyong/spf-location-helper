@@ -51,7 +51,7 @@ public class MapsHelper {
         }
     }
 
-    public void addMarker(LatLng pos, String name) {
+    private void addMarker(LatLng pos, String name) {
         if (marker != null) {
             marker.remove();
         }
@@ -62,9 +62,9 @@ public class MapsHelper {
 
     public void initialiseGoogleMap(GoogleMap googleMap) {
         this.googleMap = googleMap;
-        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+        googleMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
             @Override
-            public void onMapClick(LatLng latLng) {
+            public void onMapLongClick(LatLng latLng) {
                 addMarker(latLng, "");
             }
         });
