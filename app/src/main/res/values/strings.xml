@@ -2,4 +2,9 @@
     <string name="app_name">SPF Divisional Boundaries</string>
     <string name="title_activity_maps">Map</string>
     <string name="search_hint">Search here</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
 </resources>
