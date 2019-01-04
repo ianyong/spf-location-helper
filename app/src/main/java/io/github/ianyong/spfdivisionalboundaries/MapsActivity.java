@@ -55,7 +55,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
     private View barrier;
-    private TextView text;
+    private TextView bottomSheetText;
     private KmlParser parser;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -66,7 +66,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-        text = findViewById(R.id.kml_clicked);
+        bottomSheetText = findViewById(R.id.kml_clicked);
         resultReceiver = new AddressResultReceiver(new Handler());
 
         // Set up search bar.
@@ -158,6 +158,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SINGAPORE_CENTER, 10));
         this.googleMap.setLatLngBoundsForCameraTarget(SINGAPORE_BOUNDS);
         this.googleMap.setMinZoomPreference(10.0f);
+
         // Set a listener for long clicks.
         googleMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
             @Override
@@ -171,6 +172,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
+        // Set a listener for clicks (only affects areas not overlayed by the KML layer).
+        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                hideBottomSheet();
+            }
+        });
+
         try {
             KmlLayer npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
             npcLayer.addLayerToMap();
@@ -179,14 +188,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 @Override
                 public void onFeatureClick(Feature feature) {
                     if(feature != null) {
-                        showBottomSheet();
-                        text.setText(parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME));
+                        showBottomSheet(npcStringBuilder(feature));
                     }
                 }
             });
         } catch(Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private String npcStringBuilder(Feature feature) {
+        String s = "",
+                name = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME),
+                division = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(DIV_NAME);
+        s = name + "\n" + division;
+        return s;
     }
 
     private void startIntentService() {
@@ -239,6 +255,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void showBottomSheet() {
         bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_COLLAPSED);
+    }
+
+    private void showBottomSheet(String s) {
+        // Set text before showing bottom sheet as bottom sheet height is based off content.
+        bottomSheetText.setText(s);
+        showBottomSheet();
+    }
+
+    private void hideBottomSheet() {
+        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_HIDDEN);
     }
 
     class AddressResultReceiver extends ResultReceiver {

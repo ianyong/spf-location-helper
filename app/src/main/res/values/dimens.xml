@@ -2,5 +2,10 @@
 <resources>
     <dimen name="sliding_search_view_header_height">250dp</dimen>
     <dimen name="search_bar_height">48dp</dimen>
-    <dimen name="elevation">4dp</dimen>
+    <dimen name="search_bar_elevation">4dp</dimen>
+    <dimen name="search_bar_padding">10dp</dimen>
+    <dimen name="search_bar_layout_margin">10dp</dimen>
+    <dimen name="bottom_sheet_elevation">16dp</dimen>
+    <dimen name="bottom_sheet_padding">16dp</dimen>
+    <dimen name="bottom_sheet_font">18dp</dimen>
 </resources>

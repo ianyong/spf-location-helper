@@ -30,9 +30,9 @@
             android:layout_height="@dimen/search_bar_height"
             android:hint="@string/search_hint"
             android:background="@color/white"
-            android:elevation="@dimen/elevation"
-            android:padding="10dp"
-            android:layout_margin="10dp"
+            android:elevation="@dimen/search_bar_elevation"
+            android:padding="@dimen/search_bar_padding"
+            android:layout_margin="@dimen/search_bar_layout_margin"
             android:imeOptions="actionSearch"
             android:inputType="text"/>
 
@@ -41,11 +41,10 @@
     <androidx.core.widget.NestedScrollView
         android:id="@+id/bottom_sheet"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
         android:clipToPadding="true"
         android:background="@android:color/white"
-        android:elevation="@dimen/elevation"
-        app:behavior_peekHeight="80dp"
+        android:elevation="@dimen/bottom_sheet_elevation"
         app:behavior_hideable="false"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
@@ -53,9 +52,8 @@
             android:id="@+id/kml_clicked"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/title_activity_maps"
-            android:padding="16dp"
-            android:textSize="16sp"/>
+            android:padding="@dimen/bottom_sheet_padding"
+            android:textSize="@dimen/bottom_sheet_font"/>
 
     </androidx.core.widget.NestedScrollView>
 
