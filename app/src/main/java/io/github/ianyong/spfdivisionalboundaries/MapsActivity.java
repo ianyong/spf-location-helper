@@ -1,9 +1,14 @@
 package io.github.ianyong.spfdivisionalboundaries;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.location.Location;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.ResultReceiver;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -15,6 +20,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.location.places.AutocompleteFilter;
 import com.google.android.gms.location.places.AutocompletePrediction;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.PlaceBufferResponse;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -22,6 +29,10 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlLayer;
@@ -43,10 +54,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutocompleteFilter typeFilter;
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
-    private MapsHelper mapsHelper;
     private View barrier;
     private TextView text;
     private KmlParser parser;
+    private Marker marker;
+    private AddressResultReceiver resultReceiver;
+    private Location selectedLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +67,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps);
 
         text = findViewById(R.id.kml_clicked);
-        mapsHelper = new MapsHelper(this);
+        resultReceiver = new AddressResultReceiver(new Handler());
 
         // Set up search bar.
         typeFilter = new AutocompleteFilter.Builder()
@@ -84,7 +97,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object item = parent.getItemAtPosition(position);
                 if (item instanceof AutocompletePrediction) {
-                    mapsHelper.processLocation((AutocompletePrediction) item);
+                    processLocation((AutocompletePrediction) item);
                     search.clearFocus();
                 }
             }
@@ -121,6 +134,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Set up the bottom sheet.
         View bottomSheet = findViewById(R.id.bottom_sheet);
         bottomSheetBehaviour = BottomSheetBehavior.from(bottomSheet);
+        bottomSheetBehaviour.setHideable(true);
+        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_HIDDEN);
 
         // Get notified when the map is ready to be used.
         mapFragment.getMapAsync(this);
@@ -143,6 +158,18 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SINGAPORE_CENTER, 10));
         this.googleMap.setLatLngBoundsForCameraTarget(SINGAPORE_BOUNDS);
         this.googleMap.setMinZoomPreference(10.0f);
+        // Set a listener for long clicks.
+        googleMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
+            @Override
+            public void onMapLongClick(LatLng latLng) {
+                addMarker(latLng, "");
+                selectedLocation = new Location("MapLongClick");
+                selectedLocation.setLatitude(latLng.latitude);
+                selectedLocation.setLongitude(latLng.longitude);
+                // Start reverse geocode.
+                startIntentService();
+            }
+        });
 
         try {
             KmlLayer npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
@@ -152,6 +179,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 @Override
                 public void onFeatureClick(Feature feature) {
                     if(feature != null) {
+                        showBottomSheet();
                         text.setText(parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME));
                     }
                 }
@@ -159,14 +187,82 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         } catch(Exception e) {
             e.printStackTrace();
         }
-
-        // Pass the loaded google map to MapsHelper.
-        mapsHelper.initialiseGoogleMap(googleMap);
     }
 
-    public void hideKeyboard(View view) {
+    private void startIntentService() {
+        Intent intent = new Intent(getApplicationContext(), FetchAddressIntentService.class);
+        intent.putExtra(Constants.RECEIVER, resultReceiver);
+        intent.putExtra(Constants.LOCATION_DATA_EXTRA, selectedLocation);
+        startService(intent);
+    }
+
+    private void processLocation(AutocompletePrediction autocompletePrediction) {
+        String placeId = autocompletePrediction.getPlaceId();
+        Places.getGeoDataClient(getApplicationContext()).getPlaceById(placeId).addOnCompleteListener(new OnCompleteListener<PlaceBufferResponse>() {
+            @Override
+            public void onComplete(@NonNull Task<PlaceBufferResponse> task) {
+                if (task.isSuccessful()) {
+                    PlaceBufferResponse places = task.getResult();
+                    Place myPlace = places.get(0);
+                    moveCamera(myPlace);
+                    places.release();
+                }
+            }
+        });
+    }
+
+    private void moveCamera(Place myPlace) {
+        if (googleMap != null) {
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(myPlace.getViewport(),
+                    getApplicationContext().getResources().getDisplayMetrics().widthPixels,
+                    getApplicationContext().getResources().getDisplayMetrics().heightPixels,
+                    0));
+            addMarker(myPlace.getLatLng(), myPlace.getName().toString());
+        }
+    }
+
+    private void addMarker(LatLng pos, String name) {
+        if (marker != null) {
+            marker.remove();
+        }
+        marker = googleMap.addMarker(new MarkerOptions().position(pos)
+                .title(name));
+        marker.showInfoWindow();
+    }
+
+
+
+    private void hideKeyboard(View view) {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+
+    private void showBottomSheet() {
+        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_COLLAPSED);
+    }
+
+    class AddressResultReceiver extends ResultReceiver {
+
+        public AddressResultReceiver(Handler handler) {
+            super(handler);
+        }
+
+        @Override
+        protected void onReceiveResult(int resultCode, Bundle resultData) {
+            if (resultData == null) {
+                return;
+            }
+            String addressOutput = resultData.getString(Constants.RESULT_DATA_KEY);
+            if (addressOutput == null) {
+                addressOutput = "";
+            }
+            if (resultCode == Constants.SUCCESS_RESULT) {
+                // Update marker with reverse geocode result.
+                marker.setTitle(addressOutput);
+                marker.showInfoWindow();
+            }
+        }
+
     }
 
 }
