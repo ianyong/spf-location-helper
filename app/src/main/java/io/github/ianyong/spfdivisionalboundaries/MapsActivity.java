@@ -34,8 +34,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.maps.android.PolyUtil;
 import com.google.maps.android.data.Feature;
+import com.google.maps.android.data.kml.KmlContainer;
 import com.google.maps.android.data.kml.KmlLayer;
+import com.google.maps.android.data.kml.KmlPlacemark;
+import com.google.maps.android.data.kml.KmlPolygon;
 
 import java.io.InputStream;
 
@@ -60,6 +64,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Marker marker;
     private AddressResultReceiver resultReceiver;
     private Location selectedLocation;
+    private KmlLayer npcLayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,6 +172,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 selectedLocation = new Location("MapLongClick");
                 selectedLocation.setLatitude(latLng.latitude);
                 selectedLocation.setLongitude(latLng.longitude);
+                findKmlPlacemark(latLng);
                 // Start reverse geocode.
                 startIntentService();
             }
@@ -181,7 +187,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         try {
-            KmlLayer npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
+            npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
             npcLayer.addLayerToMap();
             // Set a listener for geometry clicked events.
             npcLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
@@ -221,6 +227,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     PlaceBufferResponse places = task.getResult();
                     Place myPlace = places.get(0);
                     moveCamera(myPlace);
+                    findKmlPlacemark(myPlace.getLatLng());
                     places.release();
                 }
             }
@@ -265,6 +272,22 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void hideBottomSheet() {
         bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_HIDDEN);
+    }
+
+    // Finds the Placemark which contains the point specified.
+    private void findKmlPlacemark(LatLng point) {
+        for(KmlContainer container : npcLayer.getContainers()) {
+            for(KmlContainer nestedContainer : container.getContainers()) {
+                for (KmlPlacemark placemark : nestedContainer.getPlacemarks()) {
+                    if (PolyUtil.containsLocation(point, ((KmlPolygon) placemark.getGeometry()).getOuterBoundaryCoordinates(), true)) {
+                        showBottomSheet(npcStringBuilder(placemark));
+                        return;
+                    }
+                }
+            }
+        }
+        // Hide bottom sheet if location chosen does not fall under any placemarks.
+        hideBottomSheet();
     }
 
     class AddressResultReceiver extends ResultReceiver {
