@@ -3,13 +3,18 @@ package io.github.ianyong.spfdivisionalboundaries;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
@@ -66,6 +71,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Location selectedLocation;
     private KmlLayer npcLayer;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +96,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus) {
                     barrier.setClickable(true);
+                    showKeyboard(v);
                 } else {
                     barrier.setClickable(false);
                     hideKeyboard(v);
@@ -115,6 +122,43 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     v.clearFocus();
                 }
                 return false;
+            }
+        });
+
+        // Clear text when delete button is clicked.
+        search.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int DRAWABLE_LEFT = 0, DRAWABLE_TOP = 1, DRAWABLE_RIGHT = 2, DRAWABLE_BOTTOM = 3;
+                if(event.getAction() == MotionEvent.ACTION_UP) {
+                    if(search.getCompoundDrawables()[DRAWABLE_RIGHT] != null && event.getRawX() + search.getPaddingLeft() >= (search.getRight() - search.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+                        search.setText("");
+                    }
+                }
+                return false;
+            }
+        });
+
+        // Shows delete button when search bar is not empty.
+        search.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(s.length() > 0) {
+                    Drawable delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
+                    search.setCompoundDrawablesWithIntrinsicBounds(null, null, delete, null);
+                } else {
+                    search.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
             }
         });
 
@@ -253,7 +297,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         marker.showInfoWindow();
     }
 
-
+    private void showKeyboard(View view) {
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.showSoftInput(view, 0);
+    }
 
     private void hideKeyboard(View view) {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);

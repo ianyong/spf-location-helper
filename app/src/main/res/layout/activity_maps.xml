@@ -34,7 +34,8 @@
             android:padding="@dimen/search_bar_padding"
             android:layout_margin="@dimen/search_bar_layout_margin"
             android:imeOptions="actionSearch"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:completionThreshold="1"/>
 
     </RelativeLayout>
 
