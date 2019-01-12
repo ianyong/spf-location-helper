@@ -2,6 +2,8 @@ package io.github.ianyong.spfdivisionalboundaries;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -14,6 +16,7 @@ import android.os.ResultReceiver;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -39,6 +42,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.navigation.NavigationView;
 import com.google.maps.android.PolyUtil;
 import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlContainer;
@@ -57,6 +61,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final static LatLngBounds SINGAPORE_BOUNDS = new LatLngBounds(
             new LatLng(1.1496, 103.594), new LatLng(1.4784001, 104.0945001)
     );
+    private final int DRAWABLE_LEFT = 0, DRAWABLE_TOP = 1, DRAWABLE_RIGHT = 2, DRAWABLE_BOTTOM = 3;
 
     private GoogleMap googleMap;
     private BottomSheetBehavior bottomSheetBehaviour;
@@ -70,6 +75,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AddressResultReceiver resultReceiver;
     private Location selectedLocation;
     private KmlLayer npcLayer;
+    private Drawable menu, delete;
+    private DrawerLayout drawerLayout;
+    private NavigationView navigationView;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -79,6 +87,26 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         bottomSheetText = findViewById(R.id.kml_clicked);
         resultReceiver = new AddressResultReceiver(new Handler());
+        menu = getApplicationContext().getResources().getDrawable(R.drawable.baseline_menu_black_24);
+        delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
+
+        // Set up navigation drawer.
+        drawerLayout = findViewById(R.id.drawer_layout);
+        navigationView = findViewById(R.id.navigation_view);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                // Set item as selected to persist highlight
+                menuItem.setChecked(true);
+                // Close drawer when item is tapped
+                drawerLayout.closeDrawers();
+
+                // Add code here to update the UI based on the item selected
+                // For example, swap UI fragments here
+
+                return true;
+            }
+        });
 
         // Set up search bar.
         typeFilter = new AutocompleteFilter.Builder()
@@ -87,6 +115,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         placeAutocompleteAdapter = new PlaceAutocompleteAdapter(this, Places.getGeoDataClient(this), SINGAPORE_BOUNDS, typeFilter);
         search = findViewById(R.id.search);
         search.setAdapter(placeAutocompleteAdapter);
+        search.setCompoundDrawablesWithIntrinsicBounds(menu, null, null, null);
 
         // Disables map while searching, hides keyboard if user clicks anywhere else.
         barrier = findViewById(R.id.barrier);
@@ -129,10 +158,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         search.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                final int DRAWABLE_LEFT = 0, DRAWABLE_TOP = 1, DRAWABLE_RIGHT = 2, DRAWABLE_BOTTOM = 3;
                 if(event.getAction() == MotionEvent.ACTION_UP) {
                     if(search.getCompoundDrawables()[DRAWABLE_RIGHT] != null && event.getRawX() + search.getPaddingLeft() >= (search.getRight() - search.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
                         search.setText("");
+                    } else if(event.getRawX() - search.getPaddingLeft() <= (search.getLeft() + search.getCompoundDrawables()[DRAWABLE_LEFT].getBounds().width())) {
+                        search.clearFocus();
+                        search.setEnabled(false); // Temporarily disable search bar to prevent it from gaining focus.
+                        drawerLayout.openDrawer(GravityCompat.START);
+                        search.setEnabled(true);
+                        return true;
                     }
                 }
                 return false;
@@ -149,10 +183,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length() > 0) {
-                    Drawable delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
-                    search.setCompoundDrawablesWithIntrinsicBounds(null, null, delete, null);
+                    search.setCompoundDrawablesWithIntrinsicBounds(menu, null, delete, null);
                 } else {
-                    search.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
+                    search.setCompoundDrawablesWithIntrinsicBounds(menu, null, null, null);
                 }
             }
 
@@ -222,7 +255,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
-        // Set a listener for clicks (only affects areas not overlayed by the KML layer).
+        // Set a listener for clicks (only affects areas not overlaid by the KML layer).
         googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
