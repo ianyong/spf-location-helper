@@ -7,4 +7,6 @@
     <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
     <string name="address_found">Address found</string>
     <string name="no_address_found">Sorry, no address found</string>
+    <string name="navigation_header">Singapore Police Force Location Helper</string>
+    <string name="spf_logo_desc">Singapore Police Force logo</string>
 </resources>

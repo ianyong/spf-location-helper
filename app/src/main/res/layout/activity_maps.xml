@@ -27,7 +27,7 @@
                 android:id="@+id/barrier"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:clickable="true"
+                android:focusable="true"
                 android:focusableInTouchMode="true"/>
 
             <AutoCompleteTextView
@@ -73,6 +73,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:menu="@menu/drawer_view"/>
+        app:menu="@menu/drawer_view"
+        app:headerLayout="@layout/navigation_header"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
