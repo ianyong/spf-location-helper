@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -41,7 +42,6 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.navigation.NavigationView;
 import com.google.maps.android.PolyUtil;
 import com.google.maps.android.data.Feature;
@@ -49,8 +49,13 @@ import com.google.maps.android.data.kml.KmlContainer;
 import com.google.maps.android.data.kml.KmlLayer;
 import com.google.maps.android.data.kml.KmlPlacemark;
 import com.google.maps.android.data.kml.KmlPolygon;
+import com.mahc.custombottomsheetbehavior.BottomSheetBehaviorGoogleMapsLike;
+import com.mahc.custombottomsheetbehavior.MergedAppBarLayout;
+import com.mahc.custombottomsheetbehavior.MergedAppBarLayoutBehavior;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -64,7 +69,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final int DRAWABLE_LEFT = 0, DRAWABLE_TOP = 1, DRAWABLE_RIGHT = 2, DRAWABLE_BOTTOM = 3;
 
     private GoogleMap googleMap;
-    private BottomSheetBehavior bottomSheetBehaviour;
+    private BottomSheetBehaviorGoogleMapsLike bottomSheetBehaviour;
+    private MergedAppBarLayout mergedAppBarLayout;
+    private MergedAppBarLayoutBehavior mergedAppBarLayoutBehaviour;
     private AutocompleteFilter typeFilter;
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
@@ -96,14 +103,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                // Set item as selected to persist highlight
-                menuItem.setChecked(true);
-                // Close drawer when item is tapped
-                drawerLayout.closeDrawers();
-
-                // Add code here to update the UI based on the item selected
-                // For example, swap UI fragments here
-
+                if(menuItem.getItemId() == R.id.nav_about) {
+                    drawerLayout.closeDrawers();
+                }
                 return true;
             }
         });
@@ -215,14 +217,35 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Set up the bottom sheet.
         View bottomSheet = findViewById(R.id.bottom_sheet);
-        bottomSheetBehaviour = BottomSheetBehavior.from(bottomSheet);
-        bottomSheetBehaviour.setHideable(true);
-        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_HIDDEN);
+        bottomSheetBehaviour = BottomSheetBehaviorGoogleMapsLike.from(bottomSheet);
+        bottomSheetBehaviour.addBottomSheetCallback(new BottomSheetBehaviorGoogleMapsLike.BottomSheetCallback() {
+            @Override
+            public void onStateChanged(@NonNull View bottomSheet, int newState) {
+
+            }
+
+            @Override
+            public void onSlide(@NonNull View bottomSheet, float slideOffset) {
+
+            }
+        });
+        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+        mergedAppBarLayout = findViewById(R.id.merged_app_bar_layout);
+        mergedAppBarLayoutBehaviour = MergedAppBarLayoutBehavior.from(mergedAppBarLayout);
+        mergedAppBarLayoutBehaviour.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
+            }
+        });
+        // A non-empty ArrayList must be passed for ImagePagerAdapter.instantiateItem() to be called.
+        ImagePagerAdapter imagePagerAdapter = new ImagePagerAdapter(this, new ArrayList<>(Arrays.asList("test")));
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(imagePagerAdapter);
 
         // Get notified when the map is ready to be used.
         mapFragment.getMapAsync(this);
     }
-
 
     /**
      * Manipulates the map once available.
@@ -341,7 +364,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void showBottomSheet() {
-        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_COLLAPSED);
+        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
     }
 
     private void showBottomSheet(String s) {
@@ -351,7 +374,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void hideBottomSheet() {
-        bottomSheetBehaviour.setState(BottomSheetBehavior.STATE_HIDDEN);
+        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN);
     }
 
     // Finds the Placemark which contains the point specified.

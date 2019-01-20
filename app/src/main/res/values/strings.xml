@@ -9,4 +9,5 @@
     <string name="no_address_found">Sorry, no address found</string>
     <string name="navigation_header">Singapore Police Force Location Helper</string>
     <string name="spf_logo_desc">Singapore Police Force logo</string>
+    <string name="nav_about">About</string>
 </resources>

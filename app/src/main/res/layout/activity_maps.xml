@@ -45,25 +45,50 @@
                 android:drawablePadding="@dimen/search_bar_padding"/>
 
         </RelativeLayout>
+        
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_point"
+            android:background="@color/colorAccent"
+            app:layout_behavior="@string/BackDropBottomSheetBehavior"
+            android:fitsSystemWindows="true"/>
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/bottom_sheet"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:clipToPadding="true"
             android:background="@android:color/white"
-            android:elevation="@dimen/bottom_sheet_elevation"
-            app:behavior_hideable="false"
-            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+            app:anchorPoint="@dimen/anchor_point"
+            app:behavior_hideable="true"
+            app:layout_behavior="@string/BottomSheetBehaviorGoogleMapsLike">
 
-            <TextView
-                android:id="@+id/kml_clicked"
+            <include
+                layout="@layout/bottom_sheet_content"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="@dimen/bottom_sheet_padding"
-                android:textSize="@dimen/bottom_sheet_font"/>
+                android:fitsSystemWindows="true"/>
 
         </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/bottom_sheet"
+            app:layout_anchorGravity="top|right|end"
+            android:src="@drawable/places_ic_search"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_behavior="@string/ScrollAwareFABBehavior"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <com.mahc.custombottomsheetbehavior.MergedAppBarLayout
+            android:id="@+id/merged_app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/MergedAppBarLayoutBehavior"/>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
