@@ -32,7 +32,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Yishun North Neighbourhood Police Centre</td>
+					<td>Yishun North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -47,7 +47,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Yishun North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Yishun North</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">9B117DD158B27542</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -70,7 +70,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Marine Parade Neighbourhood Police Centre</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -85,7 +85,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Marine Parade Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Marine Parade</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">80BCA0B96BE19F39</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -108,7 +108,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Marine Parade Neighbourhood Police Centre</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -123,7 +123,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Marine Parade Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Marine Parade</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">80BCA0B96BE19F39</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -146,7 +146,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Geylang Neighbourhood Police Centre</td>
+					<td>Geylang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -161,7 +161,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Geylang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Geylang</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">42AFD3583B7911E1</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -184,7 +184,7 @@
 					<td>E</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bishan Neighbourhood Police Centre</td>
+					<td>Bishan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Tanglin Police Division HQ</td>
@@ -199,7 +199,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">E</SimpleData>
-						<SimpleData name="NPC_NAME">Bishan Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bishan</SimpleData>
 						<SimpleData name="DIVISION">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="INC_CRC">B0C1E64DD02FC507</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -222,7 +222,7 @@
 					<td>E</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Toa Payoh Neighbourhood Police Centre</td>
+					<td>Toa Payoh</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Tanglin Police Division HQ</td>
@@ -237,7 +237,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">E</SimpleData>
-						<SimpleData name="NPC_NAME">Toa Payoh Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Toa Payoh</SimpleData>
 						<SimpleData name="DIVISION">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="INC_CRC">034FEABA12E953D5</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -260,7 +260,7 @@
 					<td>E</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Kampong Java Neighbourhood Police Centre</td>
+					<td>Kampong Java</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Tanglin Police Division HQ</td>
@@ -275,7 +275,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">E</SimpleData>
-						<SimpleData name="NPC_NAME">Kampong Java Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Kampong Java</SimpleData>
 						<SimpleData name="DIVISION">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="INC_CRC">34182CF25509CF54</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -298,7 +298,7 @@
 					<td>E</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Orchard Neighbourhood Police Centre</td>
+					<td>Orchard</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Tanglin Police Division HQ</td>
@@ -313,7 +313,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">E</SimpleData>
-						<SimpleData name="NPC_NAME">Orchard Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Orchard</SimpleData>
 						<SimpleData name="DIVISION">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="INC_CRC">1EA3BED4A2D8969A</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -336,7 +336,7 @@
 					<td>E</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Timah Neighbourhood Police Centre</td>
+					<td>Bukit Timah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Tanglin Police Division HQ</td>
@@ -351,7 +351,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">E</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Timah Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Timah</SimpleData>
 						<SimpleData name="DIVISION">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="INC_CRC">1A8C55C699F5D832</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -374,7 +374,7 @@
 					<td>A</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Marina Bay Neighbourhood Police Centre</td>
+					<td>Marina Bay</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Central Police Divisional HQ</td>
@@ -389,7 +389,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">A</SimpleData>
-						<SimpleData name="NPC_NAME">Marina Bay Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Marina Bay</SimpleData>
 						<SimpleData name="DIVISION">Central Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">D1CA20C35C6B6694</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -412,7 +412,7 @@
 					<td>A</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Rochor Neighbourhood Police Centre</td>
+					<td>Rochor</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Central Police Divisional HQ</td>
@@ -427,7 +427,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">A</SimpleData>
-						<SimpleData name="NPC_NAME">Rochor Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Rochor</SimpleData>
 						<SimpleData name="DIVISION">Central Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">06C1B4B553732188</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -450,7 +450,7 @@
 					<td>D</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Queenstown Neighbourhood Police Centre</td>
+					<td>Queenstown</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Clementi Police Divisional HQ</td>
@@ -465,7 +465,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">D</SimpleData>
-						<SimpleData name="NPC_NAME">Queenstown Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Queenstown</SimpleData>
 						<SimpleData name="DIVISION">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">47FF225F1ED561F2</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -488,7 +488,7 @@
 					<td>J</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Panjang Neighbourhood Police Centre</td>
+					<td>Bukit Panjang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Jurong Police Divisional HQ</td>
@@ -503,7 +503,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">J</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Panjang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Panjang</SimpleData>
 						<SimpleData name="DIVISION">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">06BC9BD4BF8CAAD5</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -526,7 +526,7 @@
 					<td>J</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Batok Neighbourhood Police Centre</td>
+					<td>Bukit Batok</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Jurong Police Divisional HQ</td>
@@ -541,7 +541,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">J</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Batok Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Batok</SimpleData>
 						<SimpleData name="DIVISION">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">D2A717FF2A68AF66</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -564,7 +564,7 @@
 					<td>J</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Jurong West Neighbourhood Police Centre</td>
+					<td>Jurong West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Jurong Police Divisional HQ</td>
@@ -579,7 +579,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">J</SimpleData>
-						<SimpleData name="NPC_NAME">Jurong West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Jurong West</SimpleData>
 						<SimpleData name="DIVISION">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">2E6324D5BF4083BC</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -602,7 +602,7 @@
 					<td>J</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Nanyang Neighbourhood Police Centre</td>
+					<td>Nanyang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Jurong Police Divisional HQ</td>
@@ -617,7 +617,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">J</SimpleData>
-						<SimpleData name="NPC_NAME">Nanyang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Nanyang</SimpleData>
 						<SimpleData name="DIVISION">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">BB2788573B290768</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -640,7 +640,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Punggol Neighbourhood Police Centre</td>
+					<td>Punggol</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -655,7 +655,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Punggol Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Punggol</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">8A65B1659D01538A</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -678,7 +678,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Punggol Neighbourhood Police Centre</td>
+					<td>Punggol</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -693,7 +693,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Punggol Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Punggol</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">8A65B1659D01538A</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -716,7 +716,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Punggol Neighbourhood Police Centre</td>
+					<td>Punggol</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -731,7 +731,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Punggol Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Punggol</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">8A65B1659D01538A</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -754,7 +754,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Yishun South Neighbourhood Police Centre</td>
+					<td>Yishun South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -769,7 +769,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Yishun South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Yishun South</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">788C37F46852E9F9</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -792,7 +792,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Yishun South Neighbourhood Police Centre</td>
+					<td>Yishun South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -807,7 +807,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Yishun South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Yishun South</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">788C37F46852E9F9</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -830,7 +830,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Ang Mo Kio North Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -845,7 +845,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Ang Mo Kio North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Ang Mo Kio North</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">D18BB9116CFBC3E3</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -868,7 +868,7 @@
 					<td>A</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Merah East Neighbourhood Police Centre</td>
+					<td>Bukit Merah East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Central Police Divisional HQ</td>
@@ -883,7 +883,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">A</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Merah East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Merah East</SimpleData>
 						<SimpleData name="DIVISION">Central Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">0E31B65AED3953A3</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -906,7 +906,7 @@
 					<td>A</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Merah East Neighbourhood Police Centre</td>
+					<td>Bukit Merah East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Central Police Divisional HQ</td>
@@ -921,7 +921,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">A</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Merah East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Merah East</SimpleData>
 						<SimpleData name="DIVISION">Central Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">0E31B65AED3953A3</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -944,7 +944,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Changi Neighbourhood Police Centre</td>
+					<td>Changi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -959,7 +959,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Changi Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Changi</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">FADC4AAC0BE859B1</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -982,7 +982,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Woodlands West Neighbourhood Police Centre</td>
+					<td>Woodlands West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -997,7 +997,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Woodlands West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Woodlands West</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">7EAB6370C1AC0630</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1020,7 +1020,7 @@
 					<td>J</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Choa Chu Kang Neighbourhood Police Centre</td>
+					<td>Choa Chu Kang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Jurong Police Divisional HQ</td>
@@ -1035,7 +1035,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">J</SimpleData>
-						<SimpleData name="NPC_NAME">Choa Chu Kang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Choa Chu Kang</SimpleData>
 						<SimpleData name="DIVISION">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">241A15FAC6F19183</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1058,7 +1058,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Pasir Ris Neighbourhood Police Centre</td>
+					<td>Pasir Ris</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -1073,7 +1073,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Pasir Ris Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Pasir Ris</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">88112751626F7F4C</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1096,7 +1096,7 @@
 					<td>D</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Clementi Neighbourhood Police Centre</td>
+					<td>Clementi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Clementi Police Divisional HQ</td>
@@ -1111,7 +1111,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">D</SimpleData>
-						<SimpleData name="NPC_NAME">Clementi Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Clementi</SimpleData>
 						<SimpleData name="DIVISION">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">E977142FAD63AF77</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1134,7 +1134,7 @@
 					<td>D</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Merah West Neighbourhood Police Centre</td>
+					<td>Bukit Merah West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Clementi Police Divisional HQ</td>
@@ -1149,7 +1149,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">D</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Merah West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Merah West</SimpleData>
 						<SimpleData name="DIVISION">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">85B8017873FFECB7</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1172,7 +1172,7 @@
 					<td>D</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bukit Merah West Neighbourhood Police Centre</td>
+					<td>Bukit Merah West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Clementi Police Divisional HQ</td>
@@ -1187,7 +1187,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">D</SimpleData>
-						<SimpleData name="NPC_NAME">Bukit Merah West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bukit Merah West</SimpleData>
 						<SimpleData name="DIVISION">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">85B8017873FFECB7</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1210,7 +1210,7 @@
 					<td>D</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Jurong East Neighbourhood Police Centre</td>
+					<td>Jurong East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Clementi Police Divisional HQ</td>
@@ -1225,7 +1225,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">D</SimpleData>
-						<SimpleData name="NPC_NAME">Jurong East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Jurong East</SimpleData>
 						<SimpleData name="DIVISION">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">AA1DD92041F67B86</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1253,7 +1253,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Sembawang Neighbourhood Police Centre</td>
+					<td>Sembawang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -1268,7 +1268,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Sembawang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Sembawang</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">E4CED6CA3E514EE4</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1291,7 +1291,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Ang Mo Kio South Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -1306,7 +1306,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Ang Mo Kio South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Ang Mo Kio South</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">B3B48DEEA2B84A00</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1329,7 +1329,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Serangoon Neighbourhood Police Centre</td>
+					<td>Serangoon</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -1344,7 +1344,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Serangoon Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Serangoon</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">34F5EAB992D3DDA1</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1367,7 +1367,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Hougang Neighbourhood Police Centre</td>
+					<td>Hougang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -1382,7 +1382,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Hougang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Hougang</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">4E52B18E9DA2DEC1</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1405,7 +1405,7 @@
 					<td>F</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Sengkang Neighbourhood Police Centre</td>
+					<td>Sengkang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Ang Mo Kio Police Divisional HQ</td>
@@ -1420,7 +1420,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">F</SimpleData>
-						<SimpleData name="NPC_NAME">Sengkang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Sengkang</SimpleData>
 						<SimpleData name="DIVISION">Ang Mo Kio Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">40197B823952105F</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1443,7 +1443,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bedok South Neighbourhood Police Centre</td>
+					<td>Bedok South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -1458,7 +1458,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Bedok South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bedok South</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">52395AC231C3D6E2</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1481,7 +1481,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Tampines Neighbourhood Police Centre</td>
+					<td>Tampines</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -1496,7 +1496,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Tampines Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Tampines</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">0CED34419F06560C</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1519,7 +1519,7 @@
 					<td>G</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Bedok North Neighbourhood Police Centre</td>
+					<td>Bedok North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Bedok Police Divisional HQ</td>
@@ -1534,7 +1534,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">G</SimpleData>
-						<SimpleData name="NPC_NAME">Bedok North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Bedok North</SimpleData>
 						<SimpleData name="DIVISION">Bedok Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">DECA78D9C48CED51</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>
@@ -1557,7 +1557,7 @@
 					<td>L</td>
 					</tr><tr bgcolor="">
 					<th>NPC_NAME</th>
-					<td>Woodlands East Neighbourhood Police Centre</td>
+					<td>Woodlands East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>DIVISION</th>
 					<td>Woodlands Police Divisional HQ</td>
@@ -1572,7 +1572,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_NPC_BOUNDARY">
 						<SimpleData name="DIV">L</SimpleData>
-						<SimpleData name="NPC_NAME">Woodlands East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="NPC_NAME">Woodlands East</SimpleData>
 						<SimpleData name="DIVISION">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="INC_CRC">11BEE5F2EC025C54</SimpleData>
 						<SimpleData name="FMEL_UPD_D">20160519120918</SimpleData>

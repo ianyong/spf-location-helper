@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="sliding_search_view_header_height">250dp</dimen>
+    <!--Search Bar-->
+    <dimen name="search_view_header_height">250dp</dimen>
     <dimen name="search_bar_height">48dp</dimen>
     <dimen name="search_bar_elevation">4dp</dimen>
     <dimen name="search_bar_padding">10dp</dimen>
     <dimen name="search_bar_layout_margin">10dp</dimen>
-    <dimen name="bottom_sheet_elevation">16dp</dimen>
-    <dimen name="bottom_sheet_padding">16dp</dimen>
-    <dimen name="bottom_sheet_font">18sp</dimen>
+    <!--Bottom Sheet-->
+    <dimen name="bottom_sheet_padding_left">12dp</dimen>
+    <dimen name="bottom_sheet_padding_right">12dp</dimen>
+    <dimen name="bottom_sheet_padding_top">6dp</dimen>
+    <dimen name="bottom_sheet_padding_bottom">6dp</dimen>
+    <dimen name="bottom_sheet_collapsed_main_font">21sp</dimen>
+    <dimen name="bottom_sheet_collapsed_sub_font">12sp</dimen>
+    <dimen name="bottom_sheet_collapsed_text_margin">3dp</dimen>
+    <!--Navigation Drawer-->
     <dimen name="navigation_header_height">200dp</dimen>
     <dimen name="navigation_header_padding">16dp</dimen>
 </resources>

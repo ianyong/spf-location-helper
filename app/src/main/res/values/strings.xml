@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name">SPF Divisional Boundaries</string>
     <string name="title_activity_maps">Map</string>
+    <!--Search Bar-->
     <string name="search_hint">Search here</string>
+    <!--Reverse Geocoder-->
     <string name="no_location_data_provided">No location data provided</string>
     <string name="service_not_available">Sorry, the service is not available</string>
     <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
     <string name="address_found">Address found</string>
     <string name="no_address_found">Sorry, no address found</string>
+    <!--Bottom Sheet-->
+    <string name="neighbourhood_police_centre">Neighbourhood Police Centre</string>
+    <string name="neighbourhood_police_centre_abbreviation">NPC</string>
+    <!--Navigation Drawer-->
     <string name="navigation_header">Singapore Police Force Location Helper</string>
     <string name="spf_logo_desc">Singapore Police Force logo</string>
     <string name="nav_about">About</string>

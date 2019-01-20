@@ -213,7 +213,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Move compass location.
         View compassButton = mapFragment.getView().findViewWithTag("GoogleMapCompass");
         RelativeLayout.LayoutParams rlp = (RelativeLayout.LayoutParams) compassButton.getLayoutParams();
-        rlp.topMargin = (int) (getResources().getDimension(R.dimen.sliding_search_view_header_height)/getResources().getDisplayMetrics().density) + rlp.leftMargin;
+        rlp.topMargin = (int) (getResources().getDimension(R.dimen.search_view_header_height)/getResources().getDisplayMetrics().density) + rlp.leftMargin;
 
         // Set up the bottom sheet.
         View bottomSheet = findViewById(R.id.bottom_sheet);
@@ -235,7 +235,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mergedAppBarLayoutBehaviour.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
+                bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
             }
         });
         // A non-empty ArrayList must be passed for ImagePagerAdapter.instantiateItem() to be called.
@@ -304,11 +304,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private String npcStringBuilder(Feature feature) {
-        String s = "",
-                name = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME),
-                division = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(DIV_NAME);
-        s = name + "\n" + division;
-        return s;
+        String name = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME);
+        mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
+        return name;
     }
 
     private void startIntentService() {
