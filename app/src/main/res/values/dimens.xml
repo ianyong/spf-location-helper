@@ -7,13 +7,17 @@
     <dimen name="search_bar_padding">10dp</dimen>
     <dimen name="search_bar_layout_margin">10dp</dimen>
     <!--Bottom Sheet-->
-    <dimen name="bottom_sheet_padding_left">12dp</dimen>
-    <dimen name="bottom_sheet_padding_right">12dp</dimen>
-    <dimen name="bottom_sheet_padding_top">6dp</dimen>
-    <dimen name="bottom_sheet_padding_bottom">6dp</dimen>
+    <dimen name="bottom_sheet_collapsed_padding_left">12dp</dimen>
+    <dimen name="bottom_sheet_collapsed_padding_right">12dp</dimen>
+    <dimen name="bottom_sheet_collapsed_padding_top">6dp</dimen>
+    <dimen name="bottom_sheet_collapsed_padding_bottom">6dp</dimen>
     <dimen name="bottom_sheet_collapsed_main_font">21sp</dimen>
     <dimen name="bottom_sheet_collapsed_sub_font">12sp</dimen>
     <dimen name="bottom_sheet_collapsed_text_margin">3dp</dimen>
+    <dimen name="bottom_sheet_buttons_padding_top">18dp</dimen>
+    <dimen name="bottom_sheet_buttons_padding_bottom">18dp</dimen>
+    <dimen name="bottom_sheet_button_size">100dp</dimen>
+    <dimen name="bottom_sheet_button_text_margin">5dp</dimen>
     <!--Navigation Drawer-->
     <dimen name="navigation_header_height">200dp</dimen>
     <dimen name="navigation_header_padding">16dp</dimen>

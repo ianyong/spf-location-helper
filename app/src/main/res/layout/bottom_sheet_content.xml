@@ -3,15 +3,16 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--Collapsed Layout-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/bottom_sheet_peek_height"
         android:orientation="vertical"
         android:background="@color/colorPrimary"
-        android:paddingLeft="@dimen/bottom_sheet_padding_left"
-        android:paddingRight="@dimen/bottom_sheet_padding_right"
-        android:paddingTop="@dimen/bottom_sheet_padding_top"
-        android:paddingBottom="@dimen/bottom_sheet_padding_bottom">
+        android:paddingLeft="@dimen/bottom_sheet_collapsed_padding_left"
+        android:paddingRight="@dimen/bottom_sheet_collapsed_padding_right"
+        android:paddingTop="@dimen/bottom_sheet_collapsed_padding_top"
+        android:paddingBottom="@dimen/bottom_sheet_collapsed_padding_bottom">
 
         <TextView
             android:id="@+id/kml_clicked"
@@ -29,5 +30,74 @@
             android:text="@string/neighbourhood_police_centre"/>
 
     </LinearLayout>
+
+    <!--Buttons Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!--Call Button-->
+        <LinearLayout
+            style="@style/BottomSheetButtonLayout">
+
+            <LinearLayout
+                style="@style/BottomSheetButton">
+
+                <ImageView
+                    style="@style/BottomSheetButtonImage"
+                    android:src="@drawable/baseline_call_black_24"/>
+
+                <TextView
+                    style="@style/BottomSheetButtonText"
+                    android:text="@string/call"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Directions Button-->
+        <LinearLayout
+            style="@style/BottomSheetButtonLayout">
+
+            <LinearLayout
+                style="@style/BottomSheetButton">
+
+                <ImageView
+                    style="@style/BottomSheetButtonImage"
+                    android:src="@drawable/baseline_directions_black_24"/>
+
+                <TextView
+                    style="@style/BottomSheetButtonText"
+                    android:text="@string/directions"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Website Button-->
+        <LinearLayout
+            style="@style/BottomSheetButtonLayout">
+
+            <LinearLayout
+                style="@style/BottomSheetButton">
+
+                <ImageView
+                    style="@style/BottomSheetButtonImage"
+                    android:src="@drawable/baseline_open_in_new_black_24"/>
+
+                <TextView
+                    style="@style/BottomSheetButtonText"
+                    android:text="@string/website"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/Divider"/>
 
 </LinearLayout>

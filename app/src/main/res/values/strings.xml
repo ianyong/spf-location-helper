@@ -12,6 +12,9 @@
     <!--Bottom Sheet-->
     <string name="neighbourhood_police_centre">Neighbourhood Police Centre</string>
     <string name="neighbourhood_police_centre_abbreviation">NPC</string>
+    <string name="call"><b>CALL</b></string>
+    <string name="website"><b>WEBSITE</b></string>
+    <string name="directions"><b>DIRECTIONS</b></string>
     <!--Navigation Drawer-->
     <string name="navigation_header">Singapore Police Force Location Helper</string>
     <string name="spf_logo_desc">Singapore Police Force logo</string>
