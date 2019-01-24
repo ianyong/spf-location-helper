@@ -59,9 +59,35 @@ import java.util.Arrays;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
-    private final static String DIV_CODE = "DIV";
+    // Boundaries KML Tags
+    private final static String NPC_DIV_CODE = "DIV";
     private final static String NPC_NAME = "NPC_NAME";
-    private final static String DIV_NAME = "DIVISION";
+    private final static String NPC_DIV_NAME = "DIVISION";
+    private final static String NPC_INC_CRC = "INC_CRC";
+    private final static String NPC_FMEL_UPD_D = "FMEL_UPD_D";
+
+    // Establishments KML Tags
+    private final static String EST_NO = "NO";
+    private final static String EST_NAME = "BLDG";
+    private final static String EST_TYPE = "TYPE";
+    private final static String EST_COUNIT = "COUNIT";
+    private final static String EST_DIV_CODE = "DIVCODE";
+    private final static String EST_BLK_NO = "BLDGNO";
+    private final static String EST_ST_NAME = "STREETNAME";
+    private final static String EST_FLOOR_NO = "FLRNO";
+    private final static String EST_UNIT_NO = "UNITNO";
+    private final static String EST_POSTAL_CODE = "POSTALCODE";
+    private final static String EST_OPR_HRS = "OPERATEHRS";
+    private final static String EST_TEL = "TEL";
+    private final static String EST_ALT_TEL = "ALTTEL";
+    private final static String EST_FAX = "FAX";
+    private final static String EST_CANTEEN = "CANTEEN";
+    private final static String EST_CARPARK = "CARPARK";
+    private final static String EST_LNG = "LONGITUDE";
+    private final static String EST_LAT = "LATITUDE";
+    private final static String EST_INC_CRC = "INC_CRC";
+    private final static String EST_FMEL_UPD_D = "FMEL_UPD_D";
+
     private final static LatLng SINGAPORE_CENTER = new LatLng(1.352083, 103.819836); // Center of Singapore
     private final static LatLngBounds SINGAPORE_BOUNDS = new LatLngBounds(
             new LatLng(1.1496, 103.594), new LatLng(1.4784001, 104.0945001)
@@ -77,7 +103,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutoCompleteTextView search;
     private View barrier;
     private TextView bottomSheetText;
-    private KmlParser parser;
+    private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
     private Location selectedLocation;
@@ -198,10 +224,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         // Parse KML file for placemark properties.
-        InputStream inputStream = getResources().openRawResource(R.raw.singapore_police_force_npc_boundary_kml);
         try {
-            parser = new KmlParser(inputStream);
-            parser.parseKml();
+            InputStream inputStream = getResources().openRawResource(R.raw.singapore_police_force_npc_boundary_kml);
+            npcBoundaries = new KmlParser(inputStream);
+            npcBoundaries.parseKml();
+            inputStream = getResources().openRawResource(R.raw.singapore_police_force_establishments_2018_kml);
+            spfEstablishments = new KmlParser(inputStream);
+            spfEstablishments.parseKml();
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -304,7 +333,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private String npcStringBuilder(Feature feature) {
-        String name = parser.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME);
+        String name = npcBoundaries.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME);
         mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
         return name;
     }
