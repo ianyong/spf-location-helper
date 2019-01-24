@@ -80,7 +80,7 @@
 					<td>35</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Thomson Neighbourhood Police Post</td>
+					<td>Thomson</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -143,7 +143,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">35</SimpleData>
-						<SimpleData name="BLDG">Thomson Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Thomson</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -177,7 +177,7 @@
 					<td>36</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Toa Payoh Neighbourhood Police Centre</td>
+					<td>Toa Payoh</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -240,7 +240,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">36</SimpleData>
-						<SimpleData name="BLDG">Toa Payoh Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Toa Payoh</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -274,7 +274,7 @@
 					<td>37</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Whampoa Neighbourhood Police Post</td>
+					<td>Whampoa</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -337,7 +337,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">37</SimpleData>
-						<SimpleData name="BLDG">Whampoa Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Whampoa</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -371,7 +371,7 @@
 					<td>38</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ang Mo Kio North Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -434,7 +434,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">38</SimpleData>
-						<SimpleData name="BLDG">Ang Mo Kio North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Ang Mo Kio North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Ang Mo Kio Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -467,7 +467,7 @@
 					<td>39</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ang Mo Kio South Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -530,7 +530,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">39</SimpleData>
-						<SimpleData name="BLDG">Ang Mo Kio South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Ang Mo Kio South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -563,7 +563,7 @@
 					<td>40</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Chong Pang Neighbourhood Police Post</td>
+					<td>Chong Pang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -626,7 +626,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">40</SimpleData>
-						<SimpleData name="BLDG">Chong Pang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Chong Pang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -659,7 +659,7 @@
 					<td>41</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hougang Neighbourhood Police Centre</td>
+					<td>Hougang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -722,7 +722,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">41</SimpleData>
-						<SimpleData name="BLDG">Hougang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Hougang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -755,7 +755,7 @@
 					<td>42</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hougang Neighbourhood Police Post</td>
+					<td>Hougang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -818,7 +818,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">42</SimpleData>
-						<SimpleData name="BLDG">Hougang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hougang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -852,7 +852,7 @@
 					<td>43</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kebun Baru Neighbourhood Police Post</td>
+					<td>Kebun Baru</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -915,7 +915,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">43</SimpleData>
-						<SimpleData name="BLDG">Kebun Baru Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kebun Baru</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -948,7 +948,7 @@
 					<td>44</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Nee Soon South Neighbourhood Police Post</td>
+					<td>Nee Soon South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -1011,7 +1011,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">44</SimpleData>
-						<SimpleData name="BLDG">Nee Soon South Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Nee Soon South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1045,7 +1045,7 @@
 					<td>45</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Paya Lebar Neighbourhood Police Post</td>
+					<td>Paya Lebar</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -1108,7 +1108,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">45</SimpleData>
-						<SimpleData name="BLDG">Paya Lebar Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Paya Lebar</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1142,7 +1142,7 @@
 					<td>46</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Punggol Neighbourhood Police Centre (Temporary)</td>
+					<td>Punggol (Temporary)</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1205,7 +1205,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">46</SimpleData>
-						<SimpleData name="BLDG">Punggol Neighbourhood Police Centre (Temporary)</SimpleData>
+						<SimpleData name="BLDG">Punggol (Temporary)</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1238,7 +1238,7 @@
 					<td>47</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Sembawang Neighbourhood Police Centre</td>
+					<td>Sembawang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1301,7 +1301,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">47</SimpleData>
-						<SimpleData name="BLDG">Sembawang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Sembawang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1334,7 +1334,7 @@
 					<td>48</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Sengkang Neighbourhood Police Centre</td>
+					<td>Sengkang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1397,7 +1397,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">48</SimpleData>
-						<SimpleData name="BLDG">Sengkang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Sengkang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1431,7 +1431,7 @@
 					<td>49</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon Garden Neighbourhood Police Post</td>
+					<td>Serangoon Garden</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -1494,7 +1494,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">49</SimpleData>
-						<SimpleData name="BLDG">Serangoon Garden Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Serangoon Garden</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1527,7 +1527,7 @@
 					<td>50</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon Neighbourhood Police Centre</td>
+					<td>Serangoon</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1590,7 +1590,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">50</SimpleData>
-						<SimpleData name="BLDG">Serangoon Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Serangoon</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1624,7 +1624,7 @@
 					<td>51</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon North Neighbourhood Police Post</td>
+					<td>Serangoon North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -1687,7 +1687,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">51</SimpleData>
-						<SimpleData name="BLDG">Serangoon North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Serangoon North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1721,7 +1721,7 @@
 					<td>52</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Teck Ghee Neighbourhood Police Post</td>
+					<td>Teck Ghee</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -1784,7 +1784,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">52</SimpleData>
-						<SimpleData name="BLDG">Teck Ghee Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Teck Ghee</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1817,7 +1817,7 @@
 					<td>53</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Yishun  North Neighbourhood Police Centre</td>
+					<td>Yishun  North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1880,7 +1880,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">53</SimpleData>
-						<SimpleData name="BLDG">Yishun  North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Yishun  North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -1913,7 +1913,7 @@
 					<td>54</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Yishun South Neighbourhood Police Centre</td>
+					<td>Yishun South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -1976,7 +1976,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">54</SimpleData>
-						<SimpleData name="BLDG">Yishun South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Yishun South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -2009,7 +2009,7 @@
 					<td>55</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok Neighbourhood Police Post</td>
+					<td>Bedok</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2072,7 +2072,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">55</SimpleData>
-						<SimpleData name="BLDG">Bedok Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bedok</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2106,7 +2106,7 @@
 					<td>56</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok North Neighbourhood Police Centre</td>
+					<td>Bedok North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -2169,7 +2169,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">56</SimpleData>
-						<SimpleData name="BLDG">Bedok North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bedok North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Bedok Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2202,7 +2202,7 @@
 					<td>57</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok South Neighbourhood Police Centre</td>
+					<td>Bedok South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -2265,7 +2265,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">57</SimpleData>
-						<SimpleData name="BLDG">Bedok South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bedok South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2298,7 +2298,7 @@
 					<td>58</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Chai Chee Neighbourhood Police Post</td>
+					<td>Chai Chee</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2361,7 +2361,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">58</SimpleData>
-						<SimpleData name="BLDG">Chai Chee Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Chai Chee</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2395,7 +2395,7 @@
 					<td>59</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Changi Neighbourhood Police Centre</td>
+					<td>Changi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -2458,7 +2458,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">59</SimpleData>
-						<SimpleData name="BLDG">Changi Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Changi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2491,7 +2491,7 @@
 					<td>60</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Changkat Neighbourhood Police Post</td>
+					<td>Changkat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2554,7 +2554,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">60</SimpleData>
-						<SimpleData name="BLDG">Changkat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Changkat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2588,7 +2588,7 @@
 					<td>61</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Eunos Neighbourhood Police Post</td>
+					<td>Eunos</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2651,7 +2651,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">61</SimpleData>
-						<SimpleData name="BLDG">Eunos Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Eunos</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2685,7 +2685,7 @@
 					<td>62</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Geylang Neighbourhood Police Centre</td>
+					<td>Geylang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -2748,7 +2748,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">62</SimpleData>
-						<SimpleData name="BLDG">Geylang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Geylang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Public Security Transport Command</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2781,7 +2781,7 @@
 					<td>63</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Joo Chiat Neighbourhood Police Post</td>
+					<td>Joo Chiat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2844,7 +2844,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">63</SimpleData>
-						<SimpleData name="BLDG">Joo Chiat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Joo Chiat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2877,7 +2877,7 @@
 					<td>64</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kaki Bukit Neighbourhood Police Post</td>
+					<td>Kaki Bukit</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -2940,7 +2940,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">64</SimpleData>
-						<SimpleData name="BLDG">Kaki Bukit Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kaki Bukit</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -2974,7 +2974,7 @@
 					<td>65</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Kembangan Neighbourhood Police Post</td>
+					<td>Kampong Kembangan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3037,7 +3037,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">65</SimpleData>
-						<SimpleData name="BLDG">Kampong Kembangan Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Kembangan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3071,7 +3071,7 @@
 					<td>66</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Ubi Neighbourhood Police Post</td>
+					<td>Kampong Ubi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3134,7 +3134,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">66</SimpleData>
-						<SimpleData name="BLDG">Kampong Ubi Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Ubi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3168,7 +3168,7 @@
 					<td>67</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>MacPherson Neighbourhood Police Post</td>
+					<td>MacPherson</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3231,7 +3231,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">67</SimpleData>
-						<SimpleData name="BLDG">MacPherson Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">MacPherson</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3265,7 +3265,7 @@
 					<td>68</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marine Parade Neighbourhood Police Centre</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -3328,7 +3328,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">68</SimpleData>
-						<SimpleData name="BLDG">Marine Parade Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Marine Parade</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3361,7 +3361,7 @@
 					<td>69</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marine Parade Neighbourhood Police Post</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3424,7 +3424,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">69</SimpleData>
-						<SimpleData name="BLDG">Marine Parade Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Marine Parade</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3458,7 +3458,7 @@
 					<td>70</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Mountbatten Neighbourhood Police Post</td>
+					<td>Mountbatten</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3521,7 +3521,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">70</SimpleData>
-						<SimpleData name="BLDG">Mountbatten Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Mountbatten</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3555,7 +3555,7 @@
 					<td>71</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Pasir Ris Neighbourhood Police Centre</td>
+					<td>Pasir Ris</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -3618,7 +3618,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">71</SimpleData>
-						<SimpleData name="BLDG">Pasir Ris Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Pasir Ris</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3652,7 +3652,7 @@
 					<td>72</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Siglap Neighbourhood Police Post</td>
+					<td>Siglap</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3715,7 +3715,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">72</SimpleData>
-						<SimpleData name="BLDG">Siglap Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Siglap</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3748,7 +3748,7 @@
 					<td>73</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines East Neighbourhood Police Post</td>
+					<td>Tampines East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -3811,7 +3811,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">73</SimpleData>
-						<SimpleData name="BLDG">Tampines East Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tampines East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3845,7 +3845,7 @@
 					<td>74</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines Neighbourhood Police Centre</td>
+					<td>Tampines</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -3908,7 +3908,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">74</SimpleData>
-						<SimpleData name="BLDG">Tampines Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Tampines</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -3941,7 +3941,7 @@
 					<td>75</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines North Neighbourhood Police Post</td>
+					<td>Tampines North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4004,7 +4004,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">75</SimpleData>
-						<SimpleData name="BLDG">Tampines North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tampines North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -4038,7 +4038,7 @@
 					<td>76</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tanah Merah Neighbourhood Police Post</td>
+					<td>Tanah Merah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4101,7 +4101,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">76</SimpleData>
-						<SimpleData name="BLDG">Tanah Merah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tanah Merah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -4135,7 +4135,7 @@
 					<td>77</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Boon Lay Neighbourhood Police Post</td>
+					<td>Boon Lay</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4198,7 +4198,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">77</SimpleData>
-						<SimpleData name="BLDG">Boon Lay Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Boon Lay</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4232,7 +4232,7 @@
 					<td>78</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Batok Neighbourhood Police Centre</td>
+					<td>Bukit Batok</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -4295,7 +4295,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">78</SimpleData>
-						<SimpleData name="BLDG">Bukit Batok Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Batok</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4328,7 +4328,7 @@
 					<td>79</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Panjang Neighbourhood Police Centre</td>
+					<td>Bukit Panjang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -4391,7 +4391,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">79</SimpleData>
-						<SimpleData name="BLDG">Bukit Panjang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Panjang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4425,7 +4425,7 @@
 					<td>80</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Panjang North Neighbourhood Police Post</td>
+					<td>Bukit Panjang North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4488,7 +4488,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">80</SimpleData>
-						<SimpleData name="BLDG">Bukit Panjang North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bukit Panjang North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4522,7 +4522,7 @@
 					<td>81</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Choa Chu Kang Neighbourhood Police Centre</td>
+					<td>Choa Chu Kang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -4585,7 +4585,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">81</SimpleData>
-						<SimpleData name="BLDG">Choa Chu Kang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Choa Chu Kang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4619,7 +4619,7 @@
 					<td>82</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Choa Chu Kang Neighbourhood Police Post</td>
+					<td>Choa Chu Kang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4682,7 +4682,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">82</SimpleData>
-						<SimpleData name="BLDG">Choa Chu Kang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Choa Chu Kang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4716,7 +4716,7 @@
 					<td>83</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hong Kah North Neighbourhood Police Post</td>
+					<td>Hong Kah North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4779,7 +4779,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">83</SimpleData>
-						<SimpleData name="BLDG">Hong Kah North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hong Kah North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4813,7 +4813,7 @@
 					<td>84</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hong Kah South Neighbourhood Police Post</td>
+					<td>Hong Kah South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4876,7 +4876,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">84</SimpleData>
-						<SimpleData name="BLDG">Hong Kah South Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hong Kah South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -4910,7 +4910,7 @@
 					<td>85</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong Neighbourhood Police Post</td>
+					<td>Jurong</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -4973,7 +4973,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">85</SimpleData>
-						<SimpleData name="BLDG">Jurong Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Jurong</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -5007,7 +5007,7 @@
 					<td>86</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong West Neighbourhood Police Centre</td>
+					<td>Jurong West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -5070,7 +5070,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">86</SimpleData>
-						<SimpleData name="BLDG">Jurong West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Jurong West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -5103,7 +5103,7 @@
 					<td>87</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marsiling Neighbourhood Police Post</td>
+					<td>Marsiling</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -5166,7 +5166,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">87</SimpleData>
-						<SimpleData name="BLDG">Marsiling Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Marsiling</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -5198,7 +5198,7 @@
 					<td>88</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Nanyang Neighbourhood Police Centre</td>
+					<td>Nanyang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -5261,7 +5261,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">88</SimpleData>
-						<SimpleData name="BLDG">Nanyang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Nanyang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Jurong Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -5294,7 +5294,7 @@
 					<td>89</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Woodlands East Neighbourhood Police Centre</td>
+					<td>Woodlands East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -5357,7 +5357,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">89</SimpleData>
-						<SimpleData name="BLDG">Woodlands East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Woodlands East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -5390,7 +5390,7 @@
 					<td>90</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Woodlands West Neighbourhood Police Centre</td>
+					<td>Woodlands West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -5453,7 +5453,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">90</SimpleData>
-						<SimpleData name="BLDG">Woodlands West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Woodlands West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -6331,7 +6331,7 @@
 					<td>1</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Merah East Neighbourhood Police Centre</td>
+					<td>Bukit Merah East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -6394,7 +6394,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">1</SimpleData>
-						<SimpleData name="BLDG">Bukit Merah East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Merah East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Central Police Division HQ; CID; CAD; PLRD; PTD; VSC</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6425,7 +6425,7 @@
 					<td>2</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Cairnhill Neighbourhood Police Post</td>
+					<td>Cairnhill</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -6488,7 +6488,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">2</SimpleData>
-						<SimpleData name="BLDG">Cairnhill Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Cairnhill</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6521,7 +6521,7 @@
 					<td>3</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Glam Neighbourhood Police Post</td>
+					<td>Kampong Glam</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -6584,7 +6584,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">3</SimpleData>
-						<SimpleData name="BLDG">Kampong Glam Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Glam</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6617,7 +6617,7 @@
 					<td>4</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kolam Ayer Neighbourhood Police Post</td>
+					<td>Kolam Ayer</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -6680,7 +6680,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">4</SimpleData>
-						<SimpleData name="BLDG">Kolam Ayer Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kolam Ayer</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6714,7 +6714,7 @@
 					<td>5</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kreta Ayer Neighbourhood Police Post</td>
+					<td>Kreta Ayer</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -6777,7 +6777,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">5</SimpleData>
-						<SimpleData name="BLDG">Kreta Ayer Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kreta Ayer</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6810,7 +6810,7 @@
 					<td>6</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marina Bay Neighbourhood Police Centre</td>
+					<td>Marina Bay</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -6873,7 +6873,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">6</SimpleData>
-						<SimpleData name="BLDG">Marina Bay Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Marina Bay</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -6906,7 +6906,7 @@
 					<td>7</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Radin Mas Neighbourhood Police Post</td>
+					<td>Radin Mas</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -6969,7 +6969,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">7</SimpleData>
-						<SimpleData name="BLDG">Radin Mas Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Radin Mas</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -7003,7 +7003,7 @@
 					<td>8</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Rochor Neighbourhood Police Centre</td>
+					<td>Rochor</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -7066,7 +7066,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">8</SimpleData>
-						<SimpleData name="BLDG">Rochor Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Rochor</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -7099,7 +7099,7 @@
 					<td>9</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tanjong Pagar Neighbourhood Police Post</td>
+					<td>Tanjong Pagar</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7162,7 +7162,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">9</SimpleData>
-						<SimpleData name="BLDG">Tanjong Pagar Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tanjong Pagar</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -7196,7 +7196,7 @@
 					<td>10</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tiong Bahru Neighbourhood Police Post</td>
+					<td>Tiong Bahru</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7259,7 +7259,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">10</SimpleData>
-						<SimpleData name="BLDG">Tiong Bahru Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tiong Bahru</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -7293,7 +7293,7 @@
 					<td>11</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Alexandra Neighbourhood Police Post</td>
+					<td>Alexandra</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7356,7 +7356,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">11</SimpleData>
-						<SimpleData name="BLDG">Alexandra Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Alexandra</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7390,7 +7390,7 @@
 					<td>12</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ayer Rajah Neighbourhood Police Post</td>
+					<td>Ayer Rajah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7453,7 +7453,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">12</SimpleData>
-						<SimpleData name="BLDG">Ayer Rajah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Ayer Rajah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7487,7 +7487,7 @@
 					<td>13</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Merah West Neighbourhood Police Centre</td>
+					<td>Bukit Merah West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -7550,7 +7550,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">13</SimpleData>
-						<SimpleData name="BLDG">Bukit Merah West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Merah West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7584,7 +7584,7 @@
 					<td>14</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Timah Neighbourhood Police Post</td>
+					<td>Bukit Timah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7647,7 +7647,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">14</SimpleData>
-						<SimpleData name="BLDG">Bukit Timah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bukit Timah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7681,7 +7681,7 @@
 					<td>15</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Clementi Neighbourhood Police Centre</td>
+					<td>Clementi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -7744,7 +7744,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">15</SimpleData>
-						<SimpleData name="BLDG">Clementi Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Clementi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Clementi Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7777,7 +7777,7 @@
 					<td>16</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Clementi Neighbourhood Police Post</td>
+					<td>Clementi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7840,7 +7840,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">16</SimpleData>
-						<SimpleData name="BLDG">Clementi Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Clementi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7874,7 +7874,7 @@
 					<td>17</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Commonwealth Neighbourhood Police Post</td>
+					<td>Commonwealth</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -7937,7 +7937,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">17</SimpleData>
-						<SimpleData name="BLDG">Commonwealth Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Commonwealth</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -7971,7 +7971,7 @@
 					<td>18</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Dover Neighbourhood Police Post</td>
+					<td>Dover</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8034,7 +8034,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">18</SimpleData>
-						<SimpleData name="BLDG">Dover Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Dover</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8068,7 +8068,7 @@
 					<td>19</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong East Neighbourhood Police Centre</td>
+					<td>Jurong East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -8131,7 +8131,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">19</SimpleData>
-						<SimpleData name="BLDG">Jurong East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Jurong East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8164,7 +8164,7 @@
 					<td>20</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Pasir Panjang Neighbourhood Police Post</td>
+					<td>Pasir Panjang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8227,7 +8227,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">20</SimpleData>
-						<SimpleData name="BLDG">Pasir Panjang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Pasir Panjang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8260,7 +8260,7 @@
 					<td>21</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Queenstown Neighbourhood Police Centre</td>
+					<td>Queenstown</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -8323,7 +8323,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">21</SimpleData>
-						<SimpleData name="BLDG">Queenstown Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Queenstown</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8357,7 +8357,7 @@
 					<td>22</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Telok Blangah Neighbourhood Police Post</td>
+					<td>Telok Blangah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8420,7 +8420,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">22</SimpleData>
-						<SimpleData name="BLDG">Telok Blangah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Telok Blangah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8454,7 +8454,7 @@
 					<td>23</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>West Coast Neighbourhood Police Post</td>
+					<td>West Coast</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8517,7 +8517,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">23</SimpleData>
-						<SimpleData name="BLDG">West Coast Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">West Coast</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -8551,7 +8551,7 @@
 					<td>24</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Aljunied Neighbourhood Police Post</td>
+					<td>Aljunied</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8614,7 +8614,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">24</SimpleData>
-						<SimpleData name="BLDG">Aljunied Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Aljunied</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -8648,7 +8648,7 @@
 					<td>25</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bishan Neighbourhood Police Centre</td>
+					<td>Bishan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -8711,7 +8711,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">25</SimpleData>
-						<SimpleData name="BLDG">Bishan Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bishan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -8744,7 +8744,7 @@
 					<td>26</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bishan Neighbourhood Police Post</td>
+					<td>Bishan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8807,7 +8807,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">26</SimpleData>
-						<SimpleData name="BLDG">Bishan Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bishan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -8841,7 +8841,7 @@
 					<td>27</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Boon Teck Neighbourhood Police Post</td>
+					<td>Boon Teck</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -8904,7 +8904,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">27</SimpleData>
-						<SimpleData name="BLDG">Boon Teck Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Boon Teck</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -8938,7 +8938,7 @@
 					<td>28</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Timah Neighbourhood Police Centre</td>
+					<td>Bukit Timah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -9001,7 +9001,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">28</SimpleData>
-						<SimpleData name="BLDG">Bukit Timah Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Timah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9034,7 +9034,7 @@
 					<td>29</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Java Neighbourhood Police Centre</td>
+					<td>Kampong Java</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -9097,7 +9097,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">29</SimpleData>
-						<SimpleData name="BLDG">Kampong Java Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Kampong Java</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9130,7 +9130,7 @@
 					<td>30</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kim Keat Neighbourhood Police Post</td>
+					<td>Kim Keat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9193,7 +9193,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">30</SimpleData>
-						<SimpleData name="BLDG">Kim Keat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kim Keat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9227,7 +9227,7 @@
 					<td>31</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Moulmein Neighbourhood Police Post</td>
+					<td>Moulmein</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9290,7 +9290,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">31</SimpleData>
-						<SimpleData name="BLDG">Moulmein Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Moulmein</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9324,7 +9324,7 @@
 					<td>32</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Orchard Neighbourhood Police Centre</td>
+					<td>Orchard</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -9387,7 +9387,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">32</SimpleData>
-						<SimpleData name="BLDG">Orchard Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Orchard</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9420,7 +9420,7 @@
 					<td>33</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Potong Pasir Neighbourhood Police Post</td>
+					<td>Potong Pasir</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9483,7 +9483,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">33</SimpleData>
-						<SimpleData name="BLDG">Potong Pasir Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Potong Pasir</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9517,7 +9517,7 @@
 					<td>34</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>River Valley Neighbourhood Police Post</td>
+					<td>River Valley</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9580,7 +9580,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">34</SimpleData>
-						<SimpleData name="BLDG">River Valley Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">River Valley</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9614,7 +9614,7 @@
 					<td>35</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Thomson Neighbourhood Police Post</td>
+					<td>Thomson</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9677,7 +9677,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">35</SimpleData>
-						<SimpleData name="BLDG">Thomson Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Thomson</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9711,7 +9711,7 @@
 					<td>36</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Toa Payoh Neighbourhood Police Centre</td>
+					<td>Toa Payoh</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -9774,7 +9774,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">36</SimpleData>
-						<SimpleData name="BLDG">Toa Payoh Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Toa Payoh</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9808,7 +9808,7 @@
 					<td>37</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Whampoa Neighbourhood Police Post</td>
+					<td>Whampoa</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -9871,7 +9871,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">37</SimpleData>
-						<SimpleData name="BLDG">Whampoa Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Whampoa</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -9905,7 +9905,7 @@
 					<td>38</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ang Mo Kio North Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -9968,7 +9968,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">38</SimpleData>
-						<SimpleData name="BLDG">Ang Mo Kio North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Ang Mo Kio North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Ang Mo Kio Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10001,7 +10001,7 @@
 					<td>39</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ang Mo Kio South Neighbourhood Police Centre</td>
+					<td>Ang Mo Kio South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -10064,7 +10064,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">39</SimpleData>
-						<SimpleData name="BLDG">Ang Mo Kio South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Ang Mo Kio South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10097,7 +10097,7 @@
 					<td>40</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Chong Pang Neighbourhood Police Post</td>
+					<td>Chong Pang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -10160,7 +10160,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">40</SimpleData>
-						<SimpleData name="BLDG">Chong Pang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Chong Pang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10193,7 +10193,7 @@
 					<td>41</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hougang Neighbourhood Police Centre</td>
+					<td>Hougang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -10256,7 +10256,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">41</SimpleData>
-						<SimpleData name="BLDG">Hougang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Hougang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10289,7 +10289,7 @@
 					<td>42</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hougang Neighbourhood Police Post</td>
+					<td>Hougang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -10352,7 +10352,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">42</SimpleData>
-						<SimpleData name="BLDG">Hougang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hougang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10386,7 +10386,7 @@
 					<td>43</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kebun Baru Neighbourhood Police Post</td>
+					<td>Kebun Baru</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -10449,7 +10449,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">43</SimpleData>
-						<SimpleData name="BLDG">Kebun Baru Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kebun Baru</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10482,7 +10482,7 @@
 					<td>44</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Nee Soon South Neighbourhood Police Post</td>
+					<td>Nee Soon South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -10545,7 +10545,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">44</SimpleData>
-						<SimpleData name="BLDG">Nee Soon South Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Nee Soon South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10579,7 +10579,7 @@
 					<td>45</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Paya Lebar Neighbourhood Police Post</td>
+					<td>Paya Lebar</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -10642,7 +10642,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">45</SimpleData>
-						<SimpleData name="BLDG">Paya Lebar Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Paya Lebar</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10676,7 +10676,7 @@
 					<td>46</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Punggol Neighbourhood Police Centre (Temporary)</td>
+					<td>Punggol (Temporary)</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -10739,7 +10739,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">46</SimpleData>
-						<SimpleData name="BLDG">Punggol Neighbourhood Police Centre (Temporary)</SimpleData>
+						<SimpleData name="BLDG">Punggol (Temporary)</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10772,7 +10772,7 @@
 					<td>47</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Sembawang Neighbourhood Police Centre</td>
+					<td>Sembawang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -10835,7 +10835,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">47</SimpleData>
-						<SimpleData name="BLDG">Sembawang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Sembawang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10868,7 +10868,7 @@
 					<td>48</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Sengkang Neighbourhood Police Centre</td>
+					<td>Sengkang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -10931,7 +10931,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">48</SimpleData>
-						<SimpleData name="BLDG">Sengkang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Sengkang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -10965,7 +10965,7 @@
 					<td>49</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon Garden Neighbourhood Police Post</td>
+					<td>Serangoon Garden</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -11028,7 +11028,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">49</SimpleData>
-						<SimpleData name="BLDG">Serangoon Garden Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Serangoon Garden</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11061,7 +11061,7 @@
 					<td>50</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon Neighbourhood Police Centre</td>
+					<td>Serangoon</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11124,7 +11124,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">50</SimpleData>
-						<SimpleData name="BLDG">Serangoon Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Serangoon</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11158,7 +11158,7 @@
 					<td>51</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Serangoon North Neighbourhood Police Post</td>
+					<td>Serangoon North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -11221,7 +11221,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">51</SimpleData>
-						<SimpleData name="BLDG">Serangoon North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Serangoon North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11255,7 +11255,7 @@
 					<td>52</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Teck Ghee Neighbourhood Police Post</td>
+					<td>Teck Ghee</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -11318,7 +11318,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">52</SimpleData>
-						<SimpleData name="BLDG">Teck Ghee Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Teck Ghee</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11351,7 +11351,7 @@
 					<td>53</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Yishun  North Neighbourhood Police Centre</td>
+					<td>Yishun  North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11414,7 +11414,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">53</SimpleData>
-						<SimpleData name="BLDG">Yishun  North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Yishun  North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11447,7 +11447,7 @@
 					<td>54</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Yishun South Neighbourhood Police Centre</td>
+					<td>Yishun South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11510,7 +11510,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">54</SimpleData>
-						<SimpleData name="BLDG">Yishun South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Yishun South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">FOXTROT</SimpleData>
@@ -11543,7 +11543,7 @@
 					<td>55</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok Neighbourhood Police Post</td>
+					<td>Bedok</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -11606,7 +11606,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">55</SimpleData>
-						<SimpleData name="BLDG">Bedok Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bedok</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -11640,7 +11640,7 @@
 					<td>56</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok North Neighbourhood Police Centre</td>
+					<td>Bedok North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11703,7 +11703,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">56</SimpleData>
-						<SimpleData name="BLDG">Bedok North Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bedok North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Bedok Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -11736,7 +11736,7 @@
 					<td>57</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bedok South Neighbourhood Police Centre</td>
+					<td>Bedok South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11799,7 +11799,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">57</SimpleData>
-						<SimpleData name="BLDG">Bedok South Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bedok South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -11832,7 +11832,7 @@
 					<td>58</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Chai Chee Neighbourhood Police Post</td>
+					<td>Chai Chee</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -11895,7 +11895,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">58</SimpleData>
-						<SimpleData name="BLDG">Chai Chee Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Chai Chee</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -11929,7 +11929,7 @@
 					<td>59</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Changi Neighbourhood Police Centre</td>
+					<td>Changi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -11992,7 +11992,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">59</SimpleData>
-						<SimpleData name="BLDG">Changi Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Changi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12025,7 +12025,7 @@
 					<td>60</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Changkat Neighbourhood Police Post</td>
+					<td>Changkat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12088,7 +12088,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">60</SimpleData>
-						<SimpleData name="BLDG">Changkat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Changkat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12122,7 +12122,7 @@
 					<td>61</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Eunos Neighbourhood Police Post</td>
+					<td>Eunos</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12185,7 +12185,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">61</SimpleData>
-						<SimpleData name="BLDG">Eunos Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Eunos</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12219,7 +12219,7 @@
 					<td>62</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Geylang Neighbourhood Police Centre</td>
+					<td>Geylang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -12282,7 +12282,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">62</SimpleData>
-						<SimpleData name="BLDG">Geylang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Geylang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Public Security Transport Command</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12315,7 +12315,7 @@
 					<td>63</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Joo Chiat Neighbourhood Police Post</td>
+					<td>Joo Chiat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12378,7 +12378,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">63</SimpleData>
-						<SimpleData name="BLDG">Joo Chiat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Joo Chiat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12411,7 +12411,7 @@
 					<td>64</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kaki Bukit Neighbourhood Police Post</td>
+					<td>Kaki Bukit</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12474,7 +12474,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">64</SimpleData>
-						<SimpleData name="BLDG">Kaki Bukit Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kaki Bukit</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12508,7 +12508,7 @@
 					<td>65</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Kembangan Neighbourhood Police Post</td>
+					<td>Kampong Kembangan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12571,7 +12571,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">65</SimpleData>
-						<SimpleData name="BLDG">Kampong Kembangan Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Kembangan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12605,7 +12605,7 @@
 					<td>66</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Ubi Neighbourhood Police Post</td>
+					<td>Kampong Ubi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12668,7 +12668,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">66</SimpleData>
-						<SimpleData name="BLDG">Kampong Ubi Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Ubi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12702,7 +12702,7 @@
 					<td>67</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>MacPherson Neighbourhood Police Post</td>
+					<td>MacPherson</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12765,7 +12765,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">67</SimpleData>
-						<SimpleData name="BLDG">MacPherson Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">MacPherson</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12799,7 +12799,7 @@
 					<td>68</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marine Parade Neighbourhood Police Centre</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -12862,7 +12862,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">68</SimpleData>
-						<SimpleData name="BLDG">Marine Parade Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Marine Parade</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12895,7 +12895,7 @@
 					<td>69</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marine Parade Neighbourhood Police Post</td>
+					<td>Marine Parade</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -12958,7 +12958,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">69</SimpleData>
-						<SimpleData name="BLDG">Marine Parade Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Marine Parade</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -12992,7 +12992,7 @@
 					<td>70</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Mountbatten Neighbourhood Police Post</td>
+					<td>Mountbatten</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13055,7 +13055,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">70</SimpleData>
-						<SimpleData name="BLDG">Mountbatten Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Mountbatten</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13089,7 +13089,7 @@
 					<td>71</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Pasir Ris Neighbourhood Police Centre</td>
+					<td>Pasir Ris</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -13152,7 +13152,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">71</SimpleData>
-						<SimpleData name="BLDG">Pasir Ris Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Pasir Ris</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13186,7 +13186,7 @@
 					<td>72</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Siglap Neighbourhood Police Post</td>
+					<td>Siglap</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13249,7 +13249,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">72</SimpleData>
-						<SimpleData name="BLDG">Siglap Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Siglap</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13282,7 +13282,7 @@
 					<td>73</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines East Neighbourhood Police Post</td>
+					<td>Tampines East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13345,7 +13345,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">73</SimpleData>
-						<SimpleData name="BLDG">Tampines East Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tampines East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13379,7 +13379,7 @@
 					<td>74</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines Neighbourhood Police Centre</td>
+					<td>Tampines</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -13442,7 +13442,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">74</SimpleData>
-						<SimpleData name="BLDG">Tampines Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Tampines</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13475,7 +13475,7 @@
 					<td>75</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tampines North Neighbourhood Police Post</td>
+					<td>Tampines North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13538,7 +13538,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">75</SimpleData>
-						<SimpleData name="BLDG">Tampines North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tampines North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13572,7 +13572,7 @@
 					<td>76</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tanah Merah Neighbourhood Police Post</td>
+					<td>Tanah Merah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13635,7 +13635,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">76</SimpleData>
-						<SimpleData name="BLDG">Tanah Merah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tanah Merah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">GOLF</SimpleData>
@@ -13669,7 +13669,7 @@
 					<td>77</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Boon Lay Neighbourhood Police Post</td>
+					<td>Boon Lay</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -13732,7 +13732,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">77</SimpleData>
-						<SimpleData name="BLDG">Boon Lay Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Boon Lay</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -13766,7 +13766,7 @@
 					<td>78</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Batok Neighbourhood Police Centre</td>
+					<td>Bukit Batok</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -13829,7 +13829,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">78</SimpleData>
-						<SimpleData name="BLDG">Bukit Batok Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Batok</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -13862,7 +13862,7 @@
 					<td>79</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Panjang Neighbourhood Police Centre</td>
+					<td>Bukit Panjang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -13925,7 +13925,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">79</SimpleData>
-						<SimpleData name="BLDG">Bukit Panjang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Panjang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -13959,7 +13959,7 @@
 					<td>80</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Panjang North Neighbourhood Police Post</td>
+					<td>Bukit Panjang North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14022,7 +14022,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">80</SimpleData>
-						<SimpleData name="BLDG">Bukit Panjang North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bukit Panjang North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14056,7 +14056,7 @@
 					<td>81</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Choa Chu Kang Neighbourhood Police Centre</td>
+					<td>Choa Chu Kang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -14119,7 +14119,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">81</SimpleData>
-						<SimpleData name="BLDG">Choa Chu Kang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Choa Chu Kang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14153,7 +14153,7 @@
 					<td>82</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Choa Chu Kang Neighbourhood Police Post</td>
+					<td>Choa Chu Kang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14216,7 +14216,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">82</SimpleData>
-						<SimpleData name="BLDG">Choa Chu Kang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Choa Chu Kang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14250,7 +14250,7 @@
 					<td>83</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hong Kah North Neighbourhood Police Post</td>
+					<td>Hong Kah North</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14313,7 +14313,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">83</SimpleData>
-						<SimpleData name="BLDG">Hong Kah North Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hong Kah North</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14347,7 +14347,7 @@
 					<td>84</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Hong Kah South Neighbourhood Police Post</td>
+					<td>Hong Kah South</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14410,7 +14410,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">84</SimpleData>
-						<SimpleData name="BLDG">Hong Kah South Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Hong Kah South</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14444,7 +14444,7 @@
 					<td>85</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong Neighbourhood Police Post</td>
+					<td>Jurong</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14507,7 +14507,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">85</SimpleData>
-						<SimpleData name="BLDG">Jurong Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Jurong</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14541,7 +14541,7 @@
 					<td>86</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong West Neighbourhood Police Centre</td>
+					<td>Jurong West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -14604,7 +14604,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">86</SimpleData>
-						<SimpleData name="BLDG">Jurong West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Jurong West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14637,7 +14637,7 @@
 					<td>87</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marsiling Neighbourhood Police Post</td>
+					<td>Marsiling</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -14700,7 +14700,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">87</SimpleData>
-						<SimpleData name="BLDG">Marsiling Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Marsiling</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14732,7 +14732,7 @@
 					<td>88</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Nanyang Neighbourhood Police Centre</td>
+					<td>Nanyang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -14795,7 +14795,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">88</SimpleData>
-						<SimpleData name="BLDG">Nanyang Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Nanyang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Jurong Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14828,7 +14828,7 @@
 					<td>89</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Woodlands East Neighbourhood Police Centre</td>
+					<td>Woodlands East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -14891,7 +14891,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">89</SimpleData>
-						<SimpleData name="BLDG">Woodlands East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Woodlands East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -14924,7 +14924,7 @@
 					<td>90</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Woodlands West Neighbourhood Police Centre</td>
+					<td>Woodlands West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -14987,7 +14987,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">90</SimpleData>
-						<SimpleData name="BLDG">Woodlands West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Woodlands West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">JULIET</SimpleData>
@@ -15865,7 +15865,7 @@
 					<td>1</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Merah East Neighbourhood Police Centre</td>
+					<td>Bukit Merah East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -15928,7 +15928,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">1</SimpleData>
-						<SimpleData name="BLDG">Bukit Merah East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Merah East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Central Police Division HQ; CID; CAD; PLRD; PTD; VSC</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -15959,7 +15959,7 @@
 					<td>2</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Cairnhill Neighbourhood Police Post</td>
+					<td>Cairnhill</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16022,7 +16022,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">2</SimpleData>
-						<SimpleData name="BLDG">Cairnhill Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Cairnhill</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16055,7 +16055,7 @@
 					<td>3</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Glam Neighbourhood Police Post</td>
+					<td>Kampong Glam</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16118,7 +16118,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">3</SimpleData>
-						<SimpleData name="BLDG">Kampong Glam Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kampong Glam</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16151,7 +16151,7 @@
 					<td>4</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kolam Ayer Neighbourhood Police Post</td>
+					<td>Kolam Ayer</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16214,7 +16214,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">4</SimpleData>
-						<SimpleData name="BLDG">Kolam Ayer Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kolam Ayer</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16248,7 +16248,7 @@
 					<td>5</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kreta Ayer Neighbourhood Police Post</td>
+					<td>Kreta Ayer</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16311,7 +16311,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">5</SimpleData>
-						<SimpleData name="BLDG">Kreta Ayer Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kreta Ayer</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16344,7 +16344,7 @@
 					<td>6</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Marina Bay Neighbourhood Police Centre</td>
+					<td>Marina Bay</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -16407,7 +16407,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">6</SimpleData>
-						<SimpleData name="BLDG">Marina Bay Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Marina Bay</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16440,7 +16440,7 @@
 					<td>7</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Radin Mas Neighbourhood Police Post</td>
+					<td>Radin Mas</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16503,7 +16503,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">7</SimpleData>
-						<SimpleData name="BLDG">Radin Mas Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Radin Mas</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16537,7 +16537,7 @@
 					<td>8</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Rochor Neighbourhood Police Centre</td>
+					<td>Rochor</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -16600,7 +16600,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">8</SimpleData>
-						<SimpleData name="BLDG">Rochor Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Rochor</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16633,7 +16633,7 @@
 					<td>9</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tanjong Pagar Neighbourhood Police Post</td>
+					<td>Tanjong Pagar</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16696,7 +16696,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">9</SimpleData>
-						<SimpleData name="BLDG">Tanjong Pagar Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tanjong Pagar</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16730,7 +16730,7 @@
 					<td>10</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Tiong Bahru Neighbourhood Police Post</td>
+					<td>Tiong Bahru</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16793,7 +16793,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">10</SimpleData>
-						<SimpleData name="BLDG">Tiong Bahru Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Tiong Bahru</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ALPHA</SimpleData>
@@ -16827,7 +16827,7 @@
 					<td>11</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Alexandra Neighbourhood Police Post</td>
+					<td>Alexandra</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16890,7 +16890,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">11</SimpleData>
-						<SimpleData name="BLDG">Alexandra Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Alexandra</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -16924,7 +16924,7 @@
 					<td>12</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Ayer Rajah Neighbourhood Police Post</td>
+					<td>Ayer Rajah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -16987,7 +16987,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">12</SimpleData>
-						<SimpleData name="BLDG">Ayer Rajah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Ayer Rajah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17021,7 +17021,7 @@
 					<td>13</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Merah West Neighbourhood Police Centre</td>
+					<td>Bukit Merah West</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -17084,7 +17084,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">13</SimpleData>
-						<SimpleData name="BLDG">Bukit Merah West Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Merah West</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17118,7 +17118,7 @@
 					<td>14</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Timah Neighbourhood Police Post</td>
+					<td>Bukit Timah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17181,7 +17181,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">14</SimpleData>
-						<SimpleData name="BLDG">Bukit Timah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bukit Timah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17215,7 +17215,7 @@
 					<td>15</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Clementi Neighbourhood Police Centre</td>
+					<td>Clementi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -17278,7 +17278,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 					<SimpleData name="NO">15</SimpleData>
-					<SimpleData name="BLDG">Clementi Neighbourhood Police Centre</SimpleData>
+					<SimpleData name="BLDG">Clementi</SimpleData>
 					<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 					<SimpleData name="COUNIT">Clementi Police Division HQ</SimpleData>
 					<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17311,7 +17311,7 @@
 					<td>16</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Clementi Neighbourhood Police Post</td>
+					<td>Clementi</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17374,7 +17374,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">16</SimpleData>
-						<SimpleData name="BLDG">Clementi Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Clementi</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17408,7 +17408,7 @@
 					<td>17</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Commonwealth Neighbourhood Police Post</td>
+					<td>Commonwealth</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17471,7 +17471,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">17</SimpleData>
-						<SimpleData name="BLDG">Commonwealth Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Commonwealth</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17505,7 +17505,7 @@
 					<td>18</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Dover Neighbourhood Police Post</td>
+					<td>Dover</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17568,7 +17568,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">18</SimpleData>
-						<SimpleData name="BLDG">Dover Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Dover</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17602,7 +17602,7 @@
 					<td>19</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Jurong East Neighbourhood Police Centre</td>
+					<td>Jurong East</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -17665,7 +17665,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">19</SimpleData>
-						<SimpleData name="BLDG">Jurong East Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Jurong East</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17698,7 +17698,7 @@
 					<td>20</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Pasir Panjang Neighbourhood Police Post</td>
+					<td>Pasir Panjang</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17761,7 +17761,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">20</SimpleData>
-						<SimpleData name="BLDG">Pasir Panjang Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Pasir Panjang</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17794,7 +17794,7 @@
 					<td>21</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Queenstown Neighbourhood Police Centre</td>
+					<td>Queenstown</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -17857,7 +17857,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">21</SimpleData>
-						<SimpleData name="BLDG">Queenstown Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Queenstown</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17891,7 +17891,7 @@
 					<td>22</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Telok Blangah Neighbourhood Police Post</td>
+					<td>Telok Blangah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -17954,7 +17954,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">22</SimpleData>
-						<SimpleData name="BLDG">Telok Blangah Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Telok Blangah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -17988,7 +17988,7 @@
 					<td>23</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>West Coast Neighbourhood Police Post</td>
+					<td>West Coast</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18051,7 +18051,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">23</SimpleData>
-						<SimpleData name="BLDG">West Coast Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">West Coast</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">DELTA</SimpleData>
@@ -18085,7 +18085,7 @@
 					<td>24</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Aljunied Neighbourhood Police Post</td>
+					<td>Aljunied</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18148,7 +18148,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">24</SimpleData>
-						<SimpleData name="BLDG">Aljunied Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Aljunied</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18182,7 +18182,7 @@
 					<td>25</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bishan Neighbourhood Police Centre</td>
+					<td>Bishan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -18245,7 +18245,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">25</SimpleData>
-						<SimpleData name="BLDG">Bishan Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bishan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18278,7 +18278,7 @@
 					<td>26</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bishan Neighbourhood Police Post</td>
+					<td>Bishan</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18341,7 +18341,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">26</SimpleData>
-						<SimpleData name="BLDG">Bishan Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Bishan</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18375,7 +18375,7 @@
 					<td>27</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Boon Teck Neighbourhood Police Post</td>
+					<td>Boon Teck</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18438,7 +18438,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">27</SimpleData>
-						<SimpleData name="BLDG">Boon Teck Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Boon Teck</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18472,7 +18472,7 @@
 					<td>28</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Bukit Timah Neighbourhood Police Centre</td>
+					<td>Bukit Timah</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -18535,7 +18535,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">28</SimpleData>
-						<SimpleData name="BLDG">Bukit Timah Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Bukit Timah</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18568,7 +18568,7 @@
 					<td>29</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kampong Java Neighbourhood Police Centre</td>
+					<td>Kampong Java</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -18631,7 +18631,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">29</SimpleData>
-						<SimpleData name="BLDG">Kampong Java Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Kampong Java</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Tanglin Police Division HQ</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18664,7 +18664,7 @@
 					<td>30</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Kim Keat Neighbourhood Police Post</td>
+					<td>Kim Keat</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18727,7 +18727,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">30</SimpleData>
-						<SimpleData name="BLDG">Kim Keat Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Kim Keat</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18761,7 +18761,7 @@
 					<td>31</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Moulmein Neighbourhood Police Post</td>
+					<td>Moulmein</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -18824,7 +18824,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">31</SimpleData>
-						<SimpleData name="BLDG">Moulmein Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Moulmein</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18858,7 +18858,7 @@
 					<td>32</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Orchard Neighbourhood Police Centre</td>
+					<td>Orchard</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Centre</td>
@@ -18921,7 +18921,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">32</SimpleData>
-						<SimpleData name="BLDG">Orchard Neighbourhood Police Centre</SimpleData>
+						<SimpleData name="BLDG">Orchard</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -18954,7 +18954,7 @@
 					<td>33</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>Potong Pasir Neighbourhood Police Post</td>
+					<td>Potong Pasir</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -19017,7 +19017,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">33</SimpleData>
-						<SimpleData name="BLDG">Potong Pasir Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">Potong Pasir</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>
@@ -19051,7 +19051,7 @@
 					<td>34</td>
 					</tr><tr bgcolor="">
 					<th>BLDG</th>
-					<td>River Valley Neighbourhood Police Post</td>
+					<td>River Valley</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
 					<td>Neighbourhood Police Post</td>
@@ -19114,7 +19114,7 @@
 				<ExtendedData>
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS_2018">
 						<SimpleData name="NO">34</SimpleData>
-						<SimpleData name="BLDG">River Valley Neighbourhood Police Post</SimpleData>
+						<SimpleData name="BLDG">River Valley</SimpleData>
 						<SimpleData name="TYPE">Neighbourhood Police Post</SimpleData>
 						<SimpleData name="COUNIT">Not applicable</SimpleData>
 						<SimpleData name="DIVCODE">ECHO</SimpleData>

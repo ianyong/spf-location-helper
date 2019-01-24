@@ -56,17 +56,18 @@ import com.mahc.custombottomsheetbehavior.MergedAppBarLayoutBehavior;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Map;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
-    // Boundaries KML Tags
+    // Boundaries KML tags
     private final static String NPC_DIV_CODE = "DIV";
     private final static String NPC_NAME = "NPC_NAME";
     private final static String NPC_DIV_NAME = "DIVISION";
     private final static String NPC_INC_CRC = "INC_CRC";
     private final static String NPC_FMEL_UPD_D = "FMEL_UPD_D";
 
-    // Establishments KML Tags
+    // Establishments KML tags
     private final static String EST_NO = "NO";
     private final static String EST_NAME = "BLDG";
     private final static String EST_TYPE = "TYPE";
@@ -88,6 +89,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final static String EST_INC_CRC = "INC_CRC";
     private final static String EST_FMEL_UPD_D = "FMEL_UPD_D";
 
+    // Police station type
+    private final static String TYPE_NPC = "Neighbourhood Police Centre";
+    private final static String TYPE_NPP = "Neighbourhood Police Post";
+    private final static String TYPE_OTHER = "Other";
+
     private final static LatLng SINGAPORE_CENTER = new LatLng(1.352083, 103.819836); // Center of Singapore
     private final static LatLngBounds SINGAPORE_BOUNDS = new LatLngBounds(
             new LatLng(1.1496, 103.594), new LatLng(1.4784001, 104.0945001)
@@ -102,7 +108,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
     private View barrier;
-    private TextView bottomSheetText;
+    private TextView bottomSheetHeader, bottomSheetAddress;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -118,10 +124,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-        bottomSheetText = findViewById(R.id.kml_clicked);
         resultReceiver = new AddressResultReceiver(new Handler());
         menu = getApplicationContext().getResources().getDrawable(R.drawable.baseline_menu_black_24);
         delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
+
+        // Initialise bottom sheet dynamic elements.
+        bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
+        bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
 
         // Set up navigation drawer.
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -323,19 +332,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 @Override
                 public void onFeatureClick(Feature feature) {
                     if(feature != null) {
-                        showBottomSheet(npcStringBuilder(feature));
+                        updateBottomSheet(feature.getProperty("name"));
                     }
                 }
             });
         } catch(Exception e) {
             e.printStackTrace();
         }
-    }
-
-    private String npcStringBuilder(Feature feature) {
-        String name = npcBoundaries.getKmlPlacemark(feature.getProperty("name")).getProperty(NPC_NAME);
-        mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
-        return name;
     }
 
     private void startIntentService() {
@@ -394,14 +397,45 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
     }
 
-    private void showBottomSheet(String s) {
-        // Set text before showing bottom sheet as bottom sheet height is based off content.
-        bottomSheetText.setText(s);
+    // Updates bottom sheet dynamic information.
+    private void updateBottomSheet(String kmlId) {
+        KmlPlacemarkProperties placemark = null;
+        // Find the relevant entry in the Establishments KML file.
+        for(Map.Entry<String, KmlPlacemarkProperties> entry : spfEstablishments.getKmlPlacemarks().entrySet()) {
+            if(entry.getValue().hasProperty(EST_NAME) &&
+                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(kmlId).getProperty(NPC_NAME)) &&
+                    entry.getValue().getProperty(EST_TYPE).equals(TYPE_NPC)) {
+                placemark = entry.getValue();
+                break;
+            }
+        }
+        String name = placemark.getProperty(EST_NAME);
+        bottomSheetHeader.setText(name);
+        mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
+        bottomSheetAddress.setText(constructAddress(placemark));
         showBottomSheet();
     }
 
     private void hideBottomSheet() {
         bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN);
+    }
+
+    private String constructAddress(KmlPlacemarkProperties placemark) {
+        String address = placemark.getProperty(EST_BLK_NO) + " "
+                + placemark.getProperty(EST_ST_NAME);
+        if(placemark.hasProperty(EST_FLOOR_NO) && !placemark.getProperty(EST_FLOOR_NO).equals("0")) {
+            address += " #" + padLeadingZeros(placemark.getProperty(EST_FLOOR_NO), 2) + "-"
+                    + padLeadingZeros(placemark.getProperty(EST_UNIT_NO), 2);
+        }
+        address += ", Singapore " + placemark.getProperty(EST_POSTAL_CODE);
+        return address;
+    }
+
+    private String padLeadingZeros(String s, int length) {
+        if(s.length() >= length) {
+            return s;
+        }
+        return String.format("%0" + (length - s.length()) + "d%s", 0, s);
     }
 
     // Finds the Placemark which contains the point specified.
@@ -410,7 +444,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             for(KmlContainer nestedContainer : container.getContainers()) {
                 for (KmlPlacemark placemark : nestedContainer.getPlacemarks()) {
                     if (PolyUtil.containsLocation(point, ((KmlPolygon) placemark.getGeometry()).getOuterBoundaryCoordinates(), true)) {
-                        showBottomSheet(npcStringBuilder(placemark));
+                        updateBottomSheet(placemark.getProperty("name"));
                         return;
                     }
                 }

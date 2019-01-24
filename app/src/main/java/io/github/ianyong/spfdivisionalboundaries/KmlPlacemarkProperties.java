@@ -2,12 +2,12 @@ package io.github.ianyong.spfdivisionalboundaries;
 
 import java.util.HashMap;
 
-public class KmlPlacemark {
+public class KmlPlacemarkProperties {
 
     private String name;
     private HashMap<String, String> properties;
 
-    public KmlPlacemark(String name) {
+    public KmlPlacemarkProperties(String name) {
         this.name = name;
         properties = new HashMap<>();
     }

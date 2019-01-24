@@ -51,4 +51,23 @@
         <item name="android:layout_marginTop">@dimen/bottom_sheet_button_text_margin</item>
     </style>
 
+    <style name="BottomSheetInfoLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BottomSheetInfoIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:paddingRight">@dimen/bottom_sheet_info_text_margin</item>
+    </style>
+
+    <style name="BottomSheetInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

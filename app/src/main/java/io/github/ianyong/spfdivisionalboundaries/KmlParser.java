@@ -17,7 +17,7 @@ public class KmlParser {
     private final static String SIMPLE_DATA = "SimpleData";
 
     private XmlPullParser xpp;
-    private HashMap<String, KmlPlacemark> placemarks;
+    private HashMap<String, KmlPlacemarkProperties> placemarks;
 
     public KmlParser(InputStream inputStream) throws XmlPullParserException {
         placemarks = new HashMap<>();
@@ -34,7 +34,7 @@ public class KmlParser {
                 // Process placemark data.
                 if (xpp.getName().equals(PLACEMARK)) {
                     String placemarkName = xpp.getAttributeValue(null, "id");
-                    KmlPlacemark placemark = new KmlPlacemark(placemarkName);
+                    KmlPlacemarkProperties placemark = new KmlPlacemarkProperties(placemarkName);
                     eventType = xpp.next(); // Advance to next parsing event for skip() function to work properly.
                     while (!(eventType == XmlPullParser.END_TAG && xpp.getName().equals(PLACEMARK))) {
                         if (eventType == XmlPullParser.START_TAG) {
@@ -81,8 +81,12 @@ public class KmlParser {
         }
     }
 
-    public KmlPlacemark getKmlPlacemark(String id) {
+    public KmlPlacemarkProperties getKmlPlacemark(String id) {
         return placemarks.get(id);
+    }
+
+    public HashMap<String, KmlPlacemarkProperties> getKmlPlacemarks() {
+        return placemarks;
     }
 
 }

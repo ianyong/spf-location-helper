@@ -15,7 +15,7 @@
         android:paddingBottom="@dimen/bottom_sheet_collapsed_padding_bottom">
 
         <TextView
-            android:id="@+id/kml_clicked"
+            android:id="@+id/bottom_sheet_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
@@ -99,5 +99,33 @@
 
     <View
         style="@style/Divider"/>
+
+    <!--Info Layout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/bottom_sheet_info_padding_left"
+        android:paddingRight="@dimen/bottom_sheet_info_padding_right"
+        android:paddingTop="@dimen/bottom_sheet_info_padding_top"
+        android:paddingBottom="@dimen/bottom_sheet_info_padding_bottom"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/bottom_sheet_info_divider_height">
+
+        <!--Address-->
+        <LinearLayout
+            style="@style/BottomSheetInfoLayout">
+
+            <ImageView
+                style="@style/BottomSheetInfoIcon"
+                android:src="@drawable/baseline_location_on_black_24"/>
+            
+            <TextView
+                android:id="@+id/bottom_sheet_info_address"
+                style="@style/BottomSheetInfoText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
