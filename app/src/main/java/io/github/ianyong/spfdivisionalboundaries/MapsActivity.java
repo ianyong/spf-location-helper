@@ -44,6 +44,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.maps.android.PolyUtil;
 import com.google.maps.android.data.Feature;
@@ -115,6 +116,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Drawable menu, delete;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+    private FloatingActionButton floatingActionButton;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -127,6 +129,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
 
         // Initialise bottom sheet dynamic elements.
+        floatingActionButton = findViewById(R.id.floating_action_button);
         bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
         bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
         bottomSheetOperatingStatus = findViewById(R.id.bottom_sheet_info_operating_status);
@@ -420,10 +423,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
-    private void showBottomSheet() {
-        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
-    }
-
     // Updates bottom sheet dynamic information.
     private void updateBottomSheet(String kmlId) {
         KmlPlacemarkProperties placemark = null;
@@ -462,6 +461,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             bottomSheetFax.setText("-");
         }
         showBottomSheet();
+    }
+
+    private void showBottomSheet() {
+        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+        floatingActionButton.show();
     }
 
     private void hideBottomSheet() {
