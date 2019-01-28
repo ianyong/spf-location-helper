@@ -117,7 +117,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private FloatingActionButton floatingActionButton;
-    private boolean bottomSheetHidden = false;
+    private boolean bottomSheetHidden = true;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -300,7 +300,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
             }
         });
-        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+        bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN);
         mergedAppBarLayout = findViewById(R.id.merged_app_bar_layout);
         mergedAppBarLayoutBehaviour = MergedAppBarLayoutBehavior.from(mergedAppBarLayout);
         mergedAppBarLayoutBehaviour.setNavigationOnClickListener(new View.OnClickListener() {
@@ -467,7 +467,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         } else {
             bottomSheetFax.setText("-");
         }
-        showBottomSheet();
+        if(bottomSheetHidden) {
+            showBottomSheet();
+        }
     }
 
     private void showBottomSheet() {
