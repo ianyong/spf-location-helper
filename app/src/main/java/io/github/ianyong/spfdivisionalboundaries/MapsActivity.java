@@ -105,8 +105,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private View barrier;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
-    private LinearLayout bottomSheetButtonCall;
-    private Intent callIntent;
+    private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections;
+    private Intent callIntent, directionsIntent;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -141,6 +141,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onClick(View v) {
                 startActivity(callIntent);
+            }
+        });
+
+        // Set up bottom sheet directions button.
+        directionsIntent = new Intent(Intent.ACTION_VIEW);
+        directionsIntent.setPackage("com.google.android.apps.maps");
+        bottomSheetButtonDirections = findViewById(R.id.bottom_sheet_button_directions);
+        bottomSheetButtonDirections.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(directionsIntent);
             }
         });
 
@@ -426,7 +437,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetHeader.setText(name);
         mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
         // Update address.
-        bottomSheetAddress.setText(constructAddress(placemark));
+        String address = constructAddress(placemark);
+        bottomSheetAddress.setText(address);
+        directionsIntent.setData(Uri.parse("google.navigation:q=" + address.replace(" ", "+")));
         // Update operating hours.
         // TODO: Implement operating status based off current time.
         bottomSheetOperatingHours.setText(placemark.getProperty(EST_OPR_HRS));

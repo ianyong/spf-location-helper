@@ -63,6 +63,7 @@
             style="@style/BottomSheetButtonLayout">
 
             <LinearLayout
+                android:id="@+id/bottom_sheet_button_directions"
                 style="@style/BottomSheetButton">
 
                 <ImageView
