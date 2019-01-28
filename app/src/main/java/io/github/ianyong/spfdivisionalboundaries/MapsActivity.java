@@ -296,7 +296,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mergedAppBarLayoutBehaviour.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+                if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
+                    bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
+                } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
+                    bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+                }
             }
         });
         // A non-empty ArrayList must be passed for ImagePagerAdapter.instantiateItem() to be called.
