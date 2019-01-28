@@ -162,6 +162,23 @@
 
         </LinearLayout>
 
+        <Space
+            style="@style/BottomSheetInfoSpace"/>
+
+        <!--Fax Number-->
+        <LinearLayout
+            style="@style/BottomSheetInfoLayout">
+
+            <ImageView
+                style="@style/BottomSheetInfoIcon"
+                android:src="@drawable/baseline_print_black_24"/>
+
+            <TextView
+                android:id="@+id/bottom_sheet_info_fax"
+                style="@style/BottomSheetInfoText"/>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

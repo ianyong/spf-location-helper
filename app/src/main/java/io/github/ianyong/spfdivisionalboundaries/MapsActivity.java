@@ -102,7 +102,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutoCompleteTextView search;
     private View barrier;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
-            bottomSheetOperatingHours, bottomSheetTelephone;
+            bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -128,6 +128,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetOperatingStatus = findViewById(R.id.bottom_sheet_info_operating_status);
         bottomSheetOperatingHours = findViewById(R.id.bottom_sheet_info_operating_hours);
         bottomSheetTelephone = findViewById(R.id.bottom_sheet_info_telephone);
+        bottomSheetFax = findViewById(R.id.bottom_sheet_info_fax);
 
         // Set up navigation drawer.
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -420,6 +421,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
         } else {
             bottomSheetTelephone.setText("-");
+        }
+        // Update fax number.
+        if(placemark.hasProperty(EST_FAX)) {
+            bottomSheetFax.setText(placemark.getProperty(EST_FAX));
+        } else {
+            bottomSheetFax.setText("-");
         }
         showBottomSheet();
     }
