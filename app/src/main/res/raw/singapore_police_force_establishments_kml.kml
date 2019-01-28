@@ -65,7 +65,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 244 8999</td>
@@ -96,7 +96,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bedok South Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Chai Chee Drive</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 244 8999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6244 6558</SimpleData>
@@ -192,7 +192,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 265 9999</td>
@@ -223,7 +223,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Jurong Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Yung Loh Road</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 265 9999</SimpleData>
 						<SimpleData name="UNIT">#01-58</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -256,7 +256,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 468 9999</td>
@@ -287,7 +287,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Timah Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Toh Yi Drive</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 468 9999</SimpleData>
 						<SimpleData name="UNIT">#01-139</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -320,7 +320,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 443 9999</td>
@@ -351,7 +351,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Eunos Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bedok Reservoir Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 443 9999</SimpleData>
 						<SimpleData name="UNIT">#01-1620</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -384,7 +384,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 273 8999</td>
@@ -415,7 +415,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tanjong Pagar Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Jalan Bukit Merah</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 273 8999</SimpleData>
 						<SimpleData name="UNIT">#01-1114</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -448,7 +448,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 273 9999</td>
@@ -479,7 +479,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tiong Bahru Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Kim Tian Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 273 9999</SimpleData>
 						<SimpleData name="UNIT">#01-123/125</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -512,7 +512,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 377 9999</td>
@@ -543,7 +543,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Merah West Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Bukit Merah View</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 377 9999</SimpleData>
 						<SimpleData name="UNIT">#01-01</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -576,7 +576,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 471 9999</td>
@@ -607,7 +607,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Queenstown Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Queensway</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 471 9999</SimpleData>
 						<SimpleData name="UNIT">#01-03</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -702,7 +702,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 473 9999</td>
@@ -733,7 +733,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Alexandra Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Commonwealth Drive</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 473 9999</SimpleData>
 						<SimpleData name="UNIT">#01-382A</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -766,7 +766,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 474 9999</td>
@@ -797,7 +797,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Commonwealth Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Commonwealth Crescent (Annex)</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 474 9999</SimpleData>
 						<SimpleData name="UNIT">#01-288A</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -830,7 +830,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 778 8999</td>
@@ -861,7 +861,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Dover Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Dover Road</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 778 8999</SimpleData>
 						<SimpleData name="UNIT">#01-368</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -894,7 +894,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 774 0000</td>
@@ -925,7 +925,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Clementi Police Divisional HQ</SimpleData>
 						<SimpleData name="STREET_NAME">Clementi Avenue 5</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 774 0000</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6774 1705</SimpleData>
@@ -957,7 +957,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 774 0000</td>
@@ -988,7 +988,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Clementi Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Clementi Avenue 5</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 774 0000</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6774 1705</SimpleData>
@@ -1020,7 +1020,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 778 9999</td>
@@ -1051,7 +1051,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">West Coast Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Clementi West Street 2</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 778 9999</SimpleData>
 						<SimpleData name="UNIT">#01-418</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -1084,7 +1084,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 775 9999</td>
@@ -1115,7 +1115,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Clementi Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Clementi Avenue 3</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 775 9999</SimpleData>
 						<SimpleData name="UNIT">#01-456</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -1148,7 +1148,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 275 9999</td>
@@ -1179,7 +1179,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Pasir Panjang Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Pasir Panjang Road</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 275 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
 						<SimpleData name="FAX">6377 2525</SimpleData>
@@ -1211,7 +1211,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 272 9999</td>
@@ -1242,7 +1242,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Telok Blangah Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Telok Blangah Drive</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 272 9999</SimpleData>
 						<SimpleData name="UNIT">#01-116/118</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -1338,7 +1338,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 271 9999</td>
@@ -1369,7 +1369,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Radin Mas Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Telok Blangah Crescent</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 271 9999</SimpleData>
 						<SimpleData name="UNIT">#01-250</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -1402,7 +1402,7 @@
 					<td>Police Cantonment Complex Block A</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 236 9999</td>
@@ -1434,7 +1434,7 @@
 						<SimpleData name="DEPARTMENT">Central Police Divisional HQ</SimpleData>
 						<SimpleData name="STREET_NAME">New Bridge Road</SimpleData>
 						<SimpleData name="BUILDING_NAME">Police Cantonment Complex Block A</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 236 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6220 4360</SimpleData>
@@ -1466,7 +1466,7 @@
 					<td>Police Cantonment Complex Block A</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 236 9999</td>
@@ -1498,7 +1498,7 @@
 						<SimpleData name="DEPARTMENT">Bukit Merah East Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">New Bridge Road</SimpleData>
 						<SimpleData name="BUILDING_NAME">Police Cantonment Complex Block A</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 236 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6220 4360</SimpleData>
@@ -1530,7 +1530,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 222 9999</td>
@@ -1561,7 +1561,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Marina Bay Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Marina View</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 222 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6372 4242</SimpleData>
@@ -1593,7 +1593,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 564 8999</td>
@@ -1624,7 +1624,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Hong Kah South Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Jurong West Street 52</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 564 8999</SimpleData>
 						<SimpleData name="UNIT">#01-90</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -1657,7 +1657,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 261 9999</td>
@@ -1688,7 +1688,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Boon Lay Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Boon Lay Place</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 261 9999</SimpleData>
 						<SimpleData name="UNIT">#01-00</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -1721,7 +1721,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 604 9999</td>
@@ -1752,7 +1752,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Punggol Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Tebing Lane</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 604 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6446 8015</SimpleData>
@@ -1847,7 +1847,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 368 9999</td>
@@ -1878,7 +1878,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Panjang North Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Marsiling Drive</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 368 9999</SimpleData>
 						<SimpleData name="UNIT">#01-237</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -1911,7 +1911,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>-</td>
@@ -1942,7 +1942,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Marsiling Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Marsiling Lane</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">-</SimpleData>
 						<SimpleData name="UNIT">#01-183</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -1975,7 +1975,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 752 9999</td>
@@ -2006,7 +2006,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Chong Pang Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Yishun Ring Road</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 752 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6752 8913</SimpleData>
@@ -2038,7 +2038,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 753 9999</td>
@@ -2069,7 +2069,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Nee Soon South Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Yishun Ring Road</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 753 9999</SimpleData>
 						<SimpleData name="UNIT">#01-3352</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -2102,7 +2102,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 767 9999</td>
@@ -2133,7 +2133,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Woodlands East Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Woodlands Drive 63</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 767 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6767 3652</SimpleData>
@@ -2165,7 +2165,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 554 9999</td>
@@ -2196,7 +2196,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Sembawang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Sembawang Crescent</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 554 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6852 2499</SimpleData>
@@ -2228,7 +2228,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 646 6000</td>
@@ -2259,7 +2259,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Woodlands Police Divisional HQ</SimpleData>
 						<SimpleData name="STREET_NAME">Woodlands Street 12</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 646 6000</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6364 7800</SimpleData>
@@ -2291,7 +2291,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 363 9999</td>
@@ -2322,7 +2322,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Woodlands West Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Woodlands Street 12</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 363 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">-</SimpleData>
@@ -2354,7 +2354,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 852 2999</td>
@@ -2385,7 +2385,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Yishun South Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Yishun St 81</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 852 2999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6852 2239</SimpleData>
@@ -2417,7 +2417,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Woodlands Police Divisional (LIMA)</td>
+					<td>Woodlands Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 852 9999</td>
@@ -2448,7 +2448,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Yishun North Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Yishun Central</SimpleData>
-						<SimpleData name="TYPE">Woodlands Police Divisional (LIMA)</SimpleData>
+						<SimpleData name="TYPE">Woodlands Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 852 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6852 2299</SimpleData>
@@ -2874,7 +2874,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 765 9999</td>
@@ -2905,7 +2905,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Choa Chu Kang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Choa Chu Kang Street 52</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 765 9999</SimpleData>
 						<SimpleData name="UNIT">#01-02</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -2938,7 +2938,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 762 9999</td>
@@ -2969,7 +2969,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Choa Chu Kang Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Teck Whye Lane</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 762 9999</SimpleData>
 						<SimpleData name="UNIT">#01-740</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3002,7 +3002,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 892 9999</td>
@@ -3033,7 +3033,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Panjang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Segar Road</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 892 9999</SimpleData>
 						<SimpleData name="UNIT">#01-05</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -3066,7 +3066,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 760 9999</td>
@@ -3097,7 +3097,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Panjang South Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Pending Road</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 760 9999</SimpleData>
 						<SimpleData name="UNIT">#01-00</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3130,7 +3130,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 535 9999</td>
@@ -3161,7 +3161,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kreta Ayer Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">North Canal Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 535 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">0700 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6236 2541</SimpleData>
@@ -3258,7 +3258,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 449 9999</td>
@@ -3289,7 +3289,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tanah Merah Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">New Upper Changi Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 449 9999</SimpleData>
 						<SimpleData name="UNIT">#01-1514</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3322,7 +3322,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 445 9999</td>
@@ -3353,7 +3353,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Chai Chee Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Chai Chee Avenue</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 445 9999</SimpleData>
 						<SimpleData name="UNIT">#01-256/258</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3386,7 +3386,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 442 9999</td>
@@ -3417,7 +3417,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kaki Bukit Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bedok North Street 3</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 442 9999</SimpleData>
 						<SimpleData name="UNIT">#01-448</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3450,7 +3450,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 241 9999</td>
@@ -3481,7 +3481,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bedok Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bedok South Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 241 9999</SimpleData>
 						<SimpleData name="UNIT">#01-117</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3514,7 +3514,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 448 9999</td>
@@ -3545,7 +3545,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Siglap Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Upper East Coast Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 448 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
 						<SimpleData name="FAX">6244 4378</SimpleData>
@@ -3577,7 +3577,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 442 8999</td>
@@ -3608,7 +3608,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Marine Parade Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Marine Parade Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 442 8999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6244 7678</SimpleData>
@@ -3640,7 +3640,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 440 9999</td>
@@ -3671,7 +3671,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Marine Parade Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Marine Drive</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 440 9999</SimpleData>
 						<SimpleData name="UNIT">#01-35</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -3704,7 +3704,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 345 9999</td>
@@ -3735,7 +3735,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Joo Chiat Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Onan Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 345 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6447 4181</SimpleData>
@@ -3767,7 +3767,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 748 9999</td>
@@ -3798,7 +3798,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kampong Kembangan Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Lengkong Tiga #01-215</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 748 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6745 4676</SimpleData>
@@ -3830,7 +3830,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 848 6999</td>
@@ -3861,7 +3861,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Geylang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Paya Lebar Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 848 6999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6848 6799</SimpleData>
@@ -4023,7 +4023,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 747 9999</td>
@@ -4054,7 +4054,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kampong Ubi Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Eunos Crescent</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 747 9999</SimpleData>
 						<SimpleData name="UNIT">#01-2687</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4087,7 +4087,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 344 9999</td>
@@ -4118,7 +4118,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Mountbatten Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Dakota Crescent</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 344 9999</SimpleData>
 						<SimpleData name="UNIT">#01-213/215</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4151,7 +4151,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 745 9999</td>
@@ -4182,7 +4182,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Geylang Serai Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Aljunied Crescent</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 745 9999</SimpleData>
 						<SimpleData name="UNIT">#01-102</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4215,7 +4215,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 744 9999</td>
@@ -4246,7 +4246,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">MacPherson Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Pipit Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 744 9999</SimpleData>
 						<SimpleData name="UNIT">#01-82/84</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4279,7 +4279,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 280 9999</td>
@@ -4310,7 +4310,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Aljunied Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Joo Seng Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 280 9999</SimpleData>
 						<SimpleData name="UNIT">#01-69</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4343,7 +4343,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 282 9999</td>
@@ -4374,7 +4374,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Potong Pasir Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Potong Pasir Avenue 3</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 282 9999</SimpleData>
 						<SimpleData name="UNIT">#01-240</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -4407,7 +4407,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 296 9999</td>
@@ -4438,7 +4438,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kolam Ayer Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Geylang Bahru</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 296 9999</SimpleData>
 						<SimpleData name="UNIT">#01-3038</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5047,7 +5047,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 299 6999</td>
@@ -5078,7 +5078,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kallang Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Towner Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 299 6999</SimpleData>
 						<SimpleData name="UNIT">#01-400</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5111,7 +5111,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 250 8999</td>
@@ -5142,7 +5142,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Moulmein Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Jalan Rajah</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 250 8999</SimpleData>
 						<SimpleData name="UNIT">#01-01</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5175,7 +5175,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 250 7999</td>
@@ -5206,7 +5206,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Whampoa Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Jalan Bahagia</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 250 7999</SimpleData>
 						<SimpleData name="UNIT">#01-368</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5302,7 +5302,7 @@
 					<td>Toa Payoh Community Building</td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 251 9999</td>
@@ -5334,7 +5334,7 @@
 						<SimpleData name="DEPARTMENT">Toa Payoh Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Toa Payoh Central</SimpleData>
 						<SimpleData name="BUILDING_NAME">Toa Payoh Community Building</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 251 9999</SimpleData>
 						<SimpleData name="UNIT">#01-02</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -5367,7 +5367,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 252 9999</td>
@@ -5398,7 +5398,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kim Keat Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Lorong 8 Toa Payoh</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 252 9999</SimpleData>
 						<SimpleData name="UNIT">#01-186</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5431,7 +5431,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 254 9999</td>
@@ -5462,7 +5462,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Boon Teck Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Toa Payoh North</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 254 9999</SimpleData>
 						<SimpleData name="UNIT">#01-1231</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5563,7 +5563,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 777 9999</td>
@@ -5594,7 +5594,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Buona Vista Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Holland Drive</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 777 9999</SimpleData>
 						<SimpleData name="UNIT">#01-38/40</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5627,7 +5627,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 462 9999</td>
@@ -5658,7 +5658,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Timah Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Duke Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 462 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6462 8933</SimpleData>
@@ -5690,7 +5690,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 735 9999</td>
@@ -5721,7 +5721,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Orchard Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Killiney Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 735 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6733 1934</SimpleData>
@@ -5753,7 +5753,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 295 9999</td>
@@ -5784,7 +5784,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tanglin Police Divisional HQ</SimpleData>
 						<SimpleData name="STREET_NAME">Kampong Java Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 295 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6391 3442</SimpleData>
@@ -5816,7 +5816,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 295 9999</td>
@@ -5847,7 +5847,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kampong Java Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Kampong Java Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 295 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6391 3442</SimpleData>
@@ -5879,7 +5879,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 296 8999</td>
@@ -5910,7 +5910,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Cairnhill Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Gloucester Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 296 8999</SimpleData>
 						<SimpleData name="UNIT">#01-03</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -5943,7 +5943,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 294 9999</td>
@@ -5974,7 +5974,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Rochor Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Kampong Kapor Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 294 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6391 8583</SimpleData>
@@ -6006,7 +6006,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Central Police Divisional (ALPHA)</td>
+					<td>Central Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 298 9999</td>
@@ -6037,7 +6037,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kampong Glam Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Beach Road</SimpleData>
-						<SimpleData name="TYPE">Central Police Divisional (ALPHA)</SimpleData>
+						<SimpleData name="TYPE">Central Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 298 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6293 6498</SimpleData>
@@ -6069,7 +6069,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 271 8999</td>
@@ -6100,7 +6100,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kim Seng Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Beo Crescent</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 271 8999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6377 2527</SimpleData>
@@ -6132,7 +6132,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 278 9999</td>
@@ -6163,7 +6163,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">River Valley Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Delta Avenue</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 278 9999</SimpleData>
 						<SimpleData name="UNIT">#01-02</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -6196,7 +6196,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 792 9999</td>
@@ -6227,7 +6227,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Nanyang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Jurong West Ave 5</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 792 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6791 2972</SimpleData>
@@ -6259,7 +6259,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 899 9999</td>
@@ -6290,7 +6290,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Jurong East Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Boon Lay Way</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 899 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6665 5791</SimpleData>
@@ -6322,7 +6322,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Clementi Police Divisional (DELTA)</td>
+					<td>Clementi Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 565 9999</td>
@@ -6353,7 +6353,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Ayer Rajah Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Teban Gardens Road</SimpleData>
-						<SimpleData name="TYPE">Clementi Police Divisional (DELTA)</SimpleData>
+						<SimpleData name="TYPE">Clementi Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 565 9999</SimpleData>
 						<SimpleData name="UNIT">#01-388</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -6386,7 +6386,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 552 9999</td>
@@ -6417,7 +6417,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bishan Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Bishan Street 23</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 552 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6556 1905</SimpleData>
@@ -6449,7 +6449,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 258 9999</td>
@@ -6480,7 +6480,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bishan Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bishan Street 13</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 258 9999</SimpleData>
 						<SimpleData name="UNIT">#01-565</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours (Automated)</SimpleData>
@@ -6513,7 +6513,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Tanglin Police Divisional (ECHO)</td>
+					<td>Tanglin Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 452 9999</td>
@@ -6544,7 +6544,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Thomson Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Sin Ming Road</SimpleData>
-						<SimpleData name="TYPE">Tanglin Police Divisional (ECHO)</SimpleData>
+						<SimpleData name="TYPE">Tanglin Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 452 9999</SimpleData>
 						<SimpleData name="UNIT">#01-180</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -6577,7 +6577,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 451 9999</td>
@@ -6608,7 +6608,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Ang Mo Kio South Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Ang Mo Kio Avenue 3</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 451 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6553 5679</SimpleData>
@@ -6640,7 +6640,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 484 9999</td>
@@ -6671,7 +6671,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Ang Mo Kio Police Divisional Head Quarters</SimpleData>
 						<SimpleData name="STREET_NAME">Ang Mo Kio Avenue 9</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 484 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6218 1399</SimpleData>
@@ -6703,7 +6703,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 484 9999</td>
@@ -6734,7 +6734,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Ang Mo Kio North Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Ang Mo Kio Avenue 9</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 484 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6218 1399</SimpleData>
@@ -6766,7 +6766,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 459 9999</td>
@@ -6797,7 +6797,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Teck Ghee Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Ang Mo Kio Street 31</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 459 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6457 4478</SimpleData>
@@ -6829,7 +6829,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 458 9999</td>
@@ -6860,7 +6860,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Kebun Baru Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Ang Mo Kio Avenue 4</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 458 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6457 4454</SimpleData>
@@ -6892,7 +6892,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 488 0999</td>
@@ -6923,7 +6923,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Serangoon Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Serangoon Avenue 2</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 488 0999</SimpleData>
 						<SimpleData name="UNIT">#01-02</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -6956,7 +6956,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 287 9999</td>
@@ -6987,7 +6987,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Serangoon Gardens Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Serangoon Garden Way</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 287 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
 						<SimpleData name="FAX">6281 5969</SimpleData>
@@ -7019,7 +7019,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 284 9999</td>
@@ -7050,7 +7050,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Serangoon North Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Serangoon North Avenue 1</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 284 9999</SimpleData>
 						<SimpleData name="UNIT">#01-709</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7083,7 +7083,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 343 8999</td>
@@ -7114,7 +7114,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Sengkang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Sengkang Square</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 343 8999</SimpleData>
 						<SimpleData name="UNIT">#01-02</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -7147,7 +7147,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 489 0999</td>
@@ -7178,7 +7178,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Hougang Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Hougang Avenue 9</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 489 0999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6312 8989</SimpleData>
@@ -7210,7 +7210,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 286 9999</td>
@@ -7241,7 +7241,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Hougang Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Hougang Avenue 7</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 286 9999</SimpleData>
 						<SimpleData name="UNIT">#01-805</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7274,7 +7274,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Ang Mo Kio Police Division (FOXTROT)</td>
+					<td>Ang Mo Kio Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 289 9999</td>
@@ -7305,7 +7305,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Paya Lebar Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Hougang Avenue 1</SimpleData>
-						<SimpleData name="TYPE">Ang Mo Kio Police Division (FOXTROT)</SimpleData>
+						<SimpleData name="TYPE">Ang Mo Kio Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 289 9999</SimpleData>
 						<SimpleData name="UNIT">#01-1270</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7338,7 +7338,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 587 2999</td>
@@ -7369,7 +7369,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Changi Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Simei Street 2</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 587 2999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6587 2900</SimpleData>
@@ -7401,7 +7401,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 587 1999</td>
@@ -7432,7 +7432,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tampines Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Tampines Avenue 4</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 587 1999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6587 1699</SimpleData>
@@ -7464,7 +7464,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 781 9999</td>
@@ -7495,7 +7495,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Changkat Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Tampines Street 11</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 781 9999</SimpleData>
 						<SimpleData name="UNIT">#01-261</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7528,7 +7528,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 781 8999</td>
@@ -7559,7 +7559,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tampines North Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Tampines Street 44</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 781 8999</SimpleData>
 						<SimpleData name="UNIT">#01-56</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -7592,7 +7592,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 783 9999</td>
@@ -7623,7 +7623,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Tampines East Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Tampines Street 21</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 783 9999</SimpleData>
 						<SimpleData name="UNIT">#01-138</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7656,7 +7656,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 585 2999</td>
@@ -7687,7 +7687,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Pasir Ris Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Pasir Ris Drive 4</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 585 2999</SimpleData>
 						<SimpleData name="UNIT">#01-01</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
@@ -7720,7 +7720,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 244 9999</td>
@@ -7751,7 +7751,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bedok Police Divisional Head Quarters</SimpleData>
 						<SimpleData name="STREET_NAME">Bedok North Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 244 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6244 7258</SimpleData>
@@ -7783,7 +7783,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Bedok Police Division (GOLF)</td>
+					<td>Bedok Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 244 9999</td>
@@ -7814,7 +7814,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bedok North Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Bedok North Road</SimpleData>
-						<SimpleData name="TYPE">Bedok Police Division (GOLF)</SimpleData>
+						<SimpleData name="TYPE">Bedok Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 244 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6244 7258</SimpleData>
@@ -7846,7 +7846,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 665 9999</td>
@@ -7877,7 +7877,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Batok Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Bukit Batok East Ave 4</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 665 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6425 2661</SimpleData>
@@ -7909,7 +7909,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 567 9999</td>
@@ -7940,7 +7940,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Hong Kah North Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bukit Batok Street 31</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 567 9999</SimpleData>
 						<SimpleData name="UNIT">#01-201</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -7973,7 +7973,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 563 9999</td>
@@ -8004,7 +8004,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Bukit Batok Neighbourhood Police Post</SimpleData>
 						<SimpleData name="STREET_NAME">Bukit Batok Central</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 563 9999</SimpleData>
 						<SimpleData name="UNIT">#01-00</SimpleData>
 						<SimpleData name="OPERATING_HOURS">1200 to 2200 hrs</SimpleData>
@@ -8037,7 +8037,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 268 9999</td>
@@ -8068,7 +8068,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Jurong West Neighbourhood Police Centre</SimpleData>
 						<SimpleData name="STREET_NAME">Corporation Road</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 268 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6267 2438</SimpleData>
@@ -8100,7 +8100,7 @@
 					<td></td>
 					</tr><tr bgcolor="#E3E3F3">
 					<th>TYPE</th>
-					<td>Jurong Police Divisional (JULIET)</td>
+					<td>Jurong Police Division</td>
 					</tr><tr bgcolor="">
 					<th>TELEPHONE</th>
 					<td>1800 792 9999</td>
@@ -8131,7 +8131,7 @@
 					<SchemaData schemaUrl="#kml_schema_ft_SPF_ESTABLISHMENTS">
 						<SimpleData name="DEPARTMENT">Jurong Police Divisional HQ</SimpleData>
 						<SimpleData name="STREET_NAME">Jurong West Ave 5</SimpleData>
-						<SimpleData name="TYPE">Jurong Police Divisional (JULIET)</SimpleData>
+						<SimpleData name="TYPE">Jurong Police Division</SimpleData>
 						<SimpleData name="TELEPHONE">1800 792 9999</SimpleData>
 						<SimpleData name="OPERATING_HOURS">24 Hours</SimpleData>
 						<SimpleData name="FAX">6791 2972</SimpleData>

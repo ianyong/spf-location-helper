@@ -11,6 +11,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
@@ -24,6 +25,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -71,7 +73,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final static String EST_NAME = "DEPARTMENT";
     private final static String EST_ST_NAME = "STREET_NAME";
     private final static String EST_BLDG_NAME = "BUILDING_NAME";
-    private final static String EST_TYPE = "TYPE";
+    private final static String EST_DIV = "TYPE";
     private final static String EST_TEL = "TELEPHONE";
     private final static String EST_TEL_ALT = "ALT_TELEPHONE_LINE";
     private final static String EST_UNIT_NO = "UNIT";
@@ -103,6 +105,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private View barrier;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
+    private LinearLayout bottomSheetButtonCall;
+    private Intent callIntent;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -129,6 +133,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetOperatingHours = findViewById(R.id.bottom_sheet_info_operating_hours);
         bottomSheetTelephone = findViewById(R.id.bottom_sheet_info_telephone);
         bottomSheetFax = findViewById(R.id.bottom_sheet_info_fax);
+
+        // Set up bottom sheet call button.
+        callIntent = new Intent(Intent.ACTION_DIAL);
+        bottomSheetButtonCall = findViewById(R.id.bottom_sheet_button_call);
+        bottomSheetButtonCall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(callIntent);
+            }
+        });
 
         // Set up navigation drawer.
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -419,8 +433,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Update telephone number.
         if(placemark.hasProperty(EST_TEL)) {
             bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
+            callIntent.setData(Uri.parse("tel:" + placemark.getProperty(EST_TEL)));
         } else {
             bottomSheetTelephone.setText("-");
+            callIntent.setData(null);
         }
         // Update fax number.
         if(placemark.hasProperty(EST_FAX)) {
