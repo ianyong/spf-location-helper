@@ -68,24 +68,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final static String NPC_FMEL_UPD_D = "FMEL_UPD_D";
 
     // Establishments KML tags
-    private final static String EST_NO = "NO";
-    private final static String EST_NAME = "BLDG";
+    private final static String EST_NAME = "DEPARTMENT";
+    private final static String EST_ST_NAME = "STREET_NAME";
+    private final static String EST_BLDG_NAME = "BUILDING_NAME";
     private final static String EST_TYPE = "TYPE";
-    private final static String EST_COUNIT = "COUNIT";
-    private final static String EST_DIV_CODE = "DIVCODE";
-    private final static String EST_BLK_NO = "BLDGNO";
-    private final static String EST_ST_NAME = "STREETNAME";
-    private final static String EST_FLOOR_NO = "FLRNO";
-    private final static String EST_UNIT_NO = "UNITNO";
-    private final static String EST_POSTAL_CODE = "POSTALCODE";
-    private final static String EST_OPR_HRS = "OPERATEHRS";
-    private final static String EST_TEL = "TEL";
-    private final static String EST_ALT_TEL = "ALTTEL";
+    private final static String EST_TEL = "TELEPHONE";
+    private final static String EST_TEL_ALT = "ALT_TELEPHONE_LINE";
+    private final static String EST_UNIT_NO = "UNIT";
+    private final static String EST_OPR_HRS = "OPERATING_HOURS";
     private final static String EST_FAX = "FAX";
-    private final static String EST_CANTEEN = "CANTEEN";
-    private final static String EST_CARPARK = "CARPARK";
-    private final static String EST_LNG = "LONGITUDE";
-    private final static String EST_LAT = "LATITUDE";
+    private final static String EST_BLK_NO = "HSE_BLK_NO";
+    private final static String EST_POSTAL_CODE = "POSTAL_CODE";
     private final static String EST_INC_CRC = "INC_CRC";
     private final static String EST_FMEL_UPD_D = "FMEL_UPD_D";
 
@@ -241,7 +234,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             InputStream inputStream = getResources().openRawResource(R.raw.singapore_police_force_npc_boundary_kml);
             npcBoundaries = new KmlParser(inputStream);
             npcBoundaries.parseKml();
-            inputStream = getResources().openRawResource(R.raw.singapore_police_force_establishments_2018_kml);
+            inputStream = getResources().openRawResource(R.raw.singapore_police_force_establishments_kml);
             spfEstablishments = new KmlParser(inputStream);
             spfEstablishments.parseKml();
         } catch(Exception e) {
@@ -407,14 +400,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Find the relevant entry in the Establishments KML file.
         for(Map.Entry<String, KmlPlacemarkProperties> entry : spfEstablishments.getKmlPlacemarks().entrySet()) {
             if(entry.getValue().hasProperty(EST_NAME) &&
-                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(kmlId).getProperty(NPC_NAME)) &&
-                    entry.getValue().getProperty(EST_TYPE).equals(TYPE_NPC)) {
+                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(kmlId).getProperty(NPC_NAME) + " "
+                    + getString(R.string.neighbourhood_police_centre))) {
                 placemark = entry.getValue();
                 break;
             }
         }
         // Update name.
-        String name = placemark.getProperty(EST_NAME);
+        String name = placemark.getProperty(EST_NAME).replace(" " + getString(R.string.neighbourhood_police_centre), "");
         bottomSheetHeader.setText(name);
         mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
         // Update address.
@@ -423,7 +416,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // TODO: Implement operating status based off current time.
         bottomSheetOperatingHours.setText(placemark.getProperty(EST_OPR_HRS));
         // Update telephone number.
-        bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
+        if(placemark.hasProperty(EST_TEL)) {
+            bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
+        } else {
+            bottomSheetTelephone.setText("-");
+        }
         showBottomSheet();
     }
 
@@ -434,19 +431,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private String constructAddress(KmlPlacemarkProperties placemark) {
         String address = placemark.getProperty(EST_BLK_NO) + " "
                 + placemark.getProperty(EST_ST_NAME);
-        if(placemark.hasProperty(EST_FLOOR_NO) && !placemark.getProperty(EST_FLOOR_NO).equals("0")) {
-            address += " #" + padLeadingZeros(placemark.getProperty(EST_FLOOR_NO), 2) + "-"
-                    + padLeadingZeros(placemark.getProperty(EST_UNIT_NO), 2);
+        if(placemark.hasProperty(EST_UNIT_NO)) {
+            address += " " + placemark.getProperty(EST_UNIT_NO);
         }
         address += ", Singapore " + placemark.getProperty(EST_POSTAL_CODE);
         return address;
-    }
-
-    private String padLeadingZeros(String s, int length) {
-        if(s.length() >= length) {
-            return s;
-        }
-        return String.format("%0" + (length - s.length()) + "d%s", 0, s);
     }
 
     // Finds the Placemark which contains the point specified.
