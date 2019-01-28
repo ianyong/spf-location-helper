@@ -103,7 +103,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutocompleteFilter typeFilter;
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
-    private View barrier;
+    private View barrier, bottomSheet;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
     private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections;
@@ -117,6 +117,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private FloatingActionButton floatingActionButton;
+    private boolean bottomSheetHidden = false;
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -280,12 +281,18 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         rlp.topMargin = (int) (getResources().getDimension(R.dimen.search_view_header_height)/getResources().getDisplayMetrics().density) + rlp.leftMargin;
 
         // Set up the bottom sheet.
-        View bottomSheet = findViewById(R.id.bottom_sheet);
+        bottomSheet = findViewById(R.id.bottom_sheet);
         bottomSheetBehaviour = BottomSheetBehaviorGoogleMapsLike.from(bottomSheet);
         bottomSheetBehaviour.addBottomSheetCallback(new BottomSheetBehaviorGoogleMapsLike.BottomSheetCallback() {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
-
+                // Force redraw bottom sheet if previously hidden.
+                if(newState == BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN) {
+                    bottomSheetHidden = true;
+                } else if (newState == BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED && bottomSheetHidden) {
+                    bottomSheetHidden = false;
+                    bottomSheet.requestLayout();
+                }
             }
 
             @Override
