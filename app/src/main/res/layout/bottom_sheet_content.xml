@@ -101,16 +101,14 @@
         style="@style/Divider"/>
 
     <!--Info Layout-->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:paddingLeft="@dimen/bottom_sheet_info_padding_left"
         android:paddingRight="@dimen/bottom_sheet_info_padding_right"
         android:paddingTop="@dimen/bottom_sheet_info_padding_top"
-        android:paddingBottom="@dimen/bottom_sheet_info_padding_bottom"
-        android:divider="@color/transparent"
-        android:dividerHeight="@dimen/bottom_sheet_info_divider_height">
+        android:paddingBottom="@dimen/bottom_sheet_info_padding_bottom">
 
         <!--Address-->
         <LinearLayout
@@ -122,6 +120,44 @@
             
             <TextView
                 android:id="@+id/bottom_sheet_info_address"
+                style="@style/BottomSheetInfoText"/>
+
+        </LinearLayout>
+
+        <Space
+            style="@style/BottomSheetInfoSpace"/>
+
+        <!--Operating Hours-->
+        <LinearLayout
+            style="@style/BottomSheetInfoLayout">
+
+            <ImageView
+                style="@style/BottomSheetInfoIcon"
+                android:src="@drawable/baseline_access_time_black_24"/>
+
+            <TextView
+                android:id="@+id/bottom_sheet_info_operating_status"
+                style="@style/BottomSheetInfoText"/>
+
+            <TextView
+                android:id="@+id/bottom_sheet_info_operating_hours"
+                style="@style/BottomSheetInfoText"/>
+
+        </LinearLayout>
+
+        <Space
+            style="@style/BottomSheetInfoSpace"/>
+
+        <!--Telephone Number-->
+        <LinearLayout
+            style="@style/BottomSheetInfoLayout">
+
+            <ImageView
+                style="@style/BottomSheetInfoIcon"
+                android:src="@drawable/baseline_call_black_24"/>
+
+            <TextView
+                android:id="@+id/bottom_sheet_info_telephone"
                 style="@style/BottomSheetInfoText"/>
 
         </LinearLayout>

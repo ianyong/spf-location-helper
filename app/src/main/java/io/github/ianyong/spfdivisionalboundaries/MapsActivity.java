@@ -108,7 +108,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
     private View barrier;
-    private TextView bottomSheetHeader, bottomSheetAddress;
+    private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
+            bottomSheetOperatingHours, bottomSheetTelephone;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -131,6 +132,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Initialise bottom sheet dynamic elements.
         bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
         bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
+        bottomSheetOperatingStatus = findViewById(R.id.bottom_sheet_info_operating_status);
+        bottomSheetOperatingHours = findViewById(R.id.bottom_sheet_info_operating_hours);
+        bottomSheetTelephone = findViewById(R.id.bottom_sheet_info_telephone);
 
         // Set up navigation drawer.
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -409,10 +413,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 break;
             }
         }
+        // Update name.
         String name = placemark.getProperty(EST_NAME);
         bottomSheetHeader.setText(name);
         mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
+        // Update address.
         bottomSheetAddress.setText(constructAddress(placemark));
+        // Update operating hours.
+        // TODO: Implement operating status based off current time.
+        bottomSheetOperatingHours.setText(placemark.getProperty(EST_OPR_HRS));
+        // Update telephone number.
+        bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
         showBottomSheet();
     }
 
