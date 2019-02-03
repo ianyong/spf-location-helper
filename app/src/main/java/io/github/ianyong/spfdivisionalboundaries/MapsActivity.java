@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,6 +24,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -55,10 +55,9 @@ import com.google.maps.android.data.kml.KmlPolygon;
 import com.mahc.custombottomsheetbehavior.BottomSheetBehaviorGoogleMapsLike;
 import com.mahc.custombottomsheetbehavior.MergedAppBarLayout;
 import com.mahc.custombottomsheetbehavior.MergedAppBarLayoutBehavior;
+import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Map;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -80,6 +79,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final static String EST_UNIT_NO = "UNIT";
     private final static String EST_OPR_HRS = "OPERATING_HOURS";
     private final static String EST_FAX = "FAX";
+    private final static String EST_FB_ID = "FACEBOOK_ID";
     private final static String EST_BLK_NO = "HSE_BLK_NO";
     private final static String EST_POSTAL_CODE = "POSTAL_CODE";
     private final static String EST_INC_CRC = "INC_CRC";
@@ -106,6 +106,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private View barrier, bottomSheet;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
+    private ImageView bottomSheetImage;
     private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections;
     private Intent callIntent, directionsIntent;
     private KmlParser npcBoundaries, spfEstablishments;
@@ -131,6 +132,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Initialise bottom sheet dynamic elements.
         floatingActionButton = findViewById(R.id.floating_action_button);
+        bottomSheetImage = findViewById(R.id.bottom_sheet_image);
         bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
         bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
         bottomSheetOperatingStatus = findViewById(R.id.bottom_sheet_info_operating_status);
@@ -313,10 +315,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
             }
         });
-        // A non-empty ArrayList must be passed for ImagePagerAdapter.instantiateItem() to be called.
-        ImagePagerAdapter imagePagerAdapter = new ImagePagerAdapter(this, new ArrayList<>(Arrays.asList("test")));
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(imagePagerAdapter);
 
         // Get notified when the map is ready to be used.
         mapFragment.getMapAsync(this);
@@ -442,6 +440,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 break;
             }
         }
+        // Update image.
+        String imageUrl = null;
+        if(placemark.hasProperty(EST_FB_ID)) {
+            imageUrl = getFacebookProfileImageUrl(placemark.getProperty(EST_FB_ID));
+        }
+        updateBottomSheetImage(imageUrl);
         // Update name.
         String name = placemark.getProperty(EST_NAME).replace(" " + getString(R.string.neighbourhood_police_centre), "");
         bottomSheetHeader.setText(name);
@@ -489,6 +493,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         address += ", Singapore " + placemark.getProperty(EST_POSTAL_CODE);
         return address;
+    }
+
+    private String getFacebookProfileImageUrl(String id) {
+        return "https://graph.facebook.com/" + id + "/picture?type=large&width=720&height=720";
+    }
+
+    private void updateBottomSheetImage(String url) {
+        Picasso.get().load(url)
+                .placeholder(R.drawable.spf_crest)
+                .into(bottomSheetImage);
     }
 
     // Finds the Placemark which contains the point specified.

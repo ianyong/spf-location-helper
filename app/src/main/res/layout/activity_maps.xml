@@ -46,13 +46,14 @@
 
         </RelativeLayout>
         
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/view_pager"
+        <ImageView
+            android:id="@+id/bottom_sheet_image"
             android:layout_width="match_parent"
             android:layout_height="@dimen/anchor_point"
             android:background="@color/colorAccent"
             app:layout_behavior="@string/BackDropBottomSheetBehavior"
-            android:fitsSystemWindows="true"/>
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"/>
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/bottom_sheet"
