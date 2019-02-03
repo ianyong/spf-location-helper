@@ -105,10 +105,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private AutoCompleteTextView search;
     private View barrier, bottomSheet;
     private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
-            bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax;
+            bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax, bottomSheetWebsite;
     private ImageView bottomSheetImage;
-    private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections;
-    private Intent callIntent, directionsIntent;
+    private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections, bottomSheetButtonWebsite;
+    private Intent callIntent, directionsIntent, websiteIntent;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
     private AddressResultReceiver resultReceiver;
@@ -139,6 +139,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetOperatingHours = findViewById(R.id.bottom_sheet_info_operating_hours);
         bottomSheetTelephone = findViewById(R.id.bottom_sheet_info_telephone);
         bottomSheetFax = findViewById(R.id.bottom_sheet_info_fax);
+        bottomSheetWebsite = findViewById(R.id.bottom_sheet_info_website);
 
         // Set up bottom sheet call button.
         callIntent = new Intent(Intent.ACTION_DIAL);
@@ -158,6 +159,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onClick(View v) {
                 startActivity(directionsIntent);
+            }
+        });
+
+        // Set up bottom sheet website button.
+        websiteIntent = new Intent(Intent.ACTION_VIEW);
+        bottomSheetButtonWebsite = findViewById(R.id.bottom_sheet_button_website);
+        bottomSheetButtonWebsite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(websiteIntent);
             }
         });
 
@@ -473,6 +484,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         if(bottomSheetHidden) {
             showBottomSheet();
+        }
+        // Update website link.
+        if(placemark.hasProperty(EST_FB_ID)) {
+            bottomSheetWebsite.setText(getString(R.string.facebook_url_prefix) + placemark.getProperty(EST_FB_ID));
+            websiteIntent.setData(Uri.parse("https://www.facebook.com/" + placemark.getProperty(EST_FB_ID)));
+        } else {
+            bottomSheetWebsite.setText("-");
+            websiteIntent.setData(null);
         }
     }
 

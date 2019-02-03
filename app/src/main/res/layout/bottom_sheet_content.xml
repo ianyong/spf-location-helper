@@ -83,6 +83,7 @@
             style="@style/BottomSheetButtonLayout">
 
             <LinearLayout
+                android:id="@+id/bottom_sheet_button_website"
                 style="@style/BottomSheetButton">
 
                 <ImageView
@@ -177,6 +178,23 @@
 
             <TextView
                 android:id="@+id/bottom_sheet_info_fax"
+                style="@style/BottomSheetInfoText"/>
+
+        </LinearLayout>
+
+        <Space
+            style="@style/BottomSheetInfoSpace"/>
+
+        <!--Website-->
+        <LinearLayout
+            style="@style/BottomSheetInfoLayout">
+
+            <ImageView
+                style="@style/BottomSheetInfoIcon"
+                android:src="@drawable/baseline_link_black_24"/>
+
+            <TextView
+                android:id="@+id/bottom_sheet_info_website"
                 style="@style/BottomSheetInfoText"/>
 
         </LinearLayout>
