@@ -28,6 +28,8 @@
     <dimen name="navigation_header_height">200dp</dimen>
     <dimen name="navigation_header_padding">16dp</dimen>
     <!--About Page-->
+    <dimen name="about_layout_elevation">8dp</dimen>
+    <dimen name="about_toolbar_elevation">4dp</dimen>
     <dimen name="about_image_padding_left">40dp</dimen>
     <dimen name="about_image_padding_right">40dp</dimen>
     <dimen name="about_entry_padding_left">20dp</dimen>

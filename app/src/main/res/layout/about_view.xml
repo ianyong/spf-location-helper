@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:clickable="true"
-    android:focusable="true">
+    android:focusable="true"
+    android:elevation="@dimen/about_layout_elevation">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -15,7 +16,8 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         app:navigationIcon="?attr/homeAsUpIndicator"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/about_toolbar_elevation"/>
 
     <ScrollView
         android:layout_width="match_parent"
