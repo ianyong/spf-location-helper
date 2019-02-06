@@ -28,5 +28,6 @@ dependencies {
     implementation 'com.google.maps.android:android-maps-utils:0.5'
     implementation 'com.mahc.custombottomsheetbehavior:googlemaps-like:0.9.4'
     implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.uncopt:android.justified:1.0'
     testImplementation 'junit:junit:4.12'
 }

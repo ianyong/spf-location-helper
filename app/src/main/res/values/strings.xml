@@ -20,4 +20,21 @@
     <string name="navigation_header">Singapore Police Force Location Helper</string>
     <string name="spf_logo_desc">Singapore Police Force logo</string>
     <string name="nav_about">About</string>
+    <!--About Page-->
+    <string name="about_app_desc">The idea behind this application was first conceived back in 2017 when
+        I was on filer duty in Clementi Police Division and erroneously thought that Jurong Island fell
+        under the jurisdiction of Jurong Police Division. Subsequently, I realised that the datasets for
+        both the NPC boundaries and police establishments could be found online. Work on this application
+        started in late 2018.</string>
+    <string name="about_build_version">Build Version</string>
+    <string name="about_author">Author</string>
+    <string name="about_author_name">Ian Yong</string>
+    <string name="about_datasets">Datasets</string>
+    <string name="about_datasets_desc">All datasets were sourced from https://data.gov.sg\n\nSingapore Police
+        Force NPC Boundary\nLast official update on December 21, 2017\nUnofficially updated to include
+        Woodlands Police Division on November 29, 2018\n\nSingapore Police Force Establishments\nLast official
+        update on November 23, 2018</string>
+    <string name="about_disclaimer">This application is not endorsed by, directly affiliated with, maintained,
+        authorised, or sponsored by the Singapore Police Force. The SPF crest, logos, and information used
+        in this app are owned by, licensed to, or controlled by the SPF.</string>
 </resources>

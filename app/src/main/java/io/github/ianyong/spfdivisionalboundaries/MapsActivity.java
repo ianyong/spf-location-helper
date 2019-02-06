@@ -2,8 +2,10 @@ package io.github.ianyong.spfdivisionalboundaries;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -108,6 +110,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax, bottomSheetWebsite;
     private ImageView bottomSheetImage;
     private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections, bottomSheetButtonWebsite;
+    private CoordinatorLayout baseLayout;
     private Intent callIntent, directionsIntent, websiteIntent;
     private KmlParser npcBoundaries, spfEstablishments;
     private Marker marker;
@@ -173,12 +176,19 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         // Set up navigation drawer.
+        baseLayout = findViewById(R.id.base_view);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                // Open about page.
                 if(menuItem.getItemId() == R.id.nav_about) {
+                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.setCustomAnimations(R.anim.slide_in_right, 0, 0, R.anim.slide_out_right);
+                    fragmentTransaction.replace(R.id.base_view, new AboutFragment());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                     drawerLayout.closeDrawers();
                 }
                 return true;

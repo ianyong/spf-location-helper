@@ -5,5 +5,7 @@
     <color name="colorAccent">#5472d3</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="grey">#757575</color>
+    <color name="dividerGrey">#E0E0E0</color>
     <color name="spfBlue">#011B56</color>
 </resources>

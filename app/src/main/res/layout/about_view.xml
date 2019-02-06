@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Description-->
+            <LinearLayout
+                style="@style/AboutPageEntry">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/spf_crest"
+                    android:paddingLeft="@dimen/about_image_padding_left"
+                    android:paddingRight="@dimen/about_image_padding_right"
+                    android:adjustViewBounds="true"/>
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_app_desc"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"/>
+
+            <!--Build Version-->
+            <LinearLayout
+                style="@style/AboutPageEntry">
+
+                <TextView
+                    style="@style/AboutPageEntryText"
+                    android:text="@string/about_build_version"/>
+
+                <TextView
+                    android:id="@+id/about_build_version"
+                    style="@style/AboutPageEntrySubtext"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"/>
+
+            <!--Author-->
+            <LinearLayout
+                style="@style/AboutPageEntry">
+
+                <TextView
+                    style="@style/AboutPageEntryText"
+                    android:text="@string/about_author"/>
+
+                <TextView
+                    style="@style/AboutPageEntrySubtext"
+                    android:text="@string/about_author_name"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"/>
+
+            <!--Datasets-->
+            <LinearLayout
+                style="@style/AboutPageEntry">
+
+                <TextView
+                    style="@style/AboutPageEntryText"
+                    android:text="@string/about_datasets"/>
+
+                <TextView
+                    style="@style/AboutPageEntrySubtext"
+                    android:text="@string/about_datasets_desc"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"/>
+
+            <LinearLayout
+                style="@style/AboutPageEntry">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_disclaimer"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

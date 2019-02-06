@@ -27,4 +27,12 @@
     <!--Navigation Drawer-->
     <dimen name="navigation_header_height">200dp</dimen>
     <dimen name="navigation_header_padding">16dp</dimen>
+    <!--About Page-->
+    <dimen name="about_image_padding_left">40dp</dimen>
+    <dimen name="about_image_padding_right">40dp</dimen>
+    <dimen name="about_entry_padding_left">20dp</dimen>
+    <dimen name="about_entry_padding_right">20dp</dimen>
+    <dimen name="about_entry_padding_top">10dp</dimen>
+    <dimen name="about_entry_padding_bottom">10dp</dimen>
+    <dimen name="about_entry_text_padding">3dp</dimen>
 </resources>

@@ -17,7 +17,7 @@
     <style name="Divider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
-        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:background">@color/dividerGrey</item>
     </style>
 
     <style name="BottomSheetButtonLayout">
@@ -35,6 +35,7 @@
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center</item>
         <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
         <item name="android:background">?selectableItemBackgroundBorderless</item>
     </style>
 
@@ -73,6 +74,29 @@
     <style name="BottomSheetInfoSpace">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/bottom_sheet_info_space_height</item>
+    </style>
+
+    <style name="AboutPageEntry">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/about_entry_padding_left</item>
+        <item name="android:paddingRight">@dimen/about_entry_padding_right</item>
+        <item name="android:paddingTop">@dimen/about_entry_padding_top</item>
+        <item name="android:paddingBottom">@dimen/about_entry_padding_bottom</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="AboutPageEntryText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AboutPageEntrySubtext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/about_entry_text_padding</item>
+        <item name="android:textColor">@color/grey</item>
     </style>
 
 </resources>
