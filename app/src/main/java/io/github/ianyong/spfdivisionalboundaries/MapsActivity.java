@@ -385,6 +385,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onMapClick(LatLng latLng) {
                 hideBottomSheet();
+                marker.remove();
             }
         });
 
@@ -395,6 +396,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             npcLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
                 @Override
                 public void onFeatureClick(Feature feature) {
+                    marker.remove();
                     if(feature != null) {
                         updateBottomSheet(feature.getProperty("name"));
                     }
