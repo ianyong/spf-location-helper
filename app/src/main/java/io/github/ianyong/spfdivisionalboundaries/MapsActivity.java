@@ -9,6 +9,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
@@ -122,6 +124,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private FloatingActionButton floatingActionButton;
+    private AlertDialog noMarkerDialog;
     private boolean bottomSheetHidden = true;
 
     @SuppressLint("ClickableViewAccessibility")
@@ -142,7 +145,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         delete = getApplicationContext().getResources().getDrawable(R.drawable.places_ic_clear);
 
         // Initialise bottom sheet dynamic elements.
-        floatingActionButton = findViewById(R.id.floating_action_button);
         bottomSheetImage = findViewById(R.id.bottom_sheet_image);
         bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
         bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
@@ -200,6 +202,25 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     drawerLayout.closeDrawers();
                 }
                 return true;
+            }
+        });
+
+        // Set up floating action button.
+        floatingActionButton = findViewById(R.id.floating_action_button);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                findNearestStation();
+            }
+        });
+
+        // Set up no marker dialog.
+        noMarkerDialog = new AlertDialog.Builder(MapsActivity.this, R.style.AlertDialog).create();
+        noMarkerDialog.setTitle(getString(R.string.no_marker_dialog_title));
+        noMarkerDialog.setMessage(getString(R.string.no_marker_dialog_message));
+        noMarkerDialog.setButton(AlertDialog.BUTTON_POSITIVE, getString(R.string.no_marker_dialog_ok), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
 
@@ -385,7 +406,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onMapClick(LatLng latLng) {
                 hideBottomSheet();
-                marker.remove();
+                removeMarker();
             }
         });
 
@@ -396,7 +417,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             npcLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
                 @Override
                 public void onFeatureClick(Feature feature) {
-                    marker.remove();
+                    removeMarker();
                     if(feature != null) {
                         updateBottomSheet(feature.getProperty("name"));
                     }
@@ -446,7 +467,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void moveCamera(Place myPlace) {
-        if (googleMap != null) {
+        if(googleMap != null) {
             googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(myPlace.getViewport(),
                     getApplicationContext().getResources().getDisplayMetrics().widthPixels,
                     getApplicationContext().getResources().getDisplayMetrics().heightPixels,
@@ -456,12 +477,23 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void addMarker(LatLng pos, String name) {
-        if (marker != null) {
-            marker.remove();
-        }
+        removeMarker();
         marker = googleMap.addMarker(new MarkerOptions().position(pos)
                 .title(name));
         marker.showInfoWindow();
+    }
+
+    private void removeMarker() {
+        if(marker != null) {
+            marker.remove();
+            marker = null;
+        }
+    }
+
+    private void findNearestStation() {
+        if(marker == null) {
+            noMarkerDialog.show();
+        }
     }
 
     private void showKeyboard(View view) {

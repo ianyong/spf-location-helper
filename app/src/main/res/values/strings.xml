@@ -37,4 +37,8 @@
     <string name="about_disclaimer">This application is not endorsed by, directly affiliated with, maintained,
         authorised, or sponsored by the Singapore Police Force. The SPF crest, logos, and information used
         in this app are owned by, licensed to, or controlled by the SPF.</string>
+    <!--Nearest Station Utility-->
+    <string name="no_marker_dialog_title">No location selected</string>
+    <string name="no_marker_dialog_message">Please select a location using the search bar or by long pressing the map.</string>
+    <string name="no_marker_dialog_ok">OK</string>
 </resources>
