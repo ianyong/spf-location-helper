@@ -127,6 +127,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Do not reload app state if already loaded.
+        if(savedInstanceState != null) {
+            return;
+        }
         setContentView(R.layout.activity_maps);
 
         resultReceiver = new AddressResultReceiver(new Handler());
@@ -394,6 +398,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             });
         } catch(Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(getSupportFragmentManager().getBackStackEntryCount() > 0) {
+            super.onBackPressed();
+        } else if(drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawers();
+        } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
+            bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
+        } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
+            bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
+        } else {
+            moveTaskToBack(true);
         }
     }
 
