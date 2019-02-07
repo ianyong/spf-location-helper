@@ -41,4 +41,9 @@
     <string name="no_marker_dialog_title">No location selected</string>
     <string name="no_marker_dialog_message">Please select a location using the search bar or by long pressing the map.</string>
     <string name="no_marker_dialog_ok">OK</string>
+    <string name="search_type_dialog_title">Choose a search type</string>
+    <string-array name="search_type_dialog_options">
+        <item>Nearest NPC</item>
+        <item>Nearest NPC or NPP</item>
+    </string-array>
 </resources>

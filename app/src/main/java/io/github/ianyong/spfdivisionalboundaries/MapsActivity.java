@@ -20,6 +20,7 @@ import android.os.Handler;
 import android.os.ResultReceiver;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -52,10 +53,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.maps.android.PolyUtil;
+import com.google.maps.android.SphericalUtil;
 import com.google.maps.android.data.Feature;
 import com.google.maps.android.data.kml.KmlContainer;
 import com.google.maps.android.data.kml.KmlLayer;
 import com.google.maps.android.data.kml.KmlPlacemark;
+import com.google.maps.android.data.kml.KmlPoint;
 import com.google.maps.android.data.kml.KmlPolygon;
 import com.mahc.custombottomsheetbehavior.BottomSheetBehaviorGoogleMapsLike;
 import com.mahc.custombottomsheetbehavior.MergedAppBarLayout;
@@ -64,6 +67,8 @@ import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
 import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -119,12 +124,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Marker marker;
     private AddressResultReceiver resultReceiver;
     private Location selectedLocation;
-    private KmlLayer npcLayer;
+    private KmlLayer npcLayer, establishmentsLayer;
     private Drawable menu, delete;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private FloatingActionButton floatingActionButton;
-    private AlertDialog noMarkerDialog;
+    private AlertDialog noMarkerDialog, searchTypeDialog;
     private boolean bottomSheetHidden = true;
 
     @SuppressLint("ClickableViewAccessibility")
@@ -209,7 +214,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         floatingActionButton = findViewById(R.id.floating_action_button);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                findNearestStation();
+                if(marker == null) {
+                    noMarkerDialog.show();
+                } else {
+                    searchTypeDialog.show();
+                }
             }
         });
 
@@ -223,6 +232,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dialog.dismiss();
             }
         });
+
+        // Set up nearest station search type dialog.
+        AlertDialog.Builder builder = new AlertDialog.Builder(MapsActivity.this, R.style.AlertDialog);
+        builder.setTitle(getString(R.string.search_type_dialog_title));
+        builder.setItems(R.array.search_type_dialog_options, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                findNearestStation(which);
+            }
+        });
+        searchTypeDialog = builder.create();
 
         // Set up search bar.
         typeFilter = new AutocompleteFilter.Builder()
@@ -411,6 +431,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         try {
+            // Add NPC boundaries to map.
             npcLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_npc_boundary_kml, getApplicationContext());
             npcLayer.addLayerToMap();
             // Set a listener for geometry clicked events.
@@ -423,6 +444,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     }
                 }
             });
+            // Create a KmlLayer for use in finding closest police station.
+            establishmentsLayer = new KmlLayer(this.googleMap, R.raw.singapore_police_force_establishments_kml, getApplicationContext());
+            establishmentsLayer.addLayerToMap(); // Necessary to add and remove the KmlLayer so that the containers get loaded.
+            establishmentsLayer.removeLayerFromMap();
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -490,9 +515,30 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
-    private void findNearestStation() {
-        if(marker == null) {
-            noMarkerDialog.show();
+    private void findNearestStation(int searchMode) {
+        Queue<EstablishmentDistance> queue = new PriorityQueue<>();
+        LatLng markerLatLng = marker.getPosition();
+        for(KmlContainer container : establishmentsLayer.getContainers()) {
+            for(KmlContainer nestedContainer : container.getContainers()) {
+                for (KmlPlacemark placemark : nestedContainer.getPlacemarks()) {
+                    KmlPlacemarkProperties placemarkProperties = spfEstablishments.getKmlPlacemark(placemark.getProperty("name"));
+                    // Filter out establishments that are not NPCs or NPPs.
+                    if(placemarkProperties.getProperty(EST_NAME).contains("Neighbourhood")) {
+                        // Filter out NPPs if only searching for NPCs.
+                        if(searchMode == 0 && placemarkProperties.getProperty(EST_NAME).contains("Post")) {
+                            continue;
+                        }
+                        LatLng placemarkLatLng = ((KmlPoint) placemark.getGeometry()).getGeometryObject();
+                        queue.add(new EstablishmentDistance(placemark.getProperty("name"),
+                                SphericalUtil.computeDistanceBetween(markerLatLng, placemarkLatLng)));
+                    }
+                }
+            }
+        }
+        while(!queue.isEmpty()) {
+            EstablishmentDistance ed = queue.poll();
+            Log.i("findNearestStation", spfEstablishments.getKmlPlacemark(ed.getEstablishmentKmlId()).getProperty(EST_NAME)
+                    + " (" + String.valueOf(ed.getDistance()) + ")");
         }
     }
 
@@ -506,18 +552,23 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
-    // Updates bottom sheet dynamic information.
-    private void updateBottomSheet(String kmlId) {
-        KmlPlacemarkProperties placemark = null;
+    private KmlPlacemarkProperties getPlacemarkPropertiesFromBoundariesKmlId(String boudariesKmlId) {
+        KmlPlacemarkProperties placemarkProperties = null;
         // Find the relevant entry in the Establishments KML file.
         for(Map.Entry<String, KmlPlacemarkProperties> entry : spfEstablishments.getKmlPlacemarks().entrySet()) {
             if(entry.getValue().hasProperty(EST_NAME) &&
-                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(kmlId).getProperty(NPC_NAME) + " "
-                    + getString(R.string.neighbourhood_police_centre))) {
-                placemark = entry.getValue();
+                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(boudariesKmlId).getProperty(NPC_NAME)
+                            + " " + getString(R.string.neighbourhood_police_centre))) {
+                placemarkProperties = entry.getValue();
                 break;
             }
         }
+        return placemarkProperties;
+    }
+
+    // Updates bottom sheet dynamic information.
+    private void updateBottomSheet(String boundariesKmlId) {
+        KmlPlacemarkProperties placemark = getPlacemarkPropertiesFromBoundariesKmlId(boundariesKmlId);
         // Update image.
         String imageUrl = null;
         if(placemark.hasProperty(EST_FB_ID)) {
