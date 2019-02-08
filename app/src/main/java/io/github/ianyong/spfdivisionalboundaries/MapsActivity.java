@@ -113,7 +113,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private PlaceAutocompleteAdapter placeAutocompleteAdapter;
     private AutoCompleteTextView search;
     private View barrier, bottomSheet;
-    private TextView bottomSheetHeader, bottomSheetAddress, bottomSheetOperatingStatus,
+    private TextView bottomSheetHeader, bottomSheetHeaderSubtext, bottomSheetAddress, bottomSheetOperatingStatus,
             bottomSheetOperatingHours, bottomSheetTelephone, bottomSheetFax, bottomSheetWebsite;
     private ImageView bottomSheetImage;
     private LinearLayout bottomSheetButtonCall, bottomSheetButtonDirections, bottomSheetButtonWebsite;
@@ -151,6 +151,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Initialise bottom sheet dynamic elements.
         bottomSheetImage = findViewById(R.id.bottom_sheet_image);
         bottomSheetHeader = findViewById(R.id.bottom_sheet_header);
+        bottomSheetHeaderSubtext = findViewById(R.id.bottom_sheet_header_subtext);
         bottomSheetAddress = findViewById(R.id.bottom_sheet_info_address);
         bottomSheetOperatingStatus = findViewById(R.id.bottom_sheet_info_operating_status);
         bottomSheetOperatingHours = findViewById(R.id.bottom_sheet_info_operating_hours);
@@ -587,9 +588,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         updateBottomSheetImage(imageUrl);
         // Update name.
-        String name = placemark.getProperty(EST_NAME).replace(" " + getString(R.string.neighbourhood_police_centre), "");
+        String name = placemark.getProperty(EST_NAME);
+        if(name.contains(getString(R.string.neighbourhood_police_centre))) {
+            name = name.replace(" " + getString(R.string.neighbourhood_police_centre), "");
+            bottomSheetHeaderSubtext.setText(getString(R.string.neighbourhood_police_centre));
+            mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
+        } else if(name.contains(getString(R.string.neighbourhood_police_post))) {
+            name = name.replace(" " + getString(R.string.neighbourhood_police_post), "");
+            bottomSheetHeaderSubtext.setText(getString(R.string.neighbourhood_police_post));
+            mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_post_abbreviation));
+        }
         bottomSheetHeader.setText(name);
-        mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
         // Update address.
         String address = constructAddress(placemark);
         bottomSheetAddress.setText(address);

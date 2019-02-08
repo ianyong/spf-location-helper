@@ -22,12 +22,12 @@
             android:textSize="@dimen/bottom_sheet_collapsed_main_font"/>
 
         <TextView
+            android:id="@+id/bottom_sheet_header_subtext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="@dimen/bottom_sheet_collapsed_sub_font"
-            android:layout_marginTop="@dimen/bottom_sheet_collapsed_text_margin"
-            android:text="@string/neighbourhood_police_centre"/>
+            android:layout_marginTop="@dimen/bottom_sheet_collapsed_text_margin" />
 
     </LinearLayout>
 
