@@ -1,4 +1,4 @@
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

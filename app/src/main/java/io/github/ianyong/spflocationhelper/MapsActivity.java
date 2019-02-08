@@ -1,4 +1,4 @@
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.location.places.AutocompleteFilter;
 import com.google.android.gms.location.places.AutocompletePrediction;
@@ -165,7 +166,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetButtonCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(callIntent);
+                if(callIntent.getData() != null) {
+                    startActivity(callIntent);
+                } else {
+                    Toast.makeText(getApplicationContext(), getString(R.string.no_number_found), Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -186,7 +191,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetButtonWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(websiteIntent);
+                if(websiteIntent.getData() != null) {
+                    startActivity(websiteIntent);
+                } else {
+                    Toast.makeText(getApplicationContext(), getString(R.string.no_link_found), Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

@@ -1,4 +1,4 @@
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 public class EstablishmentDistance implements Comparable<EstablishmentDistance> {
 

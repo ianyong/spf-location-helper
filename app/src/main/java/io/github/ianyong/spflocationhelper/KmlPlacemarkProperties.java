@@ -1,4 +1,4 @@
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 import java.util.HashMap;
 

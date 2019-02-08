@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 import android.content.Context;
 import android.graphics.Typeface;
