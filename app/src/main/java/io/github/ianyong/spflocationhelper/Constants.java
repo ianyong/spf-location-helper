@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.ianyong.spfdivisionalboundaries;
+package io.github.ianyong.spflocationhelper;
 
 /**
  * Constant values reused in this sample.
