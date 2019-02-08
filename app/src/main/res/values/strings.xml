@@ -46,4 +46,5 @@
         <item>Nearest NPC</item>
         <item>Nearest NPC or NPP</item>
     </string-array>
+    <string name="search_results_dialog_title">Search results</string>
 </resources>

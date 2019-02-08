@@ -37,4 +37,6 @@
     <dimen name="about_entry_padding_top">10dp</dimen>
     <dimen name="about_entry_padding_bottom">10dp</dimen>
     <dimen name="about_entry_text_padding">3dp</dimen>
+    <!--Adapter-->
+    <dimen name="adapter_padding">10dp</dimen>
 </resources>

@@ -20,7 +20,6 @@ import android.os.Handler;
 import android.os.ResultReceiver;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -66,9 +65,9 @@ import com.mahc.custombottomsheetbehavior.MergedAppBarLayoutBehavior;
 import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -440,7 +439,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 public void onFeatureClick(Feature feature) {
                     removeMarker();
                     if(feature != null) {
-                        updateBottomSheet(feature.getProperty("name"));
+                        updateBottomSheetFromBoundariesKmlId(feature.getProperty("name"));
                     }
                 }
             });
@@ -516,7 +515,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void findNearestStation(int searchMode) {
-        Queue<EstablishmentDistance> queue = new PriorityQueue<>();
+        // Calculate the distance of each NPC and/ or NPP from the marker.
+        final ArrayList<EstablishmentDistance> list = new ArrayList<>();
         LatLng markerLatLng = marker.getPosition();
         for(KmlContainer container : establishmentsLayer.getContainers()) {
             for(KmlContainer nestedContainer : container.getContainers()) {
@@ -529,17 +529,25 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                             continue;
                         }
                         LatLng placemarkLatLng = ((KmlPoint) placemark.getGeometry()).getGeometryObject();
-                        queue.add(new EstablishmentDistance(placemark.getProperty("name"),
+                        list.add(new EstablishmentDistance(placemark.getProperty("name"),
+                                spfEstablishments.getKmlPlacemark(placemark.getProperty("name")).getProperty(EST_NAME),
                                 SphericalUtil.computeDistanceBetween(markerLatLng, placemarkLatLng)));
                     }
                 }
             }
         }
-        while(!queue.isEmpty()) {
-            EstablishmentDistance ed = queue.poll();
-            Log.i("findNearestStation", spfEstablishments.getKmlPlacemark(ed.getEstablishmentKmlId()).getProperty(EST_NAME)
-                    + " (" + String.valueOf(ed.getDistance()) + ")");
-        }
+        Collections.sort(list);
+        // Create dialog showing the list of nearest stations.
+        AlertDialog.Builder builder = new AlertDialog.Builder(MapsActivity.this, R.style.AlertDialog);
+        builder.setAdapter(new EstablishmentAdapter(getApplicationContext(), R.layout.establishment_adapter_view,
+                list), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                updateBottomSheetFromEstablishmentsKmlId(list.get(which).getEstablishmentKmlId());
+            }
+        });
+        builder.setTitle(getString(R.string.search_results_dialog_title));
+        builder.show();
     }
 
     private void showKeyboard(View view) {
@@ -552,23 +560,26 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
-    private KmlPlacemarkProperties getPlacemarkPropertiesFromBoundariesKmlId(String boudariesKmlId) {
-        KmlPlacemarkProperties placemarkProperties = null;
+    // Get Establishments KML ID before calling updateBottomSheetFromEstablishmentsKmlId().
+    private void updateBottomSheetFromBoundariesKmlId(String boundariesKmlId) {
+        String establishmentsKmlId = null;
         // Find the relevant entry in the Establishments KML file.
         for(Map.Entry<String, KmlPlacemarkProperties> entry : spfEstablishments.getKmlPlacemarks().entrySet()) {
             if(entry.getValue().hasProperty(EST_NAME) &&
-                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(boudariesKmlId).getProperty(NPC_NAME)
+                    entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(boundariesKmlId).getProperty(NPC_NAME)
                             + " " + getString(R.string.neighbourhood_police_centre))) {
-                placemarkProperties = entry.getValue();
+                establishmentsKmlId = entry.getKey();
                 break;
             }
         }
-        return placemarkProperties;
+        if(establishmentsKmlId != null) {
+            updateBottomSheetFromEstablishmentsKmlId(establishmentsKmlId);
+        }
     }
 
     // Updates bottom sheet dynamic information.
-    private void updateBottomSheet(String boundariesKmlId) {
-        KmlPlacemarkProperties placemark = getPlacemarkPropertiesFromBoundariesKmlId(boundariesKmlId);
+    private void updateBottomSheetFromEstablishmentsKmlId(String establishmentsKmlId) {
+        KmlPlacemarkProperties placemark = spfEstablishments.getKmlPlacemark(establishmentsKmlId);
         // Update image.
         String imageUrl = null;
         if(placemark.hasProperty(EST_FB_ID)) {
@@ -648,7 +659,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             for(KmlContainer nestedContainer : container.getContainers()) {
                 for (KmlPlacemark placemark : nestedContainer.getPlacemarks()) {
                     if (PolyUtil.containsLocation(point, ((KmlPolygon) placemark.getGeometry()).getOuterBoundaryCoordinates(), true)) {
-                        updateBottomSheet(placemark.getProperty("name"));
+                        updateBottomSheetFromBoundariesKmlId(placemark.getProperty("name"));
                         return;
                     }
                 }

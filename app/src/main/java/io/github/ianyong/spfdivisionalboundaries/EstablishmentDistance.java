@@ -3,15 +3,21 @@ package io.github.ianyong.spfdivisionalboundaries;
 public class EstablishmentDistance implements Comparable<EstablishmentDistance> {
 
     private String establishmentKmlId;
+    private String name;
     private double distance;
 
-    public EstablishmentDistance(String kmlId, double distance) {
-        this.establishmentKmlId = kmlId;
+    public EstablishmentDistance(String kmlId, String name, double distance) {
+        establishmentKmlId = kmlId;
+        this.name = name;
         this.distance = distance;
     }
 
     public String getEstablishmentKmlId() {
         return establishmentKmlId;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public double getDistance() {
