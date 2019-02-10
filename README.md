@@ -3,10 +3,11 @@ The Singapore Police Force comprises 7 land divisions; each controlling a number
 - Jurong East NPC being under the control of Clementi Police Division instead of Jurong Police Division
 - Tiong Bahru Plaza despite being under the jurisdiction of Central Police Division's Bukit Merah East NPC, is much closer to Clementi Police Division's Bukit Merah West NPC (442m vs 1.6km)
 - Bukit Timah NPP being under the control of Clementi Police Division's Clementi NPC as opposed to Tanglin Police Division's Bukit Timah NPC
+- Bukit Panjang North NPP being under the control of Woodlands Police Division's Woodlands West NPC as opposed to Jurong Police Division's Bukit Panjang NPC.
 
 The above examples can be confusing not only to the public, but also to new officers. The aim of this unofficial Android application is to display the internal boundaries used in a concise and effective manner.
 
-The latest release can be found [here](https://github.com/ianyong/SPFLocationHelper/releases/latest).
+**The latest release can be found [here](https://github.com/ianyong/SPFLocationHelper/releases/latest).**
 ## Features
 - Map of Singapore with the NPC boundaries overlaid that can be clicked on for more information
 - Search bar to search for locations within Singapore
