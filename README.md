@@ -5,6 +5,19 @@ The Singapore Police Force comprises 7 land divisions; each controlling a number
 - Bukit Timah NPP being under the control of Clementi Police Division's Clementi NPC as opposed to Tanglin Police Division's Bukit Timah NPC
 
 The above examples can be confusing not only to the public, but also to new officers. The aim of this unofficial Android application is to display the internal boundaries used in a concise and effective manner.
+
+The latest release can be found [here](https://github.com/ianyong/SPFLocationHelper/releases/latest).
+## Features
+- Map of Singapore with the NPC boundaries overlaid that can be clicked on for more information
+- Search bar to search for locations within Singapore
+- Reverse geocoding on long press on the map
+- Bottom sheet that displays the selected NPC/ NPP's information based off the above input methods
+- Find nearest NPC and/ or NPP function
+<p float="left">
+  <img src="/media/search_bar.gif" width="300"/>
+  <img src="/media/reverse_geocode_nearest.gif" width="300"/>
+</p>
+
 ## History
 The idea behind this application was first conceived back in 2017 when I was on filer duty in Clementi Police Division and erroneously thought that Jurong Island fell under the jurisdiction of Jurong Police Division. Subsequently, I realised that the datasets for both the NPC boundaries and police establishments could be found online. Work on this application started in late 2018.
 ## Datasets
