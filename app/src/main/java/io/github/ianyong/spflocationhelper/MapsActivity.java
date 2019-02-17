@@ -29,9 +29,11 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -128,6 +130,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private Drawable menu, delete;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+    private Switch establishmentsSwitch;
     private FloatingActionButton floatingActionButton;
     private AlertDialog noMarkerDialog, searchTypeDialog;
     private boolean bottomSheetHidden = true;
@@ -203,6 +206,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         baseLayout = findViewById(R.id.base_view);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigation_view);
+        establishmentsSwitch = (Switch) navigationView.getMenu().findItem(R.id.nav_establishments).getActionView();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -214,8 +218,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     drawerLayout.closeDrawers();
+                } else if(menuItem.getItemId() == R.id.nav_establishments) {
+                    establishmentsSwitch.toggle();
                 }
                 return true;
+            }
+        });
+        // Set up establishments switch.
+        establishmentsSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked) {
+                    //
+                } else {
+                    //
+                }
             }
         });
 

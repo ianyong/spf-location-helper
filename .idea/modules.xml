@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SPFDivisionalBoundaries.iml" filepath="$PROJECT_DIR$/SPFDivisionalBoundaries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPFLocationHelper.iml" filepath="$PROJECT_DIR$/SPFLocationHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -24,6 +24,7 @@
     <string name="navigation_header">Singapore Police Force Location Helper</string>
     <string name="spf_logo_desc">Singapore Police Force logo</string>
     <string name="nav_about">About</string>
+    <string name="nav_establishments">Show Establishments</string>
     <!--About Page-->
     <string name="about_app_desc">The idea behind this application was first conceived back in 2017 when
         I was on filer duty in Clementi Police Division and erroneously thought that Jurong Island fell
