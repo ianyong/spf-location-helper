@@ -206,7 +206,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         baseLayout = findViewById(R.id.base_view);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigation_view);
-        establishmentsSwitch = (Switch) navigationView.getMenu().findItem(R.id.nav_establishments).getActionView();
+        // TODO: Implement the establishments feature
+        // establishmentsSwitch = (Switch) navigationView.getMenu().findItem(R.id.nav_establishments).getActionView();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -218,23 +219,24 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     drawerLayout.closeDrawers();
-                } else if(menuItem.getItemId() == R.id.nav_establishments) {
-                    establishmentsSwitch.toggle();
-                }
+                } // else if(menuItem.getItemId() == R.id.nav_establishments) {
+                //     establishmentsSwitch.toggle();
+                // }
                 return true;
             }
         });
+        // TODO: Set up establishments feature
         // Set up establishments switch.
-        establishmentsSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked) {
-                    //
-                } else {
-                    //
-                }
-            }
-        });
+        // establishmentsSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        //     @Override
+        //     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        //         if(isChecked) {
+        //             //
+        //         } else {
+        //             //
+        //         }
+        //     }
+        // });
 
         // Set up floating action button.
         floatingActionButton = findViewById(R.id.floating_action_button);

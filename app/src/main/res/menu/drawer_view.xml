@@ -8,10 +8,11 @@
         android:title="@string/nav_about"
         android:icon="@drawable/baseline_info_black_24"/>
 
-    <item
-        android:id="@+id/nav_establishments"
-        android:title="@string/nav_establishments"
-        android:icon="@drawable/baseline_location_on_black_24"
-        app:actionViewClass="android.widget.Switch"/>
+<!-- TODO: Implement the establishments feature -->
+<!--    <item-->
+<!--        android:id="@+id/nav_establishments"-->
+<!--        android:title="@string/nav_establishments"-->
+<!--        android:icon="@drawable/baseline_location_on_black_24"-->
+<!--        app:actionViewClass="android.widget.Switch"/>-->
 
 </menu>
