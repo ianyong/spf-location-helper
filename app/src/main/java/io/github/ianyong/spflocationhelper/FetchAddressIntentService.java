@@ -1,19 +1,3 @@
-/*
- * Copyright 2017 Google Inc. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package io.github.ianyong.spflocationhelper;
 
 import android.app.IntentService;
@@ -142,7 +126,7 @@ public class FetchAddressIntentService extends IntentService {
             // getPostalCode() ("94043", for example)
             // getCountryCode() ("US", for example)
             // getCountryName() ("United States", for example)
-            for(int i = 0; i <= address.getMaxAddressLineIndex(); i++) {
+            for (int i = 0; i <= address.getMaxAddressLineIndex(); i++) {
                 addressFragments.add(address.getAddressLine(i));
             }
             Log.i(TAG, getString(R.string.address_found));

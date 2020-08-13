@@ -29,7 +29,6 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
-import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -140,7 +139,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Do not reload app state if already loaded.
-        if(savedInstanceState != null) {
+        if (savedInstanceState != null) {
             return;
         }
         setContentView(R.layout.activity_maps);
@@ -169,7 +168,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetButtonCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(callIntent.getData() != null) {
+                if (callIntent.getData() != null) {
                     startActivity(callIntent);
                 } else {
                     Toast.makeText(getApplicationContext(), getString(R.string.no_number_found), Toast.LENGTH_SHORT).show();
@@ -194,7 +193,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         bottomSheetButtonWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(websiteIntent.getData() != null) {
+                if (websiteIntent.getData() != null) {
                     startActivity(websiteIntent);
                 } else {
                     Toast.makeText(getApplicationContext(), getString(R.string.no_link_found), Toast.LENGTH_SHORT).show();
@@ -212,14 +211,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 // Open about page.
-                if(menuItem.getItemId() == R.id.nav_about) {
+                if (menuItem.getItemId() == R.id.nav_about) {
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.setCustomAnimations(R.anim.slide_in_right, 0, 0, R.anim.slide_out_right);
                     fragmentTransaction.replace(R.id.base_view, new AboutFragment());
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     drawerLayout.closeDrawers();
-                } // else if(menuItem.getItemId() == R.id.nav_establishments) {
+                } // else if (menuItem.getItemId() == R.id.nav_establishments) {
                 //     establishmentsSwitch.toggle();
                 // }
                 return true;
@@ -230,7 +229,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // establishmentsSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
         //     @Override
         //     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        //         if(isChecked) {
+        //         if (isChecked) {
         //             //
         //         } else {
         //             //
@@ -242,7 +241,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         floatingActionButton = findViewById(R.id.floating_action_button);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if(marker == null) {
+                if (marker == null) {
                     noMarkerDialog.show();
                 } else {
                     searchTypeDialog.show();
@@ -311,7 +310,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         search.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if(actionId == EditorInfo.IME_ACTION_SEARCH) {
+                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                     v.clearFocus();
                 }
                 return false;
@@ -322,10 +321,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         search.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == MotionEvent.ACTION_UP) {
-                    if(search.getCompoundDrawables()[DRAWABLE_RIGHT] != null && event.getRawX() + search.getPaddingLeft() >= (search.getRight() - search.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+                if (event.getAction() == MotionEvent.ACTION_UP) {
+                    if (search.getCompoundDrawables()[DRAWABLE_RIGHT] != null && event.getRawX() + search.getPaddingLeft() >= (search.getRight() - search.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
                         search.setText("");
-                    } else if(event.getRawX() - search.getPaddingLeft() <= (search.getLeft() + search.getCompoundDrawables()[DRAWABLE_LEFT].getBounds().width())) {
+                    } else if (event.getRawX() - search.getPaddingLeft() <= (search.getLeft() + search.getCompoundDrawables()[DRAWABLE_LEFT].getBounds().width())) {
                         search.clearFocus();
                         search.setEnabled(false); // Temporarily disable search bar to prevent it from gaining focus.
                         drawerLayout.openDrawer(GravityCompat.START);
@@ -346,7 +345,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(s.length() > 0) {
+                if (s.length() > 0) {
                     search.setCompoundDrawablesWithIntrinsicBounds(menu, null, delete, null);
                 } else {
                     search.setCompoundDrawablesWithIntrinsicBounds(menu, null, null, null);
@@ -387,7 +386,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
                 // Force redraw bottom sheet if previously hidden.
-                if(newState == BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN) {
+                if (newState == BottomSheetBehaviorGoogleMapsLike.STATE_HIDDEN) {
                     bottomSheetHidden = true;
                 } else if (newState == BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED && bottomSheetHidden) {
                     bottomSheetHidden = false;
@@ -406,9 +405,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mergedAppBarLayoutBehaviour.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
+                if (bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
                     bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
-                } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
+                } else if (bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
                     bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
                 }
             }
@@ -467,7 +466,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 @Override
                 public void onFeatureClick(Feature feature) {
                     removeMarker();
-                    if(feature != null) {
+                    if (feature != null) {
                         updateBottomSheetFromBoundariesKmlId(feature.getProperty("name"));
                     }
                 }
@@ -483,13 +482,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onBackPressed() {
-        if(getSupportFragmentManager().getBackStackEntryCount() > 0) {
+        if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
             super.onBackPressed();
-        } else if(drawerLayout.isDrawerOpen(GravityCompat.START)) {
+        } else if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawers();
-        } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
+        } else if (bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_EXPANDED) {
             bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT);
-        } else if(bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
+        } else if (bottomSheetBehaviour.getState() == BottomSheetBehaviorGoogleMapsLike.STATE_ANCHOR_POINT) {
             bottomSheetBehaviour.setState(BottomSheetBehaviorGoogleMapsLike.STATE_COLLAPSED);
         } else {
             moveTaskToBack(true);
@@ -520,7 +519,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void moveCamera(Place myPlace) {
-        if(googleMap != null) {
+        if (googleMap != null) {
             googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(myPlace.getViewport(),
                     getApplicationContext().getResources().getDisplayMetrics().widthPixels,
                     getApplicationContext().getResources().getDisplayMetrics().heightPixels,
@@ -537,7 +536,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void removeMarker() {
-        if(marker != null) {
+        if (marker != null) {
             marker.remove();
             marker = null;
         }
@@ -552,9 +551,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 for (KmlPlacemark placemark : nestedContainer.getPlacemarks()) {
                     KmlPlacemarkProperties placemarkProperties = spfEstablishments.getKmlPlacemark(placemark.getProperty("name"));
                     // Filter out establishments that are not NPCs or NPPs.
-                    if(placemarkProperties.getProperty(EST_NAME).contains("Neighbourhood")) {
+                    if (placemarkProperties.getProperty(EST_NAME).contains("Neighbourhood")) {
                         // Filter out NPPs if only searching for NPCs.
-                        if(searchMode == 0 && placemarkProperties.getProperty(EST_NAME).contains("Post")) {
+                        if (searchMode == 0 && placemarkProperties.getProperty(EST_NAME).contains("Post")) {
                             continue;
                         }
                         LatLng placemarkLatLng = ((KmlPoint) placemark.getGeometry()).getGeometryObject();
@@ -594,14 +593,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         String establishmentsKmlId = null;
         // Find the relevant entry in the Establishments KML file.
         for(Map.Entry<String, KmlPlacemarkProperties> entry : spfEstablishments.getKmlPlacemarks().entrySet()) {
-            if(entry.getValue().hasProperty(EST_NAME) &&
+            if (entry.getValue().hasProperty(EST_NAME) &&
                     entry.getValue().getProperty(EST_NAME).equals(npcBoundaries.getKmlPlacemark(boundariesKmlId).getProperty(NPC_NAME)
                             + " " + getString(R.string.neighbourhood_police_centre))) {
                 establishmentsKmlId = entry.getKey();
                 break;
             }
         }
-        if(establishmentsKmlId != null) {
+        if (establishmentsKmlId != null) {
             updateBottomSheetFromEstablishmentsKmlId(establishmentsKmlId);
         }
     }
@@ -611,17 +610,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         KmlPlacemarkProperties placemark = spfEstablishments.getKmlPlacemark(establishmentsKmlId);
         // Update image.
         String imageUrl = null;
-        if(placemark.hasProperty(EST_FB_ID)) {
+        if (placemark.hasProperty(EST_FB_ID)) {
             imageUrl = getFacebookProfileImageUrl(placemark.getProperty(EST_FB_ID));
         }
         updateBottomSheetImage(imageUrl);
         // Update name.
         String name = placemark.getProperty(EST_NAME);
-        if(name.contains(getString(R.string.neighbourhood_police_centre))) {
+        if (name.contains(getString(R.string.neighbourhood_police_centre))) {
             name = name.replace(" " + getString(R.string.neighbourhood_police_centre), "");
             bottomSheetHeaderSubtext.setText(getString(R.string.neighbourhood_police_centre));
             mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_centre_abbreviation));
-        } else if(name.contains(getString(R.string.neighbourhood_police_post))) {
+        } else if (name.contains(getString(R.string.neighbourhood_police_post))) {
             name = name.replace(" " + getString(R.string.neighbourhood_police_post), "");
             bottomSheetHeaderSubtext.setText(getString(R.string.neighbourhood_police_post));
             mergedAppBarLayoutBehaviour.setToolbarTitle(name + " " + getString(R.string.neighbourhood_police_post_abbreviation));
@@ -635,7 +634,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // TODO: Implement operating status based off current time.
         bottomSheetOperatingHours.setText(placemark.getProperty(EST_OPR_HRS));
         // Update telephone number.
-        if(placemark.hasProperty(EST_TEL)) {
+        if (placemark.hasProperty(EST_TEL)) {
             bottomSheetTelephone.setText(placemark.getProperty(EST_TEL));
             callIntent.setData(Uri.parse("tel:" + placemark.getProperty(EST_TEL)));
         } else {
@@ -643,16 +642,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             callIntent.setData(null);
         }
         // Update fax number.
-        if(placemark.hasProperty(EST_FAX)) {
+        if (placemark.hasProperty(EST_FAX)) {
             bottomSheetFax.setText(placemark.getProperty(EST_FAX));
         } else {
             bottomSheetFax.setText("-");
         }
-        if(bottomSheetHidden) {
+        if (bottomSheetHidden) {
             showBottomSheet();
         }
         // Update website link.
-        if(placemark.hasProperty(EST_FB_ID)) {
+        if (placemark.hasProperty(EST_FB_ID)) {
             bottomSheetWebsite.setText(getString(R.string.facebook_url_prefix) + placemark.getProperty(EST_FB_ID));
             websiteIntent.setData(Uri.parse("https://www.facebook.com/" + placemark.getProperty(EST_FB_ID)));
         } else {
@@ -673,7 +672,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private String constructAddress(KmlPlacemarkProperties placemark) {
         String address = placemark.getProperty(EST_BLK_NO) + " "
                 + placemark.getProperty(EST_ST_NAME);
-        if(placemark.hasProperty(EST_UNIT_NO)) {
+        if (placemark.hasProperty(EST_UNIT_NO)) {
             address += " " + placemark.getProperty(EST_UNIT_NO);
         }
         address += ", Singapore " + placemark.getProperty(EST_POSTAL_CODE);

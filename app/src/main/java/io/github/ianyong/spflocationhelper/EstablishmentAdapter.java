@@ -25,19 +25,19 @@ public class EstablishmentAdapter extends ArrayAdapter<EstablishmentDistance> {
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = convertView;
 
-        if(v == null) {
+        if (v == null) {
             v = LayoutInflater.from(context).inflate(resourceLayout, null);
         }
 
         EstablishmentDistance establishmentDistance = getItem(position);
-        if(establishmentDistance != null) {
+        if (establishmentDistance != null) {
             TextView name = v.findViewById(R.id.adapter_establishment_name);
             TextView distance = v.findViewById(R.id.adapter_establishment_distance);
 
-            if(name != null) {
+            if (name != null) {
                 name.setText(formatName(establishmentDistance.getName()));
             }
-            if(distance != null) {
+            if (distance != null) {
                 distance.setText(formatDistance(establishmentDistance.getDistance()));
             }
         }
@@ -46,9 +46,9 @@ public class EstablishmentAdapter extends ArrayAdapter<EstablishmentDistance> {
     }
 
     private String formatName(String name) {
-        if(name.contains("Centre")) {
+        if (name.contains("Centre")) {
             name = name.replace("Neighbourhood Police Centre", "NPC");
-        } else if(name.contains("Post")) {
+        } else if (name.contains("Post")) {
             name = name.replace("Neighbourhood Police Post", "NPP");
         }
         return name;
@@ -58,7 +58,7 @@ public class EstablishmentAdapter extends ArrayAdapter<EstablishmentDistance> {
     private String formatDistance(double distance) {
         String unit = "m";
         DecimalFormat formatter = new DecimalFormat("###.#");
-        if(distance >= 1000) {
+        if (distance >= 1000) {
             distance /= 1000;
             unit = "km";
         }
