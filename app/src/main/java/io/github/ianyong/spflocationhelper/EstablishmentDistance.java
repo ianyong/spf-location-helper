@@ -25,12 +25,7 @@ public class EstablishmentDistance implements Comparable<EstablishmentDistance> 
     }
 
     public int compareTo(EstablishmentDistance b) {
-        if(distance > b.getDistance()) {
-            return 1;
-        } else if(distance < b.getDistance()) {
-            return -1;
-        }
-        return 0;
+        return Double.compare(distance, b.getDistance());
     }
 
 }
